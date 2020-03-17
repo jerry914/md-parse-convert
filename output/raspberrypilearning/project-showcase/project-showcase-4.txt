@@ -1,0 +1,189 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **連結至 Trinket\n\n你可以連結至某個 trinket 網頁。 \n\n\n\n+ 你是否儲存有生日快樂 trinket 的連結？如果有，那麼請在另一個瀏覽器選項卡或視窗中開啟該 trinket。否則就開啟已完成的示例 trinket：[https://trinket.io/html/e996dc0380](\"https://trinket.io/html/e996dc0380\",\" \" \"_blank\")\n\n+ 點選 trinket 上方的 Share（共享）選單並選擇連結：\n\n[[☃ image 1]]\n\n如果從你的賬戶中開啟此 trinket，那麼請使用 trinket 下方的分享選項：\n\n[[☃ image 2]]\n\n+ 選擇“Only show code or result (let users toggle between them)”（僅顯示程式碼或結果（使使用者在其間切換））並複製該 trinket 的連結。 \n\n[[☃ image 3]]\n\n+ 返回你的專案展示 trinket 並新增一個 `<h2>` 標題和你的生日快樂專案的連結。\n\n[[☃ image 4]]\n\n測試你的網頁；它應如下所示：\n\n[[☃ image 5]]\n\n點選生日快樂連結來測試它是否會帶你進入該 trinket。\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-link-output.png",
+                                            "width": 510,
+                                            "height": 204
+                                        },
+                                        "box": [510,
+                                            204],
+                                        "labels": [],
+                                        "maxImageSize": 510,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-link-trinket.png",
+                                            "width": 650,
+                                            "height": 223
+                                        },
+                                        "box": [650,
+                                            223],
+                                        "labels": [],
+                                        "maxImageSize": 650,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-get-link.png",
+                                            "width": 993,
+                                            "height": 279
+                                        },
+                                        "box": [993,
+                                            279],
+                                        "labels": [],
+                                        "maxImageSize": 993,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-share2.png",
+                                            "width": 1031,
+                                            "height": 76
+                                        },
+                                        "box": [1031,
+                                            76],
+                                        "labels": [],
+                                        "maxImageSize": 1031,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-share1.png",
+                                            "width": 486,
+                                            "height": 240
+                                        },
+                                        "box": [486,
+                                            240],
+                                        "labels": [],
+                                        "maxImageSize": 486,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

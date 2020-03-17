@@ -1,0 +1,86 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Introduction\n\nYou are going to learn how to make a timer, so that you can use it to challenge your friends!\n\n__Instructions__: If you're reading this online, press __A+B__ on the micro:bit below to set your timer to 0, __A__ to start your timer, and __B__ to stop it.\n\n[[☃ iframe 1]]\n\n\n### Additional information for club leaders\n\nIf you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/against-the-clock/print).\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/msmc/player.html?id=_iRqcVkfXiffq",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Club leader notes",
+                                "articleBlock": "---\n\n---\n\n\n## Introduction:\nIn this project, children will learn how to make a timer, which can be used to challenge their friends!\n\n## Resources\n\nFor this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.\n\nYou can find a completed version of this project at [makecode.microbit.org/#pub:55342-38825-28229-57221](https://makecode.microbit.org/#pub:55342-38825-28229-57221), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:\n\n+ microbit-Against-the-Clock.hex\n+ microbit-Countdown.hex\n\n## Learning Objectives\n+ Repetition (`while` loop);\n+ `not` Boolean operator.\n\nThis project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):\n\n+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)\n\n## Challenges\n+ \"Challenge your friends!\" - use the timer to set challenges for others to complete.\n+ \"Counting Down\" - using a `while` loop to create a timer that counts down until it reaches 0.\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Project materials",
+                                "articleBlock": "---\n\n---\n\n\n## Club leader resources\n* [online completed project](https://makecode.microbit.org/#pub:55342-38825-28229-57221)\n* [.hex project file to transfer onto your micro:bit](resources/microbit-Against-the-Clock.hex)\n* [online completed \"Countdown\" challenge](https://makecode.microbit.org/#pub:69636-14914-13941-21768)\n* [.hex file for the completed \"Countdown\" challenge](resources/microbit-Countdown.hex)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

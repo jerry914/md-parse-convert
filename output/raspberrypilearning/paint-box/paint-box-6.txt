@@ -1,0 +1,333 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Paint box (CodeClub)](https://projects.raspberrypi.org/en/projects/paint-box \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **改變鉛筆的寬度**\n\n接著，你將編寫一個程式，讓使用你的繪圖工具的人，能夠自己決定鉛筆筆跡的粗細。\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n現在鉛筆筆畫的粗細就可以透過[[☃ inline-scratch 1]]這個變數來設定了。\n\n[[☃ article-block 3]]\n\n這樣一來，拖曳變數下方的滑桿，就可以設定變數的值了。\n\n[[☃ image 1]]\n\n[[☃ article-block 4]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/paint-box/zh-TW/images/paint-slider-change.png",
+                                            "width": 146,
+                                            "height": 54
+                                        },
+                                        "box": [146,
+                                            54],
+                                        "labels": [],
+                                        "maxImageSize": 146,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(自訂寬度 ::ariable",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n首先，先建立一個新的變數，名稱叫[[☃ inline-scratch 1]]。\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(自訂寬度 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "aliceblue",
+                                "blockTitle": "💡 在 Scratch 中添加一個變數",
+                                "articleBlock": "[[☃ iframe 1]]",
+                                "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/Code-Club-Learning-Resources/generic-scratch3-add-variable/zh-TW/step_1.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 1426
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n在鉛筆角色的程式，找到[[☃ inline-scratch 1]]這個迴圈，**在迴圈裡頭**添加一些程式：\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n筆跡全部清除\n造型換成 (鉛筆-藍色 v)\n筆跡顏色設為 [#0035FF]\n重複無限次\n定位到 (鼠標 v) 位置\n+ 筆跡寬度設為 (自訂寬度 :: variables)\n如果<滑鼠鍵被按下？> 且 <(鼠標的 y) > (120)>那麼\n  下筆\n  否則\n  停筆\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(重複無限次 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n在舞台上找到[[☃ inline-scratch 1]]，滑鼠游標停在這個變數上並點擊右鍵，然後選取**滑桿**。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/paint-box/zh-TW/images/paint-slider.png",
+                                            "width": 272,
+                                            "height": 197
+                                        },
+                                        "box": [272,
+                                            197],
+                                        "labels": [],
+                                        "maxImageSize": 272,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(自訂寬度 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n測試你的專案，試試看你能不能修改筆跡的寬度。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/paint-box/zh-TW/images/paint-width-test.png",
+                                            "width": 234,
+                                            "height": 185
+                                        },
+                                        "box": [234,
+                                            185],
+                                        "labels": [],
+                                        "maxImageSize": 234,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

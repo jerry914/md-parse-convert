@@ -1,0 +1,134 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "\n\n這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/rock-band-scratch2) 版本。\n\n\n\n# **介紹**\n\n學習如何用程式寫個專屬你自己的樂器！\n\n## **你會做出的玩意兒**\n\n\n\n點擊綠色旗子運行程式，然後，點擊歌手或鼓，聽聽他們會發出什麼聲音。\n\n[[☃ iframe 1]]\n\n\n\n\n\n你會做出個遊戲，點擊歌手或鼓就可以聽到歌聲或鼓聲。\n\n[[☃ image 1]]\n\n\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://scratch.mit.edu/projects/embed/276872220/?autostart=false",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-band/zh-TW/images/demo.png",
+                                            "width": 610,
+                                            "height": 462
+                                        },
+                                        "box": [610,
+                                            462],
+                                        "labels": [],
+                                        "maxImageSize": 610,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 你會學到",
+                                "articleBlock": "---\n\n---\n+ 用 Scratch 程式替換角色的造型\n+ 用 Scratch 程式讓角色對輸入做反應\n+ 在 Scratch 裡添加一些聲音給角色\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 你會用到",
+                                "articleBlock": "---\n\n---\n#### **硬體**\n\n+ 可運行Scratch 3的電腦\n\n#### **軟體**\n\n+ Scratch 3（[線上版](http://rpf.io/scratchon \"_blank\" \"title\") 或 [離線版](http://rpf.io/scratchoff \"_blank\" \"title\")）\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 給教師的其它資訊",
+                                "articleBlock": "---\n\n---\n\n\n如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/zh-TW/projects/rock-band/print \"_blank\" \"title\")。\n\n\n\n你可以在這裡找到[已經完成的專案](http://rpf.io/p/zh-TW/rock-band-get)。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

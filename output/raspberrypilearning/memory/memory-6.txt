@@ -1,0 +1,956 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Memory (CodeClub)](https://projects.raspberrypi.org/en/projects/memory \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **最高紀錄**\n\n把得分記錄下來，看看你和朋友誰有超強記憶力。\n\n[[☃ article-block 1]]\n\n當玩家弄錯順序時，遊戲結束，結束時檢查得分是不是目前的最高分。 如果是，就記錄得分，並儲存玩家的姓名。\n\n[[☃ article-block 2]]\n\n接著，你必須把這樣的程式寫進其它三個顏色按鈕的角色當中！很麻煩對吧？！\n\n你注意到了嗎？這四個顏色按鈕上，為「遊戲結束」安排的程式都完全一樣，對吧？\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n假設你有天突然想重新安排遊戲結束時的程式，比方說加入一個音效、一段文字，那麼就要同時修改四個地方，那很煩人，很浪費時間，對吧？\n\n所以，如果你可以有個自己的積木，叫做「遊戲結束」，那麼你只要修改一次，在任何地方就能重複使用。\n\n[[☃ article-block 3]]\n\n[[☃ article-block 4]]\n\n[[☃ article-block 5]]\n\n[[☃ article-block 6]]\n\n建立一個像[[☃ inline-scratch 1]]的積木，在程式設計中叫做一個**函式（function）**，在編程時，如果你發現有些程式不斷重複在使用，就可以建立[[☃ inline-scratch 2]]，就可以方便日後的修改或維護。\n\n[[☃ article-block 7]]\n\n[[☃ article-block 8]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n說出 (遊戲結束！) 持續 (1) 秒\n如果 <((得分)) = ((最高分))> 那麼\n    變數 [最高分 v] 設為 (得分)\n    詢問 (你最高分， 貴姓大名？) 並等待\n    變數 [名稱 v] 設為 (詢問的答案)\nend\n停止 [全部 v]\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(遊戲結束 ::yblock",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(函式積木 ::yblock",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n添加名為 [[☃ inline-scratch 1]] 和 [[☃ inline-scratch 2]] 兩個變數到你的專案。\n\n",
+                                "widgets": {"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(最高分 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(姓名 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n為角色添加記錄[[☃ inline-scratch 1]]的程式。 還要詢問玩家的姓名，把它儲存在[[☃ inline-scratch 2]]變數裡。\n\n[[☃ article-block 2]]\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n",
+                                "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示一",
+                                "articleBlock": "\n\n你的新程式要依這個模式安排：\n\n在[[☃ inline-scratch 1]] 的訊息廣播後， [[☃ inline-scratch 2]]玩家的[[☃ inline-scratch 3]]數[[☃ inline-scratch 4]] 目前的[[☃ inline-scratch 5]]，那麼 [[☃ inline-scratch 6]]變數[[☃ inline-scratch 7]]為[[☃ inline-scratch 8]] [[☃ inline-scratch 9]]玩家叫什麼名字 [[☃ inline-scratch 10]]變數[[☃ inline-scratch 11]]為[[☃ inline-scratch 12]]\n\n",
+                                "widgets": {"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(遊戲結束 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(如果 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(得分 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 4": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(大於 ::operators",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 5": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(最高分 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 6": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(設定 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 7": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(最高分 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 8": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(得分 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 9": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(詢問 ::sensing",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 10": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(設定 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 11": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(名稱 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 12": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(詢問的答案 ::sensing",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示二",
+                                "articleBlock": "\n\n這裡是你需要的程式積木：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n如果 <> 那麼\nend\n\n(得分)\n\n(得分)\n\n() > (50)\n\n詢問的答案\n\n(最高分)\n\n詢問 (你最高分，貴姓大名？) 並等待\n\n變數 [得分 v] 設為 ()\n\n變數 [名稱 v] 設為 () \n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示三",
+                                "articleBlock": "\n\n當你點擊紅色按鈕時的程式應該會像這樣：\n\n[[☃ image 2]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當收到訊息 (紅色 v)\n如果 <((序列 v) 的第 (1) 項) = (1)> 那麼\n    演奏節拍 ( (1)軍鼓 v) (0.25) 拍\n    刪除 [序列 v] 的第 (1) 項\n否則\n    說出 (遊戲結束！) 持續 (1) 秒\n    如果 <((得分)) = ((最高分))> 那麼\n        變數 [最高分 v] 設為 (得分)\n        詢問 (你最高分， 貴姓大名？) 並等待\n        變數 [名稱 v] 設為 (詢問的答案)\n    end\n    停止 [全部 v]\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(最高分 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(名稱 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "aliceblue",
+                                "blockTitle": "💡 遊戲記錄最高得分的方式",
+                                "articleBlock": "[[☃ iframe 1]]",
+                                "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/Code-Club-Learning-Resources/generic-scratch3-high-score/zh-TW/step_1.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 995
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n切換到[[☃ inline-scratch 1]]類，點擊**建立一個積木**，命名為[[☃ inline-scratch 2]]。\n\n",
+                                "widgets": {"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(函式積木 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(遊戲結束r ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n把剛剛[[☃ inline-scratch 1]]按鈕中[[☃ inline-scratch 2]]區段的程式複製並安排到[[☃ inline-scratch 3]]積木的下面，像這樣：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n定義 遊戲結束\n說出 (遊戲結束！) 持續 (1) 秒\n如果 <((得分)) = ((最高分))> 那麼\n    變數 [最高分 v] 設為 (得分)\n    詢問 (你最高分，\n 貴姓大名？) 並等待\n    變數 [名稱 v] 設為 (詢問的答案)\nend\n停止 [全部 v]\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(紅色 ::events",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(否則 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(遊戲結束 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 5": {
+                            "id": "article-block 5",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n現在你可以移除[[☃ inline-scratch 1]]按鈕中[[☃ inline-scratch 2]]區段的程式，改成[[☃ inline-scratch 3]]：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當收到訊息 (紅色 v)\n如果 <((序列 v) 的第 (1) 項) = (1)> 那麼\n    演奏節拍 ( (1)軍鼓 v) (0.25) 拍\n    刪除 [序列 v] 的第 (1) 項\n否則\n    遊戲結束 :: custom\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(紅色 ::events",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(否則 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(遊戲結束 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 6": {
+                            "id": "article-block 6",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n測試你自己做的函式積木，看看在答錯顏色序列時，是不是會進入遊戲結束的程式。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 7": {
+                            "id": "article-block 7",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n現在你可以在[[☃ inline-scratch 1]]事件下的[[☃ inline-scratch 2]]區段，放入[[☃ inline-scratch 3]]這個函式積木。 像收到[[☃ inline-scratch 4]]訊息的程式應該會是這樣：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當收到訊息 (藍色 v)\n如果 <((序列 v) 的第 (1) 項) = (2)> 那麼\n    演奏節拍 ( (2) 低音鼓 v) (0.25) 拍\n    刪除 [序列 v] 的第 (1) 項\n否則\n    遊戲結束 :: custom\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(收到其它顏色訊息 ::events",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(否則 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(遊戲結束 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 4": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(藍色 ::events",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 8": {
+                            "id": "article-block 8",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n現在我們來為按錯按鈕時製造一點音效。 你只要修改自己建立的[[☃ inline-scratch 1]]積木就可以了，比起一次要修改四個地方，是不是來得輕鬆多了呢！\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n定義 遊戲結束\n播放音效 (Cough1 v)\n說出 (遊戲結束！) 持續 (1) 秒\n如果 <((得分)) = ((最高分))> 那麼\n    播放音效 (Trumpet1 v)\n    變數 [最高分 v] 設為 (得分)\n    詢問 (你最高分，\n 貴姓大名？) 並等待\n    變數 [名稱 v] 設為 (詢問的答案)\nend\n停止 [全部 v]\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(遊戲結束 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

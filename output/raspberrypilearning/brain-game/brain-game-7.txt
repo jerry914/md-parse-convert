@@ -1,0 +1,798 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Brain game (CodeClub)](https://projects.raspberrypi.org/en/projects/brain-game \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **添加圖像效果**\n\n遊戲設計到目前為止，Giga 只會說答對！或答錯！來回應玩家。加入一些表情，讓玩家知道他們的回答是否正確。\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n[[☃ article-block 4]]\n\n有看到嗎？[[☃ inline-scratch 1]]和[[☃ inline-scratch 2]]的程式幾乎一模一樣。\n\n為了後面更輕鬆的修改程式，我們先用函式來做出自己的積木。\n\n[[☃ article-block 5]]\n\n[[☃ article-block 6]]\n\n[[☃ article-block 7]]\n\n有了自定義的[[☃ inline-scratch 3]]積木，之後要對動畫做修改，只要改一個地方就可以了。\n\n[[☃ article-block 8]]\n\n[[☃ article-block 9]]\n\n你還可以改進勾或叉的圖像動畫嗎？比方說你可以讓造型「淡出」，或是其它圖像效果：\n\n[[☃ image 1]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/brain-effects.png",
+                                            "width": 188,
+                                            "height": 295
+                                        },
+                                        "box": [188,
+                                            295],
+                                        "labels": [],
+                                        "maxImageSize": 188,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(當收到訊息正確 ::vent",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(當收到訊息錯誤 ::vent",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(動畫 ::yblock",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n創建一個名為「結果」的角色，並從造型庫中挑選 tick（勾）和 cross（叉）做為角色造型。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/brain-result.png",
+                                            "width": 187,
+                                            "height": 236
+                                        },
+                                        "box": [187,
+                                            236],
+                                        "labels": [],
+                                        "maxImageSize": 187,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n修改 Giga 的程式，把說出積木替換成[[☃ inline-scratch 1]]「正確」或「錯誤」訊息。\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/giga-sprite.png",
+                                            "width": 59,
+                                            "height": 64
+                                        },
+                                        "box": [59,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 59,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n如果 <(詢問的答案) = ((被乘數)*(乘數))> 那麼\n\n- 說出 (答對！) 持續 (2) 秒\n+ 廣播訊息 (正確 v)\n否則\n- 說出 (答錯！) 持續 (2) 秒\n+ 廣播訊息 (錯誤 v)\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(廣播 ::events",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n現在你可以利用這些訊息來[[☃ inline-scratch 1]]勾勾或叉叉造型。添加以下程式到「結果」角色：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/result-sprite.png",
+                                            "width": 64,
+                                            "height": 52
+                                        },
+                                        "box": [64,
+                                            52],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n    當收到訊息 (正確 v)\n    造型換成 (tick v)\n    顯示\n    等待 (1) 秒\n    隱藏\n\n    當收到訊息 (錯誤 v)\n    造型換成 (cross v)\n    顯示\n    等待 (1) 秒\n    隱藏\n\n    當 @greenflag 被點擊\n    隱藏\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(顯示 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n再試試遊戲，每當你答對，你應該會看到打勾；當你答錯，你應該會看到打叉！\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/brain-test-answer.png",
+                                            "width": 445,
+                                            "height": 217
+                                        },
+                                        "box": [445,
+                                            217],
+                                        "labels": [],
+                                        "maxImageSize": 445,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 5": {
+                            "id": "article-block 5",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n選取「結果」角色， 接著在工具箱找到[[☃ inline-scratch 1]]，點擊**建立一個積木**。 創建一個新的積木，並把它命名為[[☃ inline-scratch 2]]。\n\n[[☃ image 1]]\n\n[[☃ image 2]]\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/brain-animate-function.png",
+                                            "width": 263,
+                                            "height": 494
+                                        },
+                                        "box": [263,
+                                            494],
+                                        "labels": [],
+                                        "maxImageSize": 263,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/result-sprite.png",
+                                            "width": 64,
+                                            "height": 52
+                                        },
+                                        "box": [64,
+                                            52],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(函式積木 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(動畫 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 6": {
+                            "id": "article-block 6",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n把「結果」角色中[[☃ inline-scratch 1]]到[[☃ inline-scratch 2]]的程式片段挪到[[☃ inline-scratch 3]]積木下，作為這個積木的定義：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/result-sprite.png",
+                                            "width": 64,
+                                            "height": 52
+                                        },
+                                        "box": [64,
+                                            52],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n定義 動畫\n顯示\n等待（1）秒\n隱藏\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(顯示 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(隱藏 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(動畫 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 7": {
+                            "id": "article-block 7",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n檢查一下，務必要**刪除兩個**[[☃ inline-scratch 1]]積木下的[[☃ inline-scratch 2]]與[[☃ inline-scratch 3]]的程式。\n\n接著，在[[☃ inline-scratch 4]]積木下改放[[☃ inline-scratch 5]]積木：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/result-sprite.png",
+                                            "width": 64,
+                                            "height": 52
+                                        },
+                                        "box": [64,
+                                            52],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n    當收到訊息 (正確 v)\n    造型換成 (tick v)\n    動畫:: custom\n\n    當收到訊息 (錯誤 v)\n    造型換成 (cross v)\n    動畫:: custom\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(造型換成 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(顯示 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(隱藏 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 4": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(造型換成 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 5": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(動畫 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 8": {
+                            "id": "article-block 8",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n修改程式，讓 tick 和 cross 造型在顯示時持續 2 秒。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 9": {
+                            "id": "article-block 9",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n我們把[[☃ inline-scratch 1]]還有[[☃ inline-scratch 2]] 勾或叉造型的外觀改掉，改成淡入的外觀[[☃ inline-scratch 3]]。\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/brain-game/zh-TW/images/result-sprite.png",
+                                            "width": 64,
+                                            "height": 52
+                                        },
+                                        "box": [64,
+                                            52],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n    定義 動畫\n    圖像效果 [幻影 v]設為 (100)\n    顯示\n    重複 (25) 次\n        圖像效果 [顏色 v] 改變 (-4)\n    end\n    隱藏\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(顯示 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(隱藏 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(動畫 ::myblocks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

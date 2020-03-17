@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Colour the pixels\n\nThis project uses three different languages:\n- HTML is used to organise your content\n- CSS tells the content what to look like with styles\n- JavaScript is a programming language you can use to make a webpage respond when you interact with it\n\nLet's add some JavaScript code to colour in a pixel automatically when you click on it.\n\nWe will create a **function**. Functions are named blocks of code which perform a particular task. We can **call** a function by its name when we want to run the code it contains.\n\n+ Inside the `script.js` file, create a function with the name `setPixelColour`. The `setPixelColour` function needs to take a `pixel` as an **input** so that it can change that pixel's colour.\n\n![Create function]\n\n+ Add this code inside the function to set the background colour of the pixel:\n\n[[☃ image 1]]\n\nNotice that `backgroundColor` uses the American spelling of 'colour'.\n\nAt the moment this code doesn't have any effect.\n\n+ Go to `index.html` and add the following code to the first pixel so that when you click on this pixel, the `setPixelColour` function is called:\n\n[[☃ image 2]]\n\nThe `this` in the brackets is the input for the `setPixelColour` function, which lets it know which pixel to set the colour for — `this` pixel!\n\n+ Test your code by clicking on the first pixel. It should turn black.\n\n[[☃ image 3]]\n\nYou've only added `onclick` code to the **first** pixel, so clicking on the other pixels won't do anything yet.\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-art-onclick.png",
+                                            "width": 587,
+                                            "height": 90
+                                        },
+                                        "box": [587,
+                                            90],
+                                        "labels": [],
+                                        "maxImageSize": 587,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-art-set-pixel-colour.png",
+                                            "width": 545,
+                                            "height": 128
+                                        },
+                                        "box": [545,
+                                            128],
+                                        "labels": [],
+                                        "maxImageSize": 545,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/create-function.png",
+                                            "width": 457,
+                                            "height": 141
+                                        },
+                                        "box": [457,
+                                            141],
+                                        "labels": [],
+                                        "maxImageSize": 457,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

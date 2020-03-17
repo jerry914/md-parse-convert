@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：新增一個返回首頁的連結\n\n你能否向 `page2.html` 新增一個連結，使得你能單擊它來返回首頁？\n\n提示：檢視你建立指向第 2 頁的連結所使用的 HTML。\n\n[[☃ image 1]]\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-page1-link.png",
+                                            "width": 238,
+                                            "height": 62
+                                        },
+                                        "box": [238,
+                                            62],
+                                        "labels": [],
+                                        "maxImageSize": 238,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

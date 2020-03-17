@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：斜向動畫\n你能否向你的 `sunrise`（日出）動畫新增程式碼，使你的太陽從天空的左下角出發，並沿對角線向其在大約位於頂部中心的位置移動？\n\n你可以使用 `left`（左側）屬性來實現，例如：\n\n```\nleft: 40%;\n```\n\n[[☃ image 1]]\n\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-left.png",
+                                            "width": 613,
+                                            "height": 322
+                                        },
+                                        "box": [613,
+                                            322],
+                                        "labels": [],
+                                        "maxImageSize": 613,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

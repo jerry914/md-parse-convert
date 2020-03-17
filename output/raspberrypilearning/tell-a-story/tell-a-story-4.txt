@@ -1,0 +1,144 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 編輯你的故事\n\n首先讓我們來編輯故事網頁的 HTML 內容和 CSS 樣式。\n\n+ 開啟[這個 trinket](http://jumpto.cc/web-story \"_blank\" \"title\")。\n\n此專案應如下所示：\n\n[[☃ image 1]]\n\n網頁內容位於 HTML 檔案的 `<body>` 區域。\n\n+ 前往第 7 行找到 `<body>` 和 `</body>` 標記內部的網頁內容。\n\n[[☃ image 2]]\n\n+ 看你能否推斷出哪些標記是用來建立網頁的不同部分的。\n\n[[☃ article-block 1]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-elements.png",
+                                            "width": 792,
+                                            "height": 283
+                                        },
+                                        "box": [792,
+                                            283],
+                                        "labels": [],
+                                        "maxImageSize": 792,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-html.png",
+                                            "width": 348,
+                                            "height": 175
+                                        },
+                                        "box": [348,
+                                            175],
+                                        "labels": [],
+                                        "maxImageSize": 348,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-starter.png",
+                                            "width": 787,
+                                            "height": 319
+                                        },
+                                        "box": [787,
+                                            319],
+                                        "labels": [],
+                                        "maxImageSize": 787,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 答案",
+                                "articleBlock": "---\n\n---\n[[☃ image 3]]\n\n+ `<h1>` 為__標題__。你可以使用數字 1 到 6 來建立不同尺寸的標題。\n+ `<div>` 為__分割槽__的簡稱，是將內容集合在一起的一種方式。在此網頁內，你將使用它來將故事每個部分的所有內容集合在一起。\n+ `<img>` 為__圖片__。\n+ `<p>` 為文字的一個__段落__。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：建立你的專案列表\n\n新增一些你在 Code Club 建立的其他 HTML 和 CSS 專案。使用 `<h2>` 標題來組織你的網頁。\n\n如果你沒有你所建立的專案的連結，你可以使用以下 Code Club 示例：\n\n+ 生日快樂：[https://trinket.io/html/e996dc0380](\"https://trinket.io/html/e996dc0380\",\" \" \"_blank\")\n\n+ 講故事：[https://trinket.io/html/e996dc0380](\"https://trinket.io/html/e996dc0380\",\" \" \"_blank\")\n\n+ 尋物啟事：[https://trinket.io/html/e996dc0380](\"https://trinket.io/html/e996dc0380\",\" \" \"_blank\")\n\n+ 食譜：[https://trinket.io/html/e996dc0380](\"https://trinket.io/html/e996dc0380\",\" \" \"_blank\")\n\n+ 神祕信件：[https://trinket.io/html/e996dc0380](\"https://trinket.io/html/e996dc0380\",\" \" \"_blank\")\n\n你完成的網頁應如下所示：\n\n[[☃ image 1]]\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-h2-projects.png",
+                                            "width": 571,
+                                            "height": 542
+                                        },
+                                        "box": [571,
+                                            542],
+                                        "labels": [],
+                                        "maxImageSize": 571,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

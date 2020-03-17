@@ -1,0 +1,609 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Memory (CodeClub)](https://projects.raspberrypi.org/en/projects/memory \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **創建顏色序列**\n\n首先創建一個角色，角色會隨機顯示序列中某個顏色。\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n+ 遊戲中，我們用不同的數字代表各種顏色：\n    \n    + 1 = 紅色\n    + 2 = 藍色\n    + 3 = 綠色\n    + 4 = 黃色\n\n[[☃ article-block 3]]\n\n如果需要，你可以用「填滿」工具來幫造型圖像的主要形狀填入不同顏色。\n\n[[☃ image 1]]\n\n接下來，建立一個清單，用來儲存玩家必須記住的顏色序列。\n\n[[☃ article-block 4]]\n\n現在，在變數類的積木裡會多出跟清單相關的積木，在舞台的左上角也會出現一個空的清單。\n\n[[☃ image 2]]\n\n每個顏色有不同的代表數字，因此你可以用隨機取數的方式，將一連串的隨機數添加到清單裡，做為顏色選擇的依據。\n\n[[☃ article-block 5]]\n\n[[☃ article-block 6]]\n\n[[☃ article-block 7]]\n\n[[☃ article-block 8]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/colour-list-blocks-annotated.png",
+                                            "width": 720,
+                                            "height": 482.4742268041237
+                                        },
+                                        "box": [720,
+                                            482.4742268041237],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/color-a-shape.png",
+                                            "width": 673,
+                                            "height": 544
+                                        },
+                                        "box": [673,
+                                            544],
+                                        "labels": [],
+                                        "maxImageSize": 673,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n建立一個新的 Scratch 專案。\n\n**線上版：**你可以連結 [rpf.io/scratch-new](https://rpf.io/scratch-new \"_blank\" \"title\") 以新建專案。\n\n**離線版：**在離線編輯器的工作列中開啟選單並點擊新建專案。。\n\n如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff \"_blank\" \"title\")。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n選擇一個角色和一個背景，你可以使用 ballerina，她是個芭蕾舞者。你的角色不一定要是人，只要能顯示不同顏色就可以了。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/colour-sprite.png",
+                                            "width": 477,
+                                            "height": 357
+                                        },
+                                        "box": [477,
+                                            357],
+                                        "labels": [],
+                                        "maxImageSize": 477,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n給你的角色四個造型，每個造型圖像的主要顏色改成你要的四種顏色。務必確認造型顏色的排序和上列的清單順序一致。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/colour-costume.png",
+                                            "width": 113,
+                                            "height": 386
+                                        },
+                                        "box": [113,
+                                            386],
+                                        "labels": [],
+                                        "maxImageSize": 113,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n建立一個清單，命名為 [[☃ inline-scratch 1]]。 只有目前這個角色會用到這份清單，所以在清單建立時，你可以選擇**僅適用當前角色**。\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(序列 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "aliceblue",
+                                "blockTitle": "💡 建立一個清單",
+                                "articleBlock": "[[☃ iframe 1]]",
+                                "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/Code-Club-Learning-Resources/generic-scratch3-make-list/zh-TW/step_1.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 2050
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 5": {
+                            "id": "article-block 5",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n為角色添加這個程式，就可以把隨機數添加到[[☃ inline-scratch 1]]裡：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n添加 (隨機取數 (1) 到 (4)) 到 [序列 v]\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(序列 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 6": {
+                            "id": "article-block 6",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n測試你的程式，檢查是不是每次點擊綠旗時，清單中都會多一個 1 到 4 之間的隨機數。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 7": {
+                            "id": "article-block 7",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n你可以編寫程式，讓它一次生成五個隨機數嗎？\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n",
+                                "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示一",
+                                "articleBlock": "\n\n在程式一開始先[[☃ inline-scratch 1]]，這樣每次運行時就可以把序列清空，然後再[[☃ inline-scratch 2]]隨機取數與加入清單的動作五次。\n\n",
+                                "widgets": {"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(刪除序列的所有項目 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(重複 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示二",
+                                "articleBlock": "\n\n你的程式看起來應該像這樣：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n刪除 [序列 v] 的所有項目\n重複 (5) 次\n    添加 (隨機取數 (1) 到 (4)) 到 [序列 v]\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 8": {
+                            "id": "article-block 8",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n每次將數字加到清單時，角色都要更換造型，使造型的顏色與清單中的代表顏色的數字一致。 把這些程式貼合到[[☃ inline-scratch 1]]的下方：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/memory/zh-TW/images/ballerina.png",
+                                            "width": 36,
+                                            "height": 64
+                                        },
+                                        "box": [36,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 36,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n造型換成 ((序列 v)的第(清單 [序列 v] 的長度)項)\n等待 (1) 秒\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(添加隨機數到序列 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

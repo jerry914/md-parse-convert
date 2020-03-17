@@ -1,0 +1,70 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Seven: Ending the Game\n\nFrom $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{Loops}}\\\\$ drag out a $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{forever block}}\\\\$ and place it anywhere in the workspace. From $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ drag out an $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then}}\\\\$ block and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{forever}}\\\\$ loop. From $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ drag out a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 > 0}}\\\\$ block and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement. Set the second field to **119**. Then from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$ drag out a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite x}}\\\\$ and place it in the first field. Set the mySprite to projectile and the x to bottom. Inside the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement drag in a $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{game over lose}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{Game}}\\\\$. Click the **(+)** symbol and set the effect to slash. \n\nThen from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$, drag out an $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then}}\\\\$ block and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{forever}}\\\\$ loop. From $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ drag out a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 = 0}}\\\\$ block and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement. Set the second field to **30**. For the first field, drag in $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{score}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{Info}}\\\\$. Inside the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement drag in a $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{game over lose}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{Game}}\\\\$. Switch the toggle to **WIN** and then click the **(+)** symbol set the effect to brighten. \n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\nNow we have a fully functioning game!\n\n## Final Game\n\n[[☃ iframe 3]]\n\n[[☃ iframe 4]]\n\n![Working Game](/static/lessons/block-out/working-game.gif)\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/8.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"iframe 4": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/9.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

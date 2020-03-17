@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：填寫第二頁\n\n以下為示例程式碼，但你可以更改其中的 `div` 或採用你自己的創意。  \n\n[[☃ image 1]]\n\n點選圖片圖示以檢視可供使用的圖片：\n\n[[☃ image 2]]\n\n請記住，你可以上傳你自己的圖片來使用。請確保你具備使用你上傳的任何圖片的許可權。\n\n[[☃ image 3]]\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-upload-images.png",
+                                            "width": 569,
+                                            "height": 108
+                                        },
+                                        "box": [569,
+                                            108],
+                                        "labels": [],
+                                        "maxImageSize": 569,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-images.png",
+                                            "width": 537,
+                                            "height": 197
+                                        },
+                                        "box": [537,
+                                            197],
+                                        "labels": [],
+                                        "maxImageSize": 537,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-page2-challenge.png",
+                                            "width": 1032,
+                                            "height": 526
+                                        },
+                                        "box": [1032,
+                                            526],
+                                        "labels": [],
+                                        "maxImageSize": 1032,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

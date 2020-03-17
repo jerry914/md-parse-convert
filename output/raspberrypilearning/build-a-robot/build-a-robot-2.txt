@@ -1,0 +1,189 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **給你的機器人一雙眼睛\n\n讓我們來給你的機器人一雙眼睛！\n\n\n\n+ 開啟這個 trinket：[jumpto.cc/web-robot](\"http://jumpto.cc/web-robot\",\" \" \"_blank\")。\n\n    此專案應如下所示：\n\n[[☃ image 1]]\n\n+ 本專案中的每張圖片都有自己的名字（或者 __id__）。例如，面部和眼睛圖片的 HTML（始於程式碼第 8 行的‘face’、‘eyes1’和‘eyes2’）如下所示：\n\n```\n<img id=\"face\" ...>\n<img id=\"eyes1\" ...>\n<img id=\"eyes2\" ...>\n```\n\n+ 你可以通過使用 `#` 符號，來運用圖片的 id 表現其自身的樣式。這使你能分別設計每個圖片的樣式。\n\n點選 `style.css` 檔案。注意機器人面部與其他圖片的尺寸有什麼不同？\n\n[[☃ image 2]]\n\n+ 新增以下 CSS 程式碼來設定機器人眼睛的樣式：\n\n```\n# **eyes1 {\n    width: 200px;\n}\n```\n\n請注意，你現在使用 CSS 中的 `# **eyes1` 所設定的僅僅是 `eyes1` 圖片的樣式。如果你願意，你可以使用 `#eyes2` 或 `#eyes3`！\n\n[[☃ image 3]]\n\n+ 注意每張圖片是如何依次顯示的？這就叫做__相對__定位。如果你想告訴瀏覽器放置機器人眼睛的準確位置，你將需要使用__絕對__定位。\n\n向 `eyes1` 圖片的 CSS 新增以下 3 行程式碼：\n\n```\nposition: absolute;\ntop: 200px;\nleft: 100px;\n```\n\n你應該看到機器人的眼睛向機器人的正確部位移動。\n\n[[☃ image 4]]\n\n此 CSS 程式碼告訴瀏覽器圖片顯示在距網頁的頂部／左側多遠的地方。\n\n[[☃ image 5]]\n\n你可以使用 `bottom` ​而非 `top` 來告訴瀏覽器將圖片顯示在距畫面底部多遠的地方，以及使用 `right` 而非 `left`。\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/build-a-robot/master/zh-CN/images/robot-eyes-position2.png",
+                                            "width": 345,
+                                            "height": 446
+                                        },
+                                        "box": [345,
+                                            446],
+                                        "labels": [],
+                                        "maxImageSize": 345,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/build-a-robot/master/zh-CN/images/robot-eyes-position.png",
+                                            "width": 695,
+                                            "height": 164
+                                        },
+                                        "box": [695,
+                                            164],
+                                        "labels": [],
+                                        "maxImageSize": 695,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/build-a-robot/master/zh-CN/images/robot-eyes-width.png",
+                                            "width": 703,
+                                            "height": 231
+                                        },
+                                        "box": [703,
+                                            231],
+                                        "labels": [],
+                                        "maxImageSize": 703,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/build-a-robot/master/zh-CN/images/robot-id.png",
+                                            "width": 799,
+                                            "height": 362
+                                        },
+                                        "box": [799,
+                                            362],
+                                        "labels": [],
+                                        "maxImageSize": 799,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/build-a-robot/master/zh-CN/images/robot-starter.png",
+                                            "width": 778,
+                                            "height": 246
+                                        },
+                                        "box": [778,
+                                            246],
+                                        "labels": [],
+                                        "maxImageSize": 778,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

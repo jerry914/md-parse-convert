@@ -1,0 +1,96 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：更多動畫\n\n你能否對另一個圖片進行動畫處理？你可以對位置、顏色、形狀、尺寸、不透明度（透明度）或你能想到的任何內容進行動畫處理。還可嘗試更改你的動畫持續時間。 \n\n對於你想進行動畫處理的每個專案，你將需要：\n\n+ 將其新增進你的 HTML 並賦予 id\n+ 向 id 新增一個樣式\n+ 建立一個 @keyframes（關鍵幀）規則\n+ 運用樣式中的 `animation:`（動畫）來使用你用 @keyframes（關鍵幀）定義的動畫 \n\n點選圖片圖示來檢視專案中包含的圖片：\n\n[[☃ image 1]]\n\n如果你願意，你還可以上傳你自己的圖片。 \n\n請不要忘記你可以在海洋以及天空中放入物件：\n\n[[☃ image 2]]\n\n在示例中，彩虹使用了不透明度來呈現淡入淡出效果：\n\n```\n@keyframes fade {\n  0%  \n  50% \n  66% \n  100%  \n}\n```\n\n船隻使用了負起始位置，這樣你在動畫的某些部分便看不到它：\n\n```\n @keyframes left-right {\n  0%   \n  100% \n}\n```\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-boat.png",
+                                            "width": 541,
+                                            "height": 523
+                                        },
+                                        "box": [541,
+                                            523],
+                                        "labels": [],
+                                        "maxImageSize": 541,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-images.png",
+                                            "width": 482,
+                                            "height": 403
+                                        },
+                                        "box": [482,
+                                            403],
+                                        "labels": [],
+                                        "maxImageSize": 482,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

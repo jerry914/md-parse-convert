@@ -1,0 +1,282 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Building your game\n\nNow that you've coded your game, let's put it all together!\n\n\n\n+ First, let's make your wand. Take a piece of wire about 20cm long and bend it in half, making a loop at the top.\n\n[[☃ image 1]]\n\n+ You can then twist the two pieces of wire together.\n\n[[☃ image 2]]\n\n+ To make the course, take another piece of wire about 30cm long and bend the middle part of the wire into shape. You should bend up one end of the course.\n\n[[☃ image 3]]\n\n+ If you have some electrical tape, wrap some around the two ends of the wire, leaving some exposed metal at both ends.\n\n[[☃ image 4]]\n\n+ Slide your wand through your course, and push the ends of your wire into some putty to stand it up.\n\n[[☃ image 5]]\n\n+ You can now connect your game to your micro:bit using a crocodile clip lead or some wire. Firstly, connect the ground pin (GND) to one end of your course.\n\n[[☃ image 6]]\n\n+ You can then connect Pin 0 to your wand.\n\n[[☃ image 7]]\n\n+ Test your game. Press button A and your score should be set to 0. Each time your wand touches the course, the circuit is completed and your micro:bit should add 1 to your number of fails.\n\n[[☃ image 8]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 8": {
+                                    "graded": true,
+                                    "id": "image 8",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-final.png",
+                                            "width": 620,
+                                            "height": 419
+                                        },
+                                        "box": [620,
+                                            419],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-pin0-connect.png",
+                                            "width": 620,
+                                            "height": 416
+                                        },
+                                        "box": [620,
+                                            416],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-gnd-connect.png",
+                                            "width": 620,
+                                            "height": 413
+                                        },
+                                        "box": [620,
+                                            413],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-course-putty.png",
+                                            "width": 620,
+                                            "height": 414
+                                        },
+                                        "box": [620,
+                                            414],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-course-tape.png",
+                                            "width": 620,
+                                            "height": 419
+                                        },
+                                        "box": [620,
+                                            419],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-course-bend.png",
+                                            "width": 620,
+                                            "height": 410
+                                        },
+                                        "box": [620,
+                                            410],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-wand-twist.png",
+                                            "width": 620,
+                                            "height": 408
+                                        },
+                                        "box": [620,
+                                            408],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-wand-bend.png",
+                                            "width": 620,
+                                            "height": 407
+                                        },
+                                        "box": [620,
+                                            407],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

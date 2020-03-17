@@ -1,0 +1,189 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **使連結看起來像房門\n\n連結並非只能為文字。讓我們使用 `<div>` 製作一個可點選的房門。\n\n\n\n+ 開啟 `index.html`，並在電視房間連結文字週圍新增一個 `<div>`。它需要處於 `<a>` 內部，從而變得可點選。\n\n  新增 `id=\"hall2tv\"` 來將其標示為連線大廳和電視房間的門，使得你能設定門的樣式。 \n\n  [[☃ image 1]]  \n\n+ 點選 `style.css` 選項卡，到達底部並新增以下 CSS 來更改房門的尺寸和顏色：\n\n[[☃ image 2]]\n\n+ 點選房門的任何位置，並非只是文字，來測試你的網頁。\n\n+ 現在讓我們在門的三條邊上新增邊框，使其更像一扇門：\n\n[[☃ image 3]]\n\n+ 然後讓我們新增一些 CSS 來使門上的文字更好看：\n\n[[☃ image 4]]\n\n+ 你可能注意到了門是懸浮在空中的。讓我們通過將門定位在房間內部來解決這個問題。\n\n[[☃ image 5]]\n\n+ 通過點選房門到達電視房間來測試你的網頁。\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-door-position.png",
+                                            "width": 810,
+                                            "height": 274
+                                        },
+                                        "box": [810,
+                                            274],
+                                        "labels": [],
+                                        "maxImageSize": 810,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-door-css3.png",
+                                            "width": 814,
+                                            "height": 276
+                                        },
+                                        "box": [814,
+                                            276],
+                                        "labels": [],
+                                        "maxImageSize": 814,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-door-css2.png",
+                                            "width": 812,
+                                            "height": 274
+                                        },
+                                        "box": [812,
+                                            274],
+                                        "labels": [],
+                                        "maxImageSize": 812,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-door-css1.png",
+                                            "width": 812,
+                                            "height": 279
+                                        },
+                                        "box": [812,
+                                            279],
+                                        "labels": [],
+                                        "maxImageSize": 812,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-tvroom-div.png",
+                                            "width": 580,
+                                            "height": 92
+                                        },
+                                        "box": [580,
+                                            92],
+                                        "labels": [],
+                                        "maxImageSize": 580,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

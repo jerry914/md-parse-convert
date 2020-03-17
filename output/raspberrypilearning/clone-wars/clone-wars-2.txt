@@ -1,0 +1,366 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Clone wars (CodeClub)](https://projects.raspberrypi.org/en/projects/clone-wars \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **建造太空船**\n\n先來製造一艘可以保衛地球的宇宙飛船！\n\n[[☃ article-block 1]]\n\n[[☃ image 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n[[☃ article-block 4]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/clone-wars/zh-TW/images/starter-project.png",
+                                            "width": 600,
+                                            "height": 452
+                                        },
+                                        "box": [600,
+                                            452],
+                                        "labels": [],
+                                        "maxImageSize": 600,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n開啟 Clone wars 這個範例專案。\n\n**線上版：**你可以連結 [rpf.io/clone-wars-on](http://rpf.io/clone-wars-on \"_blank\" \"title\") 以新建專案。\n\n如果你有 Scratch 帳戶，你就可以直接**改編**專案。\n\n**離線版：** 你可以點擊 [rpf.io/p/en/clone-wars-go](http://rpf.io/p/en/clone-wars-go \"_blank\" \"title\") 以下載專案。\n\n如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff \"_blank\" \"title\")。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n為飛船編寫程式，讓它可以在按下<kbd>向左</kbd>鍵時，跟著往左移動：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\nx 軸指的是舞台的水平方向（左到右側）的位置。 如果你把飛船角色的 x 座標減小，它就會往左移動。 下方的這個積木就是讓飛船往左平移的關鍵：\n\n\nx 改變 (-4)\n\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/clone-wars/zh-TW/images/rocket-sprite.png",
+                                            "width": 39,
+                                            "height": 64
+                                        },
+                                        "box": [39,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 39,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n    當 @greenflag 被點擊\n    重複無限次\n        如果 < (向左 v)鍵被按下？> 那麼\n            x 改變 (-4)\n        end\n    end\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n再添加一些程式到[[☃ inline-scratch 1]]裡頭，讓飛船能在輸入<kbd>向右</kbd>鍵時往右平移。\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/clone-wars/zh-TW/images/rocket-sprite.png",
+                                            "width": 39,
+                                            "height": 64
+                                        },
+                                        "box": [39,
+                                            64],
+                                        "labels": [],
+                                        "maxImageSize": 39,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n",
+                                "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示一",
+                                "articleBlock": "\n\n把飛船在 `x` 的位置減去 `4` 可以讓它往左移動，那要怎樣讓飛船往右移動 `4` 點呢？\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示二",
+                                "articleBlock": "\n\n你需要的積木是一樣的，但是給定的數字不同：\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\nx 改變 ()\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示三",
+                                "articleBlock": "\n\n這是你要在[[☃ inline-scratch 1]]迴圈裡要添加的程式：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n如果 < (向右 v)鍵被按下？> 那麼\n    x 改變 (4)\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(重複無限次 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(重複無限次 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n點擊綠旗開始測試你的專案，看看你能不能用方向鍵讓飛船往左或往右水平移動。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

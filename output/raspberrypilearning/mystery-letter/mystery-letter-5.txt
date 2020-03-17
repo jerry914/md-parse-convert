@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：設定你的資訊樣式\n\n使用所提供的樣式來使你的資訊看起來像神祕信件。 \n\n向你的 `<span>` 標記新增以下這些類： \n\n+ `newspaper`（報紙）、`magazine1`（雜誌 1）、`magazine2`（雜誌 2）\n\n+ `medium`（中）、`big`（大）、`reallybig`（特大）\n\n+ `rotateleft`（向左旋轉）、`rotateright`（向右旋轉）\n\n+ `skewleft`（向左傾斜）、`skewright`（向右傾斜）\n\n請不要向一個特定的 `<span>` 新增來自同一行的多個類。\n\n你的文字應如下所示：\n\n[[☃ image 1]]\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-challenge1.png",
+                                            "width": 471,
+                                            "height": 350
+                                        },
+                                        "box": [471,
+                                            350],
+                                        "labels": [],
+                                        "maxImageSize": 471,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

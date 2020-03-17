@@ -1,0 +1,433 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **用迴圈做動畫**\n\n另一種讓太空船動起來的方式，是要它在一點一點的持續向前推進。\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n[[☃ article-block 4]]\n\n[[☃ article-block 5]]\n\n測試並儲存你的程式，你的太空船在飛行時應該會愈變愈小，停止程式**再測試一次**，它的大小有沒有和一開始一樣？\n\n[[☃ image 1]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-size-test.png",
+                                            "width": 474,
+                                            "height": 354
+                                        },
+                                        "box": [474,
+                                            354],
+                                        "labels": [],
+                                        "maxImageSize": 474,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n\n\n你的太空船一開始的尺寸就是 `100%`{:class=\"blocklooks\"}，你要用`尺寸改變 `{:class=\"blocklooks\"}積木，在太空船每次移動時都減小。\n\n\n\n\n\n你會用到這些積木：\n\n[[☃ image 1]]\n\n```blocks3\n尺寸改變 (10)\n\n尺寸設為 (100) %\n```\n\n\n\n\n\n你的程式應該會像這樣：\n\n[[☃ image 2]]\n\n```blocks3\n當 @greenflag 被點擊\n尺寸設為 (100) %\n面朝 (0) 度\n定位到 x:(-150) y:(-150)\n說出 (Let's go) 持續 (2) 秒\n面朝 (Earth v) 向\n重複 (200) 次\n    移動 (2) 點\n    聲音效果 [color v] 改變 (25)\n+   尺寸改變 (-3)\n```\n\n\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-spaceship.png",
+                                            "width": 64,
+                                            "height": 55
+                                        },
+                                        "box": [64,
+                                            55],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-spaceship.png",
+                                            "width": 64,
+                                            "height": 55
+                                        },
+                                        "box": [64,
+                                            55],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n移除你的程式中的[[☃ inline-scratch 1]]積木。方式是用滑鼠點著這個積木，把它拖曳到工具箱的某個區域，然後鬆開滑鼠鍵就可以把他放回工具箱。\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-spaceship.png",
+                                            "width": 64,
+                                            "height": 55
+                                        },
+                                        "box": [64,
+                                            55],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n面朝 (0) 度\n定位到 x:(-150) y:(-150)\n說出 [Let's go] 持續 (2) 秒\n面朝 (Earth v) 向\n- 滑行 (1) 秒到 x:(0) y:(0)\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(滑行 :: motion",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n現在，用[[☃ inline-scratch 1]]積木讓太空船飛向地球吧！\n\n[[☃ image 1]]\n\n[[☃ image 2]]\n\n[[☃ scratch 1]]\n\n測試一下然後儲存你的程式，你的太空船應該會像先前一樣朝地球前進，不過這次用的是[[☃ inline-scratch 2]]積木。\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-spaceship.png",
+                                            "width": 64,
+                                            "height": 55
+                                        },
+                                        "box": [64,
+                                            55],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-animate-stage.png",
+                                            "width": 478,
+                                            "height": 357
+                                        },
+                                        "box": [478,
+                                            357],
+                                        "labels": [],
+                                        "maxImageSize": 478,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n面朝 (0) 度\n定位到 x:(-150) y:(-150)\n說出 [Let's go] 持續 (2) 秒\n面朝 (Earth v) 向\n+ 重複 (200) 次\n    移動 (2) 點\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(重複 :: control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(重複 :: control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n接著來加個程式到太空船角色，讓它在飛向地球時會變顏色？！\n\n用到的積木是：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n測試並儲存你的程式。\n\n[[☃ image 2]]\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-colour-test.png",
+                                            "width": 152,
+                                            "height": 145
+                                        },
+                                        "box": [152,
+                                            145],
+                                        "labels": [],
+                                        "maxImageSize": 152,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-spaceship.png",
+                                            "width": 64,
+                                            "height": 55
+                                        },
+                                        "box": [64,
+                                            55],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n面朝 (0) 度\n定位到 x:(-150) y:(-150)\n說出 (Let's go) 持續 (2) 秒\n面朝 (Earth v) 向\n重複 (200) 次\n    移動 (2) 點\n+    聲音效果 [color v] 改變 (25)\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 5": {
+                            "id": "article-block 5",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n你能讓太空船向地球飛行時，變得愈來愈小嗎？\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

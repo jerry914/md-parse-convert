@@ -1,0 +1,166 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Chatbot (CodeClub)](https://projects.raspberrypi.org/en/projects/chatbot \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {"image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "useBoxSize": true,
+                    "backgroundImage": {
+                        "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                        "width": 75,
+                        "height": 26
+                    },
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "aspectRatio": 0.34987593052109184
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "\n\n這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) 版本。\n\n\n\n# **介紹**\n\n你將學習到如果用程式寫出一個會跟你對話的角色！像這樣的玩意兒，我們稱它為 chatbot（聊天機器人）。\n\n## **你會做出的玩意兒**\n\n\n\n點擊綠旗，然後點擊畫面上的聊天機器人角色，就可以開始與它對話。 當聊天機器人問你問題時，把你的答案輸入在畫面底部的文字方塊，輸入完後點擊右邊的藍色勾勾（或是按下 `Enter` 鍵），就可以看到機器人的回應。\n\n[[☃ iframe 1]]\n\n\n\n--- print-only ---\n\n[[☃ image 1]]\n\n--- /print-only ---\n\n# **[[☃ article-block 1]]\n\n# **[[☃ article-block 2]]\n\n# **[[☃ article-block 3]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://scratch.mit.edu/projects/embed/248864190/?autostart=false",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-preview.png",
+                                            "width": 489,
+                                            "height": 369
+                                        },
+                                        "box": [489,
+                                            369],
+                                        "labels": [],
+                                        "maxImageSize": 489,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "# **📍 你會用到**## **硬體**- 可運行 Scratch 3 的電腦## **軟體**- Scratch 3（[線上版](https://rpf.io/scratchon \"_blank\" \"title\") 或 [離線版](https://rpf.io/scratchoff \"_blank\" \"title\")）## **下載**- 材料包可[由此下載](http://rpf.io/p/en/chatbot-go)。",
+                                "articleBlock": "*\n\n# **title: 你會用到**\n\n## **硬體**\n\n- 可運行 Scratch 3 的電腦\n\n## **軟體**\n\n- Scratch 3（[線上版](https://rpf.io/scratchon \"_blank\" \"title\") 或 [離線版](https://rpf.io/scratchoff \"_blank\" \"title\")）\n\n## **下載**\n\n- 材料包可[由此下載](http://rpf.io/p/en/chatbot-go)。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "# **📍 你會學到**- 用 Scratch 程式串接文字- 瞭解變數可以用來儲存使用者輸入的內容- 用 Scratch 程式的判斷式來回應使用者輸入",
+                                "articleBlock": "*\n\n# **title: 你會學到**\n\n- 用 Scratch 程式串接文字\n- 瞭解變數可以用來儲存使用者輸入的內容\n- 用 Scratch 程式的判斷式來回應使用者輸入\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "# **📍 給教師的其它資訊**如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/chatbot/print \"_blank\" \"title\")。你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/chatbot-get)。",
+                                "articleBlock": "*\n\n# **title: 給教師的其它資訊**\n\n\n\n如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/chatbot/print \"_blank\" \"title\")。\n\n\n\n你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/chatbot-get)。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

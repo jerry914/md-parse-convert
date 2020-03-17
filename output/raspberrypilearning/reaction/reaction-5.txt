@@ -1,0 +1,220 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Waiting for a winner\n\nLet's add code to wait until a button is pressed.\n\n\n\n+ After displaying an image, you'll need to wait until someone presses their button.\n\nAnother way of saying this is that you'll need to wait as long as button A __and__ button B have __not__ been pressed.\n\nTo do this, add a `while` loop from the 'Control' section. The `while` loop should be added in just after the `draw` block.\n\n[[☃ image 1]]\n\n+ Drag an `and` block from 'Logic' to your `while` block:\n\n[[☃ image 2]]\n\n+ Drag a `not` from 'Logic' into the left hand side of the `and`:\n\n[[☃ image 3]]\n\n+ Drag an `button A is pressed` block from 'Input' to after the `not`:\n\n[[☃ image 4]]\n\n+ Repeat the 2 steps above to add `not button B is pressed` into the `right` side of your while loop.\n\n[[☃ image 5]]\n\n+ You can then add a very short (20ms) delay, so that your `while` loop waits as long as a button hasn't been pressed.\n\n[[☃ image 6]]\n\n+ Test your project. Your game should now display an image and then wait as long as buttons A __and__ B have __not__ been pressed.\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-delay.png",
+                                            "width": 643,
+                                            "height": 119
+                                        },
+                                        "box": [643,
+                                            119],
+                                        "labels": [],
+                                        "maxImageSize": 643,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-button-b.png",
+                                            "width": 645,
+                                            "height": 105
+                                        },
+                                        "box": [645,
+                                            105],
+                                        "labels": [],
+                                        "maxImageSize": 645,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-button-a.png",
+                                            "width": 443,
+                                            "height": 103
+                                        },
+                                        "box": [443,
+                                            103],
+                                        "labels": [],
+                                        "maxImageSize": 443,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-not.png",
+                                            "width": 287,
+                                            "height": 93
+                                        },
+                                        "box": [287,
+                                            93],
+                                        "labels": [],
+                                        "maxImageSize": 287,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-and.png",
+                                            "width": 239,
+                                            "height": 97
+                                        },
+                                        "box": [239,
+                                            97],
+                                        "labels": [],
+                                        "maxImageSize": 239,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-while.png",
+                                            "width": 195,
+                                            "height": 337
+                                        },
+                                        "box": [195,
+                                            337],
+                                        "labels": [],
+                                        "maxImageSize": 195,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

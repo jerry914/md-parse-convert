@@ -1,0 +1,34 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：更多顏色！\n使用顏色名稱、`rgb()` 值和十六進位制程式碼來更改你程式碼中的顏色。在 [jumpto.cc/colours](\"http://jumpto.cc/colours\",\" \" \"_blank\") 有大量顏色的列表，或者你可以前往 [jumpto.cc/colours](\"http://jumpto.cc/colours\",\" \" \"_blank\") 並建立你自己的顏色！\n\n以下是一些示例顏色：\n\n+ 紅色可寫為：\n+ `red`（紅色）（很明顯！）\n+ `rgb(255,0,0)`（大量紅色，無綠色和藍色）\n+ `#ff0000`\n\n+ 橄欖色可寫為：\n+ `olive`（橄欖色）\n+ `rgb(128, 128, 0)`（一點紅色和綠色，無藍色）\n+ `#808000`\n\n請努力確保你使用的顏色與你的食譜相匹配！\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

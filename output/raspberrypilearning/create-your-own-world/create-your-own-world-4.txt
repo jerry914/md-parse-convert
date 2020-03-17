@@ -1,0 +1,571 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Create your own world (CodeClub)](https://projects.raspberrypi.org/en/projects/create-your-own-world \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **在你的世界逛逛**\n\n`玩家`角色應該要能通過門進入其它的空間。\n\n你的專案包含了其它空間的背景：\n\n[[☃ image 1]]\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n[[☃ article-block 4]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/create-your-own-world/zh-TW/images/world-backdrops.png",
+                                            "width": 109,
+                                            "height": 288
+                                        },
+                                        "box": [109,
+                                            288],
+                                        "labels": [],
+                                        "maxImageSize": 109,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n創建一個「適用於所有角色」的變數，名稱叫做[[☃ inline-scratch 1]]，用這個變數來紀錄`玩家`走到了哪個空間。\n\n[[☃ article-block 1]]\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/create-your-own-world/zh-TW/images/world-room.png",
+                                            "width": 134,
+                                            "height": 63
+                                        },
+                                        "box": [134,
+                                            63],
+                                        "labels": [],
+                                        "maxImageSize": 134,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(空間 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "aliceblue",
+                                "blockTitle": "💡 在 Scratch 中添加一個變數",
+                                "articleBlock": "[[☃ iframe 1]]",
+                                "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/Code-Club-Learning-Resources/generic-scratch3-add-variable/zh-TW/step_1.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 1426
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n當[[☃ inline-scratch 1]]迴圈裡：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/create-your-own-world/zh-TW/images/player.png",
+                                            "width": 40,
+                                            "height": 40
+                                        },
+                                        "box": [40,
+                                            40],
+                                        "labels": [],
+                                        "maxImageSize": 40,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n重複無限次\n    如果 <(向上 v) 鍵被按下？ > 那麼\n        面朝 (0) 度\n        移動 (4) 點\n    end\n    如果 <(向左 v) 鍵被按下？ > 那麼\n        面朝 (-90) 度\n        移動 (4) 點\n    end\n    如果 <(向下 v) 鍵被按下？ > 那麼\n        面朝 (180) 度\n        移動 (4) 點\n    end\n+    如果 <(向右 v) 鍵被按下？ > 那麼\n        面朝 (90) 度\n        移動 (4) 點\n    end\n    如果 <碰到顏色 (#BABABA)？ > 那麼\n    移動 (-4) 點\n    end\n+    如果 <碰到顏色 (#F2A24A)？> 那麼\n    背景換成 (下一個背景 v)\n    定位到 x:(0) y:(0)\n    變數 [空間 v] 改變 (1)\n    end\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(玩家 ::遊戲應該要顯示下一個背景，`玩家`應該被定位到舞台的最左邊。 為`玩家`角色添加程式到`重複無限次`{:class=\"block3control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n每次遊戲的一開始，角色所處空間、角色的位置、背景都要重新設置。\n\n把**初始**的程式添加到[[☃ inline-scratch 1]]積木上面，這樣一來，當點擊綠旗時，所有東西都會被重置。\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/create-your-own-world/zh-TW/images/player.png",
+                                            "width": 40,
+                                            "height": 40
+                                        },
+                                        "box": [40,
+                                            40],
+                                        "labels": [],
+                                        "maxImageSize": 40,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/create-your-own-world/zh-TW/images/player.png",
+                                            "width": 40,
+                                            "height": 40
+                                        },
+                                        "box": [40,
+                                            40],
+                                        "labels": [],
+                                        "maxImageSize": 40,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n",
+                                "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示一",
+                                "articleBlock": "\n\n當遊戲開始運行時：\n\n+ [[☃ inline-scratch 1]]的值應該設定為 [[☃ inline-scratch 2]]\n+ [[☃ inline-scratch 3]]應該被設定成 [[☃ inline-scratch 4]]\n+ [[☃ inline-scratch 5]]\n\n",
+                                "widgets": {"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(空間 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(1 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(背景 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 4": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(空間1 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 5": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(玩家 ::200 y: 0`{:class=\"block3motion",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示二",
+                                "articleBlock": "\n\n這裡是你需要的程式積木：\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n定位到 x:(-200) y:(0)\n\n變數 [空間 v] 設為 (1)\n\n背景換成 (空間1 v)\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fff",
+                                "blockTitle": "提示三",
+                                "articleBlock": "\n\n你的程式看起來應該像這樣：\n\n[[☃ image 2]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n+變數 [空間 v] 設為 (1)\n+定位到 x:(-200) y:(0)\n+背景換成 (空間1 v)\n重複無限次\n    如果 <(向上 v) 鍵被按下？ > 那麼\n        面朝 (0) 度\n        移動 (4) 點\n    end\n    如果 <(向左 v) 鍵被按下？ > 那麼\n        面朝 (-90) 度\n        移動 (4) 點\n    end\n    如果 <(向下 v) 鍵被按下？ > 那麼\n        面朝 (180) 度\n        移動 (4) 點\n    end\n+    如果 <(向右 v) 鍵被按下？ > 那麼\n        面朝 (90) 度\n        移動 (4) 點\n    end\n    如果 <碰到顏色 (#BABABA)？ > 那麼\n    移動 (-4) 點\n    end\n    如果 <碰到顏色 (#F2A24A)？> 那麼\n    背景換成 (下一個背景 v)\n    定位到 x:(-200) y:(0)\n    變數 [空間 v] 改變 (1)\nend\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(玩家 ::s=\"block3control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n點擊綠旗，移動[[☃ inline-scratch 1]]的值變成 `2` 了嗎？\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/create-your-own-world/zh-TW/images/world-room-test.png",
+                                            "width": 487,
+                                            "height": 369
+                                        },
+                                        "box": [487,
+                                            369],
+                                        "labels": [],
+                                        "maxImageSize": 487,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(玩家 ::角色進入下一個畫面了嗎？ 變數`空間`{:class=\"block3variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

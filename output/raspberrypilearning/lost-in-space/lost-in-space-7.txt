@@ -1,0 +1,178 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **發亮的星星**\n\n現在我們用組合迴圈來做個閃閃發光的星星。\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n\n當 **綠旗**被點擊時，你的星星角色應該會 **改變尺寸** 變大幾次，然後再**改變尺寸** 變小幾次。 讓它**重複不停的**變大然後變小，它看起來就會像是在發光了。\n\n \n\n這裡是你需要的程式積木：\n\n```blocks3\n重複 (10) 次\nend\n\n當 @greenflag 被點擊\n\n重複 (10) 次\nend\n\n尺寸改變 (10)\n\n尺寸改變 (10)\n\n重複無限次\n```\n\n \n\n這個是讓星星不斷縮放的程式：\n\n[[☃ image 1]]\n\n```blocks3\n當 @greenflag 被點擊\n重複無限次\n    重複 (20) 次\n        尺寸改變 (2)\n    end\n    重複 (20) 次\n        尺寸改變 (-2)\n    end\nend\n\n```\n\n ",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-star.png",
+                                            "width": 64,
+                                            "height": 63
+                                        },
+                                        "box": [64,
+                                            63],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n添加一個名為 star（星星）的角色到舞台。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-star-sprite.png",
+                                            "width": 477,
+                                            "height": 359
+                                        },
+                                        "box": [477,
+                                            359],
+                                        "labels": [],
+                                        "maxImageSize": 477,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n你可以寫個程式，讓星星有一會兒放大，一會兒又縮小的效果嗎？\n\n[[☃ image 1]]\n\n[[☃ article-block 1]] ",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-star.png",
+                                            "width": 64,
+                                            "height": 63
+                                        },
+                                        "box": [64,
+                                            63],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

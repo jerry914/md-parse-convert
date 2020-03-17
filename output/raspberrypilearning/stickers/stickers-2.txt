@@ -1,0 +1,220 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **彩色編碼貼紙\n\n漸變指從一種顏色逐漸向另一種顏色變換。漸變可用來建立炫酷效果。你將使用它們來建立可在網頁上使用的貼紙。 \n\n+ 開啟這個 trinket：[jumpto.cc/web-stickers](\"http://jumpto.cc/web-stickers\",\" \" \"_blank\")。 \n\n此專案應如下所示：\n\n[[☃ image 1]]\n\n+ 讓我們製作一張“I <3 Coding”的貼紙。 \n\n運用帶 `sticker`（貼紙）類的 `<div>` 和 `coding`（編碼）id，使你能設定其樣式： \n\n[[☃ image 2]]\n\n\n+ 嗯，你是否注意到出現了一個錯誤？這是因為“<”在 HTML 中屬於特殊字元。你需要使用特殊程式碼 `&lt;` 而非“<”。 \n\n更新你的程式碼來使用 `&lt;`，從而消除錯誤。 \n\n[[☃ image 3]]\n\n`<br>` 指另起一行。 \n\n+ 現在我們來讓貼紙看起來更加有趣。 \n\n切換到 `style.css` 檔案。你會看到已為你提供了 `.sticker`（貼紙）類。由此在頁面上佈設貼紙並使其內容居中。 \n\n請記住。你向你的貼紙新增了 id `coding`（編碼）。在 `style.css` 的底部新增以下程式碼來設定文字樣式：\n\n[[☃ image 4]]\n\n+ 現在你可以為貼紙的背景新增漸變效果。線性漸變指沿著一條直線從一種顏色向另一種顏色變換。\n\n此漸變將從頂部的紅色變為底部的洋紅色。向你的 `coding`（編碼）樣式新增該漸變程式碼：\n\n[[☃ image 5]]\n\n+ 你可以通過新增內邊距和圓角來完善漸變結果。 \n\n新增以下高亮程式碼：\n\n[[☃ image 6]]\n\n`padding`（內邊距）樣式分別在頂部和底部新增 50 畫素、在左側和右側新增 30 畫素的內邊距。 \n\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-coding-padding.png",
+                                            "width": 697,
+                                            "height": 219
+                                        },
+                                        "box": [697,
+                                            219],
+                                        "labels": [],
+                                        "maxImageSize": 697,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-coding-gradient.png",
+                                            "width": 638,
+                                            "height": 136
+                                        },
+                                        "box": [638,
+                                            136],
+                                        "labels": [],
+                                        "maxImageSize": 638,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-coding-font.png",
+                                            "width": 737,
+                                            "height": 122
+                                        },
+                                        "box": [737,
+                                            122],
+                                        "labels": [],
+                                        "maxImageSize": 737,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-coding-fixed.png",
+                                            "width": 824,
+                                            "height": 112
+                                        },
+                                        "box": [824,
+                                            112],
+                                        "labels": [],
+                                        "maxImageSize": 824,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-coding-error.png",
+                                            "width": 610,
+                                            "height": 94
+                                        },
+                                        "box": [610,
+                                            94],
+                                        "labels": [],
+                                        "maxImageSize": 610,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-starter.png",
+                                            "width": 756,
+                                            "height": 174
+                                        },
+                                        "box": [756,
+                                            174],
+                                        "labels": [],
+                                        "maxImageSize": 756,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **對天空進行動畫處理\n\n動畫不僅僅可以移動。讓我們對天空進行動畫處理，使其在夜晚變暗。\n\n\n\n+ 向你的 CSS 新增名為 `sky`（天空）的動畫：\n\n    ```\n    @keyframes sky {\n        0%\n        100%\n    }\n    ```\n\n    請注意這次你是對天空的顏色進行動畫處理，而非位置。\n\n+ 向你的天空新增程式碼，告訴它使用你的新動畫：\n\n    ```\n    animation: sky 10s;\n    ```\n\n    [[☃ image 1]]\n\n+ 點選 **Autorun**（自動執行）來測試你的動畫。 \n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-sky.png",
+                                            "width": 889,
+                                            "height": 276
+                                        },
+                                        "box": [889,
+                                            276],
+                                        "labels": [],
+                                        "maxImageSize": 889,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

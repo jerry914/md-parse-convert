@@ -1,0 +1,96 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# ** 挑戰：製作一張個性化賀卡\n+ 使用你學到的所有 HTML 和 CSS 相關知識來完成製作一張個性化賀卡。它不必為生日賀卡，也可以是用於聖誕節或任何其他場合的賀卡！\n\n示例：\n\n[[☃ image 1]]\n\n你可以在[這裡](http://jumpto.cc/colours \"_blank\" \"title\")找到更多 CSS 顏色名稱。\n\n+ 你造完成你的賀卡之後，就可以將其分享或通過電子郵件傳送給他人。\n\n[[☃ image 2]]\n\n--- /challenge ---\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-share.png",
+                                            "width": 356,
+                                            "height": 241
+                                        },
+                                        "box": [356,
+                                            241],
+                                        "labels": [],
+                                        "maxImageSize": 356,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-final.png",
+                                            "width": 938,
+                                            "height": 342
+                                        },
+                                        "box": [938,
+                                            342],
+                                        "labels": [],
+                                        "maxImageSize": 938,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

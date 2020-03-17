@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：新增另一個連結\n\n向 `tvroom.html` 網頁新增一個 `<a>` 連結，由此來返回名為 `index.html` 的大廳網頁。連結文字應為“Hall”（大廳）。\n\n電視房間網頁隨後應有一個可點選的連結，如下所示：\n\n[[☃ image 1]]\n\n請務必測試你的程式碼。你應該可以通過點選連結來離開大廳前往電視房間，並再次返回。  \n\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-hall-link.png",
+                                            "width": 492,
+                                            "height": 280
+                                        },
+                                        "box": [492,
+                                            280],
+                                        "labels": [],
+                                        "maxImageSize": 492,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,632 @@
+
+
+
+
+Barrel Dodger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to main content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About
+FAQ
+Projects
+GitHub
+
+
+
+Reference
+
+
+sprites
+controller
+game
+music
+scene
+info
+images
+
+
+
+
+
+Blocks
+
+
+On Start
+
+
+
+Loops
+
+
+repeat
+for
+while
+for of
+
+
+
+
+
+Logic
+
+
+if
+Boolean
+
+
+
+
+
+Variables
+
+
+assign
+change var
+var
+
+
+Math
+JavaScript blocks
+Custom blocks
+
+
+
+
+
+JavaScript
+
+
+Calling
+Sequencing
+Variables
+Operators
+Statements
+Functions
+Types
+Classes
+Interfaces
+Generics
+
+
+
+
+
+Types
+
+
+Number
+String
+Boolean
+Array
+Function
+Image
+Sprite
+
+
+
+
+
+Hardware
+
+
+Errors
+Adding New Board
+Raspberry Pi
+Makey Makey
+Dev
+Debug connector
+
+
+
+
+
+Lessons
+
+
+Cherry Pickr
+Barrel Dodger
+Dance Party
+BlockOut
+
+
+
+
+
+Courses
+
+
+CS Intro 1
+CS Intro 2
+CS Intro 3
+
+
+
+
+
+
+
+
+
+
+
+
+DocsLessonsBarrel Dodger
+
+
+
+
+
+
+
+
+
+Barrel DodgerMake an action game where the player has to react quickly to avoid fast moving barrels. Get hit and it’s GAME OVER!
+
+Step 1OK, let’s get started by making our Player sprite. Start by placing a ||variables:set mySprite to|| block in an ||loops:on start|| block to create your sprite.
+let mySprite: Sprite = sprites.create(img``, SpriteKind.Player)
+Step 2Draw your player sprite’s image using the image editor.
+
+Step 3We want to put our sprite character nearer to the left side of the screen so drag a ||sprites:set mySprite position|| into ||loops:on start|| and set x to 20 and y to 70.
+let mySprite: Sprite = sprites.create(img`
+    . . . . . . 5 . 5 . . . . . . .
+    . . . . . f 5 5 5 f f . . . . .
+    . . . . f 1 5 2 5 1 6 f . . . .
+    . . . f 1 6 6 6 6 6 1 6 f . . .
+    . . . f 6 6 f f f f 6 1 f . . .
+    . . . f 6 f f d d f f 6 f . . .
+    . . f 6 f d f d d f d f 6 f . .
+    . . f 6 f d 3 d d 3 d f 6 f . .
+    . . f 6 6 f d d d d f 6 6 f . .
+    . f 6 6 f 3 f f f f 3 f 6 6 f .
+    . . f f d 3 5 3 3 5 3 d f f . .
+    . . f d d f 3 5 5 3 f d d f . .
+    . . . f f 3 3 3 3 3 3 f f . . .
+    . . . f 3 3 5 3 3 5 3 3 f . . .
+    . . . f f f f f f f f f f . . .
+    . . . . . f f . . f f . . . . .
+`, SpriteKind.Player)
+mySprite.setPosition(20, 70)
+Step 4Drag a ||sprites:set mySprite x|| into the ||loops:on start||, click the dropdown, and select ay (acceleration y). Set the value to 500 so that character is pulled down by “gravity”.
+let mySprite: Sprite = sprites.create(img`
+    . . . . . . 5 . 5 . . . . . . .
+    . . . . . f 5 5 5 f f . . . . .
+    . . . . f 1 5 2 5 1 6 f . . . .
+    . . . f 1 6 6 6 6 6 1 6 f . . .
+    . . . f 6 6 f f f f 6 1 f . . .
+    . . . f 6 f f d d f f 6 f . . .
+    . . f 6 f d f d d f d f 6 f . .
+    . . f 6 f d 3 d d 3 d f 6 f . .
+    . . f 6 6 f d d d d f 6 6 f . .
+    . f 6 6 f 3 f f f f 3 f 6 6 f .
+    . . f f d 3 5 3 3 5 3 d f f . .
+    . . f d d f 3 5 5 3 f d d f . .
+    . . . f f 3 3 3 3 3 3 f f . . .
+    . . . f 3 3 5 3 3 5 3 3 f . . .
+    . . . f f f f f f f f f f . . .
+    . . . . . f f . . f f . . . . .
+`, SpriteKind.Player)
+mySprite.setPosition(20, 70)
+mySprite.ay = 500
+Step 5Now let’s create a platform base at the bottom of the screen.
+Get a ||scene:set tilemap to|| and put it in ||loops:on start||.
+Click on the gray box to open the tilemap editor.
+In the bottom left corner, set the size of the tilemap to 10x8
+and draw a platform for in the bottom two rows of the tilemap.
+Finally, click the Wall button, and fill in those two rows with walls.
+
+namespace myTiles {
+    //% blockIdentity=images._tile
+    export const tile0 = img`
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+    `
+}
+tiles.setTilemap(tiles.createTilemap(
+    hex`0a0008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000303030303030303030303030303030303030303`,
+    img`
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        2 2 2 2 2 2 2 2 2 2
+        2 2 2 2 2 2 2 2 2 2
+    `,
+    [myTiles.tile0,sprites.builtin.brick,sprites.builtin.oceanDepths0,sprites.builtin.oceanDepths3],
+    TileScale.Sixteen
+))
+Step 6Next, let’s have some barrels moving at random speeds. Make them start from the right side of the screen and fly towards the player sprite. Move an ||game:on game update every|| onto the editor and set the interval time to 1500 milliseconds. Drag a ||sprites:projectile from side|| into it. Click the empty image box in the projectile block and change the dimensions to 8x8. Draw the barrel.
+
+After that, drag a ||math:pick random|| block into where vx is and set the range from -100 to -80.
+game.onUpdateInterval(1500, function () {
+    let projectile = sprites.createProjectileFromSide(img`
+    . e e e e e e .
+    e e e e e e e e
+    1 1 1 1 1 1 1 1
+    e e e e e e e e
+    e e e e e e e e
+    1 1 1 1 1 1 1 1
+    e e e e e e e e
+    . e e e e e e .
+`, Math.randomRange(-100, -80), 0)
+})
+Step 7Find ||scene:place mySprite on top of tilemap col row|| and drag it into the ||game:on game update interval|| after ||variables:set projectile to||.
+Set the ||scene:col|| to 9 and the ||scene:row|| to 5, which is the tile on the right side of the screen directly above the wall.
+Change ||variables:mySprite|| to ||variables:projectile||, so that it refers to the sprite that was just created.
+game.onUpdateInterval(1500, function () {
+    let  projectile = sprites.createProjectileFromSide(img`
+        . e e e e e e .
+        e e e e e e e e
+        1 1 1 1 1 1 1 1
+        e e e e e e e e
+        e e e e e e e e
+        1 1 1 1 1 1 1 1
+        e e e e e e e e
+        . e e e e e e .
+    `, Math.randomRange(-100, -80), 0)
+    tiles.placeOnTile(projectile, tiles.getTileLocation(9, 5))
+})
+Step 8Let’s give the sprite the ability to jump when we press a button. We do this with  ||controller:on any button pressed||. Find that block and drag it out onto the editor. Change the button from any to A.
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+
+})
+Step 9We need to make sure that the sprite is on the ground before jumping, so drag an ||logic:if then|| conditional into the ||controller:on A button pressed||. Replace true with ||scene:is mySprite hitting wall|| and change left side bottom. Finally, put in a ||sprites:set mySprite x|| and choose ||sprites:vy (velocity y)|| from the dropdown. Set the value to -250.
+let mySprite = sprites.create(img`
+    . . . . . . 5 . 5 . . . . . . .
+    . . . . . f 5 5 5 f f . . . . .
+    . . . . f 1 5 2 5 1 6 f . . . .
+    . . . f 1 6 6 6 6 6 1 6 f . . .
+    . . . f 6 6 f f f f 6 1 f . . .
+    . . . f 6 f f d d f f 6 f . . .
+    . . f 6 f d f d d f d f 6 f . .
+    . . f 6 f d 3 d d 3 d f 6 f . .
+    . . f 6 6 f d d d d f 6 6 f . .
+    . f 6 6 f 3 f f f f 3 f 6 6 f .
+    . . f f d 3 5 3 3 5 3 d f f . .
+    . . f d d f 3 5 5 3 f d d f . .
+    . . . f f 3 3 3 3 3 3 f f . . .
+    . . . f 3 3 5 3 3 5 3 3 f . . .
+    . . . f f f f f f f f f f . . .
+    . . . . . f f . . f f . . . . .
+`, SpriteKind.Player)
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (mySprite.isHittingTile(CollisionDirection.Bottom)) {
+        mySprite.vy = -250
+    }
+})
+Step 10Each time a barrel starts to move we want to increase the score. Get a ||info:change score by|| and put it into ||game:on game update every||. Leave the value at 1.
+game.onUpdateInterval(1500, function () {
+    let projectile = sprites.createProjectileFromSide(img`
+        . e e e e e e .
+        e e e e e e e e
+        1 1 1 1 1 1 1 1
+        e e e e e e e e
+        e e e e e e e e
+        1 1 1 1 1 1 1 1
+        e e e e e e e e
+        . e e e e e e .
+    `, Math.randomRange(-100, -80), 0)
+    info.changeScoreBy(1)
+    tiles.placeOnTile(projectile, tiles.getTileLocation(9, 5))
+})
+Step 11Our final step is to end the game if a barrel touches the sprite player. Drag an ||sprites:on sprite overlaps|| onto the editor. Set the sprite kind for otherSprite to Projectile. End the game with a ||game:game over|| block inside.
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
+    game.over(false)
+})
+CompleteAwesome! Congratulations on making the Barrel Dodger game! You are on your way to making amazing games with Arcade.
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
+    if (mySprite.isHittingTile(CollisionDirection.Bottom)) {
+        mySprite.vy = -250
+    }
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
+    game.over(false)
+})
+let mySprite = sprites.create(img`
+    . . . . . . 5 . 5 . . . . . . .
+    . . . . . f 5 5 5 f f . . . . .
+    . . . . f 1 5 2 5 1 6 f . . . .
+    . . . f 1 6 6 6 6 6 1 6 f . . .
+    . . . f 6 6 f f f f 6 1 f . . .
+    . . . f 6 f f d d f f 6 f . . .
+    . . f 6 f d f d d f d f 6 f . .
+    . . f 6 f d 3 d d 3 d f 6 f . .
+    . . f 6 6 f d d d d f 6 6 f . .
+    . f 6 6 f 3 f f f f 3 f 6 6 f .
+    . . f f d 3 5 3 3 5 3 d f f . .
+    . . f d d f 3 5 5 3 f d d f . .
+    . . . f f 3 3 3 3 3 3 f f . . .
+    . . . f 3 3 5 3 3 5 3 3 f . . .
+    . . . f f f f f f f f f f . . .
+    . . . . . f f . . f f . . . . .
+`, SpriteKind.Player)
+mySprite.setPosition(20, 70)
+mySprite.ay = 500
+
+namespace myTiles {
+    //% blockIdentity=images._tile
+    export const tile0 = img`
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+        . . . . . . . . . . . . . . . .
+    `
+}
+tiles.setTilemap(tiles.createTilemap(
+    hex`0a0008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000303030303030303030303030303030303030303`,
+    img`
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        . . . . . . . . . .
+        2 2 2 2 2 2 2 2 2 2
+        2 2 2 2 2 2 2 2 2 2
+    `,
+    [myTiles.tile0,sprites.builtin.brick,sprites.builtin.oceanDepths0,sprites.builtin.oceanDepths3],
+    TileScale.Sixteen
+))
+game.onUpdateInterval(1500, function () {
+    let projectile = sprites.createProjectileFromSide(img`
+        1 e e e e e e 1
+        e e e e e e e e
+        1 1 1 1 1 1 1 1
+        e e e e e e e e
+        e e e e e e e e
+        1 1 1 1 1 1 1 1
+        e e e e e e e e
+        1 e e e e e e 1
+    `, Math.randomRange(-100, -80), 0)
+    info.changeScoreBy(1)
+    tiles.placeOnTile(projectile, tiles.getTileLocation(9, 5))
+})
+
+
+Edit this page on GitHub
+Edit template of this page on GitHub
+Edit template of this page on GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Language
+            
+Privacy & Cookies
+Terms Of Use
+Trademarks
+© 2019 Microsoft
+
+
+Powered by
+
+
+
+
+
+
+
+
+
+
+
+Select Language
+
+
+
+
+
+
+
+
+
+                How do I add a new language?
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    window.loadAppInsights = function (includeCookie) {
+        var appInsights=window.appInsights||function(config){
+            function i(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s="AuthenticatedUserContext",h="start",c="stop",l="Track",a=l+"Event",v=l+"Page",y=u.createElement(o),r,f;y.src=config.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(y);try{t.cookie=u.cookie}catch(p){}for(t.queue=[],t.version="1.0",r=["Event","Exception","Metric","PageView","Trace","Dependency"];r.length;)i("track"+r.pop());return i("set"+s),i("clear"+s),i(h+a),i(c+a),i(h+v),i(c+v),i("flush"),config.disableExceptionTracking||(r="onerror",i("_"+r),f=e[r],e[r]=function(config,i,u,e,o){var s=f&&f(config,i,u,e,o);return s!==!0&&t["_"+r](config,i,u,e,o),s}),t
+        }({
+            instrumentationKey:"9801ed01-c40f-46ec-aa40-2a1742a9e71c",
+            disableAjaxTracking: true,
+            overridePageViewDuration: false,
+            disableExceptionTracking: true,
+            isCookieUseDisabled: !includeCookie,
+            isStorageUseDisabled: !includeCookie,
+            url: "https://pxt.azureedge.net/blob/b0fb8ea96e7dccb4d447171f5dcd5bcf17b6ae58/ai.0.js"
+        });
+        window.appInsights=appInsights;
+        appInsights.queue.push(function () {
+            appInsights.context.addTelemetryInitializer(function (envelope) {
+                if (typeof pxtConfig === "undefined" || !pxtConfig) return;
+                var telemetryItem = envelope.data.baseData;
+                telemetryItem.properties = telemetryItem.properties || {};
+                telemetryItem.properties["target"] = pxtConfig.targetId;
+                telemetryItem.properties["stage"] = (pxtConfig.relprefix || "/--").replace(/[^a-z]/ig, '')
+                telemetryItem.properties["cookie"] = includeCookie;
+                if (typeof Windows !== "undefined")
+                    telemetryItem.properties["WindowsApp"] = 1;
+                var userAgent = navigator.userAgent.toLowerCase();
+                var userAgentRegexResult = /\belectron\/(\d+\.\d+\.\d+.*?)(?: |$)/i.exec(userAgent); // Example navigator.userAgent: "Mozilla/5.0 Chrome/61.0.3163.100 Electron/2.0.0 Safari/537.36"
+                if (userAgentRegexResult) {
+                    telemetryItem.properties["Electron"] = 1;
+                    telemetryItem.properties["ElectronVersion"] = userAgentRegexResult[1];
+                }
+                if (typeof pxtElectron !== "undefined") {
+                    telemetryItem.properties["PxtElectron"] = 1;
+                    telemetryItem.properties["ElectronVersion"] = pxtElectron.versions.electronVersion;
+                    telemetryItem.properties["ChromiumVersion"] = pxtElectron.versions.chromiumVersion;
+                    telemetryItem.properties["NodeVersion"] = pxtElectron.versions.nodeVersion;
+                    telemetryItem.properties["PxtElectronVersion"] = pxtElectron.versions.pxtElectronVersion;
+                    telemetryItem.properties["PxtCoreVersion"] = pxtElectron.versions.pxtCoreVersion;
+                    telemetryItem.properties["PxtTargetVersion"] = pxtElectron.versions.pxtTargetVersion;
+                    telemetryItem.properties["PxtElectronIsProd"] = pxtElectron.versions.isProd;
+                }
+            });
+        });
+        appInsights.trackPageView(null, scrubUrl(window.location.toString()), {urlReferrer: scrubUrl(document.referrer.toString())});
+
+        //Scrub the key (if any) from the URL.
+        function scrubUrl(url) {
+            var scriptIdRegex = /(?:\d{5}-\d{5}-\d{5}-\d{5})|(?:_[0-9a-zA-Z]{12})/g;
+            return url.replace(scriptIdRegex, "xxxxx-xxxxx-xxxxx-xxxxx");
+        }
+    }
+    pxt.initAnalyticsAsync();
+
+
+

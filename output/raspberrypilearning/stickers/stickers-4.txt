@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：建立你自己的漸變貼紙\n\n現在來製作你自己的漸變貼紙。使用多種 HTML 顏色來嘗試線性和徑向漸變。 \n\n你將需要：\n\n+ 向 `index.html` 新增帶你的貼紙文字的 `<div>`，並賦予其 `sticker`（貼紙）類和一個新的 `id`。\n+ 為你在 `style.css` 中選擇的 `id` 新增樣式。你可以複製你已經制作的貼紙樣式之一併對其進行編輯。 \n\n有一張所有顏色名稱的列表可供你使用：[jumpto.cc/web-colours](http://jumpto.cc/web-colours)，其中包括 `tomato`（番茄色）、​`firebrick`（磚紅色）和 `peachpuff`（桃紅色）等顏色名稱。\n\n如果想更改文字顏色，你可以使用 `color:`（顏色）。\n\n以下示例為你可以使用線性漸變中的多種顏色創造出的效果。\n\n[[☃ image 1]]\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-save-robots.png",
+                                            "width": 246,
+                                            "height": 166
+                                        },
+                                        "box": [246,
+                                            166],
+                                        "labels": [],
+                                        "maxImageSize": 246,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

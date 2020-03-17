@@ -1,0 +1,34 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **確定食譜\n\n在你進行編碼之前，你需要確定一個食譜。\n\n\n\n+ 想出一個你想與你的朋友們分享的食譜。可以是：\n+ 你在網上發現的食譜；\n+ 你最喜愛的美食；\n+ 你製作的某種食物！\n\n你將在本專案中看到的示例食譜為香蕉奶昔。如果你未找到你自己的食譜，可以複製這份食譜。\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

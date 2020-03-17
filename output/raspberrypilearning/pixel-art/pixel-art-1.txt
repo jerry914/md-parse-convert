@@ -1,0 +1,34 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Introduction\n\nCreate a pixel art editor. As well as using HTML and CSS, you'll learn how to use JavaScript to add interactivity to your project.\n\n### What you will make\n\nTry out the project below. Click on a colour from the palette, then click on a pixel to change its colour.\n\n<div class=\"trinket\">\n  <iframe src=\"https://trinket.io/embed/html/0e102a306b?outputOnly=true&start=result\" width=\"600\" height=\"450\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" allowfullscreen>\n  </iframe>\n  <img src=\"images/pixel-art-final.png\">\n</div>\n\n### What you will learn\n\nThis project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum \"_blank\" \"title\"):\n\n+ [Design basic 2D and 3D assets](https://www.raspberrypi.org/curriculum/design/creator \"_blank\" \"title\").\n\n+ [Use basic programming constructs to create simple programs](https://www.raspberrypi.org/curriculum/programming/creator \"_blank\" \"title\")\n\n### Additional information for educators\n\nIf you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/zh-CN/projects/pixel-art/print \"_blank\" \"title\") .\n\nUse the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the ‘en/resources’ folder.\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

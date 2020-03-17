@@ -1,0 +1,158 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Wait for it!\n\nLet's start by displaying an image after a random amount of time.\n\n\n\n+ Go to [rpf.io/microbit-new](\"https://rpf.io/microbit-new\",\" \" \"_blank\") to start a new project in the MakeCode (PXT) editor. Call your new project 'Reaction'. \n\n+ Before displaying an image, the game should wait for a random amount of time.\n\nDrag a `pause` block into the `forever` block and change the pause time to 1000 ms:\n\n[[☃ image 1]]\n\n+ Add another `pause` block and then drag a `pick random` block to `pause` block and set its value to 4000:\n\n[[☃ image 2]]\n\nRemember that 1000ms is 1 second, so there will be a pause of at least 1 second up to a maximum of 5 seconds (1000 + 4000 ms).\n\nYou can change the '1000' and '4000' numbers to change the minimum and maximum pause if you like. \n\n+ After waiting, your game should show an image so that players know when to press their button.\n\n[[☃ image 3]]\n\n+ Click 'run' to test your project. You should see your image appear after a random delay.\n\n+ Add code at the end of the `forever` loop to display your image for 1 second and then clear the display.\n\n[[☃ image 4]]\n\n+ Test your project. You should see your image appear randomly and then disappear.\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-clear.png",
+                                            "width": 316,
+                                            "height": 381
+                                        },
+                                        "box": [316,
+                                            381],
+                                        "labels": [],
+                                        "maxImageSize": 316,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-image.png",
+                                            "width": 323,
+                                            "height": 306
+                                        },
+                                        "box": [323,
+                                            306],
+                                        "labels": [],
+                                        "maxImageSize": 323,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-pause-random.png",
+                                            "width": 324,
+                                            "height": 151
+                                        },
+                                        "box": [324,
+                                            151],
+                                        "labels": [],
+                                        "maxImageSize": 324,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/reaction/master/en/images/reaction-pause.png",
+                                            "width": 178,
+                                            "height": 116
+                                        },
+                                        "box": [178,
+                                            116],
+                                        "labels": [],
+                                        "maxImageSize": 178,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

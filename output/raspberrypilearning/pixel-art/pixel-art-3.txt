@@ -1,0 +1,237 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Create a grid of pixels\n\nLet's create a grid of pixels that you can use for creating pixel art.\n\nThe grid will look like a table. Tables contain rows, and rows contain cells which will represent the pixels.\n\n+ Open the [starter trinket](http://jumpto.cc/web-pixel).\n\nThe project should look like this:\n\n[[☃ image 1]]\n\nFirst, let's write some code to create a table with a black background and then put white pixels into it.\n\n+ Add this code into the `<body>` of your `index.html` file to create a `<div>`:\n\n[[☃ image 2]]\n\nA `<div>` is an invisible box to which you can give a **style**. This `<div>` has the ID `art`, which you need so you can add styles to the box.\n\n+ Now go to your `style.css` file and add the table styling for the `<div>` called `art`.\n\n[[☃ image 3]]\n\nThis creates a table with a border and sets the spacing inside the grid.\n\nIt doesn't look very interesting yet, so you need to put rows of pixels inside it.\n\n+ Go back to your `index.html` file and add a row of three pixels **inside** the `art` box. If you want to save time, you can type the first row and then copy and paste it to create the others.\n\n[[☃ image 4]]\n\nNotice that here you're using a **class** instead of an ID to style the divs. This is because there will be lots of them, so a class is more useful.\n\n+ Switch to the `style.css` file and add the following styles for the rows and the pixels within each row:\n\n[[☃ image 5]]\n\nNow your pixels will line up in a grid with black lines around them.\n\n+ In your `index.html` file, add another two sections of pixels to create a 3×3 pixel grid. You can use copy and paste again to save time.\n\n[[☃ article-block 1]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-art-grid-3.png",
+                                            "width": 745,
+                                            "height": 404
+                                        },
+                                        "box": [745,
+                                            404],
+                                        "labels": [],
+                                        "maxImageSize": 745,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-art-row-style.png",
+                                            "width": 822,
+                                            "height": 245
+                                        },
+                                        "box": [822,
+                                            245],
+                                        "labels": [],
+                                        "maxImageSize": 822,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-art-row.png",
+                                            "width": 425,
+                                            "height": 129
+                                        },
+                                        "box": [425,
+                                            129],
+                                        "labels": [],
+                                        "maxImageSize": 425,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-art-style.png",
+                                            "width": 973,
+                                            "height": 150
+                                        },
+                                        "box": [973,
+                                            150],
+                                        "labels": [],
+                                        "maxImageSize": 973,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-art-art.png",
+                                            "width": 467,
+                                            "height": 93
+                                        },
+                                        "box": [467,
+                                            93],
+                                        "labels": [],
+                                        "maxImageSize": 467,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/pixel-art/zh-CN/images/pixel-starter.png",
+                                            "width": 764,
+                                            "height": 186
+                                        },
+                                        "box": [764,
+                                            186],
+                                        "labels": [],
+                                        "maxImageSize": 764,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "- hint ---\n\nFind the `<div>` tag with the class `row` and copy it, including the three rows labelled `pixel` which are inside it, up to and including its matching `</div>` tag.\n\nPaste this code immediately below the section you just copied to create another row. Repeat once more so that you have three rows of three pixels each.\n\nYou can check whether your table looks right by looking at the result area on the right.\n\n\n\n\n\nHere is how your code should look:\n\n[[☃ image 6]]\n\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

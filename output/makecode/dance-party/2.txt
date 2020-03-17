@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Two: Creating the Sprite\n\nTo set the sprite grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{集mySprite上雪碧樣的球員}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{精靈}}\\\\$ and drag it into $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{在啟動}}\\\\$. Now right click on mySprite and select rename variable in the menu. Rename your sprite to whatever you would like to call your player. In the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{精靈樣的球員}}\\\\$ block, select the grey square and draw an image of your player.\n\nNow we want to set our sprites starting position. To do this go into sprites and grab $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{集mySprite上位置X Y}}\\\\$ and drag it under $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{精靈樣的球員}}\\\\$. Set the x position to **80** and the y position to **100**.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/2.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

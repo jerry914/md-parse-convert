@@ -1,0 +1,99 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹\n\n你將在本專案中學習如何放置圖片來建立你自己的機器人！\n\n[[☃ image 1]]\n\n## **更多俱樂部領導參考資訊\n\n如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/build-a-robot/print)。\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/build-a-robot/master/zh-CN/images/robot-final.png",
+                                            "width": 289,
+                                            "height": 466
+                                        },
+                                        "box": [289,
+                                            466],
+                                        "labels": [],
+                                        "maxImageSize": 289,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 俱樂部領導備註",
+                                "articleBlock": "---\n\n---\n\n\n# **介紹：\n孩子們將在本專案中通過製作自己的機器人來學習 CSS 定位相關的知識。\n\n# **線上資源\n\n我們推薦使用 [trinket](https://trinket.io/) 來線上編寫 HTML & CSS。本專案包含以下 trinket：\n\n+ [‘製作一個機器人’起點 -- jumpto.cc/web-robot](http://jumpto.cc/web-robot)\n\n孩子們也可使用該空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 來編寫自己的 HTML & CSS，或者他們可以使用該 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。\n\n還有一個 trinket，其中包含相關挑戰的解決方案樣例：\n\n+ [‘製作一個機器人’已完成 -- trinket.io/html/00736c0e18](https://trinket.io/html/00736c0e18)\n\n# **離線資源\n如果願意的話，本專案可[離線完成](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/)。你可以通過單擊此專案的“專案材料”連結來訪問專案資源。此連結包含一個“專案資源”部分，其中包括孩子們離線完成本專案時所需的資源。確保每個孩子都能訪問這些資源的副本。本節包括以下檔案：\n\n+ template/index.html\n+ template/style.css\n+ robot/index.html\n+ robot/style.css\n+ 大量 .png 圖片\n\n你還可以在“志願者資源”部分中找到本專案挑戰的完整版本，其中包含：\n\n+ robot-finished/index.html\n+ robot-finished/style.css\n+ robot-finished/ 大量 .png 圖片\n\n（以上所有的資源也可以作為專案和志願者 `.zip` 檔案下載。）\n\n# **學習目標\n+ HTML id 屬性；\n+ 編寫 CSS：\n+ `#` id 選擇器；\n+ 定位；\n+ 頂部；\n+ 左側。\n\n本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：\n\n+ [設計基本的 2D 和 3D 資源](https://www.raspberrypi.org/curriculum/design/creator)。\n\n# **挑戰\n+ “設計你自己的機器人”- 應用 CSS 定位來建立一個機器人；\n+ “新增你自己的圖片”- 使用 HTML id 屬性和相關的 CSS 新增更多圖片。\n\n# **離線完成此專案\n如果孩子們要離線完成此專案，他們將需要把他們打算使用的圖片儲存在 `Robot.html` 檔案所在的資料夾中。\n\n他們隨後可以將檔名新增進他們的 `<img>` 標記中：\n\n```\n<img id=\"hat\" src=\"hat.png\" />\n```\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 專案材料",
+                                "articleBlock": "---\n\n---\n# **專案資源\n* [包含所有專案資源的.zip 檔案](resources/robot-project-resources.zip)\n* [包含所有“製作一個機器人”專案資源的線上 Trinket](http://jumpto.cc/web-robot)\n* [線上 Trinket 模板](http://jumpto.cc/trinket-template)\n* [線上空白 Trinket](http://jumpto.cc/trinket-blank)\n* [template/index.html](resources/template-index.html)\n* [template/style.css](resources/template-style.css)\n* [robot/index.html](resources/robot-index.html)\n* [robot/style.css](resources/robot-style.css)\n* [robot/antenna.png](resources/robot-antenna.png)\n* [robot/bird.png](resources/robot-bird.png)\n* [robot/bowtie.png](resources/robot-bowtie.png)\n* [robot/crown.png](resources/robot-crown.png)\n* [robot/ears1.png](resources/robot-ears1.png)\n* [robot/ears2.png](resources/robot-ears2.png)\n* [robot/eyes1.png](resources/robot-eyes1.png)\n* [robot/eyes2.png](resources/robot-eyes2.png)\n* [robot/eyes3.png](resources/robot-eyes3.png)\n* [robot/face.png](resources/robot-face.png)\n* [robot/hair1.png](resources/robot-hair1.png)\n* [robot/hair2.png](resources/robot-hair2.png)\n* [robot/hair3.png](resources/robot-hair3.png)\n* [robot/hair4.png](resources/robot-hair4.png)\n* [robot/hat.png](resources/robot-hat.png)\n* [robot/headphones.png](resources/robot-headphones.png)\n* [robot/moustache.png](resources/robot-moustache.png)\n* [robot/mouth1.png](resources/robot-mouth1.png)\n* [robot/mouth2.png](resources/robot-mouth2.png)\n* [robot/mouth3.png](resources/robot-mouth3.png)\n* [robot/necklace.png](resources/robot-necklace.png)\n* [robot/nose1.png](resources/robot-nose1.png)\n* [robot/nose2.png](resources/robot-nose2.png)\n* [robot/nose3.png](resources/robot-nose3.png)\n* [robot/sunglasses.png](resources/robot-sunglasses.png)\n\n# **俱樂部領導資源\n* [包含所有已完成專案資源的 .zip 檔案](resources/robot-volunteer-resources.zip)\n* [線上完整 Trinket 專案](https://trinket.io/html/00736c0e18)\n* [robot-finished/index.html](resources/robot-finished-index.html)\n* [robot-finished/style.css](resources/robot-finished-style.css)\n* [robot-finished/antenna.png](resources/robot-finished-antenna.png)\n* [robot-finished/bird.png](resources/robot-finished-bird.png)\n* [robot-finished/bowtie.png](resources/robot-finished-bowtie.png)\n* [robot-finished/crown.png](resources/robot-finished-crown.png)\n* [robot-finished/ears1.png](resources/robot-finished-ears1.png)\n* [robot-finished/ears2.png](resources/robot-finished-ears2.png)\n* [robot-finished/eyes1.png](resources/robot-finished-eyes1.png)\n* [robot-finished/eyes2.png](resources/robot-finished-eyes2.png)\n* [robot-finished/eyes3.png](resources/robot-finished-eyes3.png)\n* [robot-finished/face.png](resources/robot-finished-face.png)\n* [robot-finished/hair1.png](resources/robot-finished-hair1.png)\n* [robot-finished/hair2.png](resources/robot-finished-hair2.png)\n* [robot-finished/hair3.png](resources/robot-finished-hair3.png)\n* [robot-finished/hair4.png](resources/robot-finished-hair4.png)\n* [robot-finished/hat.png](resources/robot-finished-hat.png)\n* [robot-finished/headphones.png](resources/robot-finished-headphones.png)\n* [robot-finished/moustache.png](resources/robot-finished-moustache.png)\n* [robot-finished/mouth1.png](resources/robot-finished-mouth1.png)\n* [robot-finished/mouth2.png](resources/robot-finished-mouth2.png)\n* [robot-finished/mouth3.png](resources/robot-finished-mouth3.png)\n* [robot-finished/necklace.png](resources/robot-finished-necklace.png)\n* [robot-finished/nose1.png](resources/robot-finished-nose1.png)\n* [robot-finished/nose2.png](resources/robot-finished-nose2.png)\n* [robot-finished/nose3.png](resources/robot-finished-nose3.png)\n* [robot-finished/sunglasses.png](resources/robot-finished-sunglasses.png)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,55 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "background": "aliceblue",
+                    "blockTitle": "TITLE",
+                    "articleBlock": "[[☃ iframe 1]]",
+                    "widgets": {
+                        "iframe 1": {
+                            "type": "iframe",
+                            "id": "iframe 1",
+                            "graded": true,
+                            "options": {
+                                "url": "URL",
+                                "settings": [
+                                    {
+                                        "name": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "width": 560,
+                                "height": 480
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    },
+                    "expandable": false,
+                    "expanded": false
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

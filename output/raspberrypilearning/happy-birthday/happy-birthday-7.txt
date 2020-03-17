@@ -1,0 +1,237 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# ** 製作一張生日賀卡\n\n讓我們使用學到的 HTML 和 CSS 相關知識來製作你自己的定製生日賀卡。\n\n+ 開啟 [這個 trinket](http://jumpto.cc/web-card \"_blank\" \"title\")。\n\n我們編寫了許多程式碼來使你們入門，但生日賀卡目前看起來相當無趣，因此你要對 HTML 和 CSS 程式碼做出一些改動。\n\n+ 點選賀卡封面的按鈕，你會看到封面開啟，展示出內頁。\n\n[[☃ image 1]]\n\n+ 轉向 HTML 程式碼的第 14 行。嘗試編輯文字來使你的賀卡個性化。\n\n[[☃ image 2]]\n\n+ 你能否找到機器人圖片的 HTML 程式碼，然後把 `robot` 這個詞改為 `sun`？\n\n[[☃ article-block 1]]的生日賀卡可使用 `boy`、`diamond`、`dinosaur`、`flowers`、​`girl`、`rainbow`、`robot`、`spaceship`、`sun`、`tea` 或 `trophy` 中的任何一個詞，如果你想製作一張聖誕賀卡，你可以使用 `cracker`、`elf`、`penguin`、`present`、`reindeer`、`santa` 或 `snowman`。\n\n你還可以編輯生日賀卡的 CSS 程式碼。\n\n+ 點選 `style.css` 選項卡。第一部分是賀卡**外部**的所有 CSS 樣式。\n\n+ 將 `background-color` 變更為 `lightgreen`。\n\n[[☃ image 4]]\n\n+ 你還可以更改圖片的尺寸。轉向 `#outside-pic` CSS 程式碼，將外部圖片的 `width` 和 `height` 更改為 `200px`（`px` 指畫素）。\n\n[[☃ image 5]]\n\n+ 字型也可進行更改。轉向 `#outside-title` CSS 並將 `font-family` 更改為 `Comic Sans MS`，`font-size` 更改為 `16pt`。\n\n[[☃ image 6]]\n\n你可以使用其他字型，比如：\n+ `<span style=\"font-family: Arial;\">arial</span>`\n+ `<span style=\"font-family: impact;\">Impact</span>`\n+ `<span style=\"font-family: tahoma;\">Tahoma</span>`\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-card-font.png",
+                                            "width": 705,
+                                            "height": 203
+                                        },
+                                        "box": [705,
+                                            203],
+                                        "labels": [],
+                                        "maxImageSize": 705,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-card-size.png",
+                                            "width": 714,
+                                            "height": 300
+                                        },
+                                        "box": [714,
+                                            300],
+                                        "labels": [],
+                                        "maxImageSize": 714,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-card-outside.png",
+                                            "width": 712,
+                                            "height": 167
+                                        },
+                                        "box": [712,
+                                            167],
+                                        "labels": [],
+                                        "maxImageSize": 712,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-card-sun.png",
+                                            "width": 711,
+                                            "height": 213
+                                        },
+                                        "box": [711,
+                                            213],
+                                        "labels": [],
+                                        "maxImageSize": 711,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-card-html.png",
+                                            "width": 714,
+                                            "height": 94
+                                        },
+                                        "box": [714,
+                                            94],
+                                        "labels": [],
+                                        "maxImageSize": 714,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-click.png",
+                                            "width": 386,
+                                            "height": 356
+                                        },
+                                        "box": [386,
+                                            356],
+                                        "labels": [],
+                                        "maxImageSize": 386,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": " hint ---\n+ 請檢視第 17 行找到該程式碼。\n+ 將 `robot` 這個詞改為 `sun`，你會發現圖片隨之改變！\n\n[[☃ image 3]]\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

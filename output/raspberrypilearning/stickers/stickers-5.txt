@@ -1,0 +1,189 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **絢麗的機器人貼紙 \n\n你可以使用圖片來製作漸變貼紙。如果你使用背景透明的圖片，漸變效果就會顯現出來。 \n\n你還可以建立向不同方向延伸的漸變。 \n\n+ 使用 `firerobot.png` 圖片向 `index.html` 新增一個貼紙：\n\n[[☃ image 1]]\n\n你可以調整 `height`（高度）來調整圖片大小，寬度也會自動改變。 \n\n+ 線性漸變通常從頂部向底部延伸，但你可以使用 `to`（朝向）來更改方向。例如：`to top`（朝向頂部）、`to left`（朝向左側）或 `to right`（朝向右側）。\n\n就對角漸變而言，你可以給出兩個方向。以下示例使用了 `to bottom left`（朝向左下方）。\n\n向 `style.css` 新增以下樣式來為你的新機器人貼紙新增一個對角漸變和絢麗的邊框：\n\n[[☃ image 2]]\n\n請注意，你可以使用 `outline`（輪廓）來在通常的邊框外部建立另一個邊框。 \n`outline-offset`（輪廓偏移）在邊框和輪廓之間新增了空白。 \n\n+ 讓我們為此貼紙新增一些文字。 \n\n向 `index.html` 新增一個包含文字“ROBOTS”（機器人）的 `<span>`，並賦予其一個 id。 \n\n[[☃ image 3]]\n\n+ 如果你使其變大並放置，文字效果會更好。 \n\n要放置文字，你將需要向 `#greensticker` 新增 `position: relative;` 並向 `#greentext` 新增 `position: absolute`。`製作一個機器人`專案中對定位進行了詳細介紹。 \n\n向 `style.css` 新增以下程式碼：\n\n[[☃ image 4]]\n\n+ 為製作最後的扭曲效果，讓我們使用 `transform: rotate` 來旋轉文字。\n\n[[☃ image 5]]\n\n嘗試更改文字旋轉的角度值。 \n\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-fire-rotate.png",
+                                            "width": 822,
+                                            "height": 229
+                                        },
+                                        "box": [822,
+                                            229],
+                                        "labels": [],
+                                        "maxImageSize": 822,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-fire-text-style.png",
+                                            "width": 824,
+                                            "height": 282
+                                        },
+                                        "box": [824,
+                                            282],
+                                        "labels": [],
+                                        "maxImageSize": 824,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-fire-span.png",
+                                            "width": 896,
+                                            "height": 226
+                                        },
+                                        "box": [896,
+                                            226],
+                                        "labels": [],
+                                        "maxImageSize": 896,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-fire-gradient.png",
+                                            "width": 820,
+                                            "height": 219
+                                        },
+                                        "box": [820,
+                                            219],
+                                        "labels": [],
+                                        "maxImageSize": 820,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-fire-html.png",
+                                            "width": 643,
+                                            "height": 214
+                                        },
+                                        "box": [643,
+                                            214],
+                                        "labels": [],
+                                        "maxImageSize": 643,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

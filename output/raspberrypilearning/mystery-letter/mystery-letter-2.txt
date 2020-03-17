@@ -1,0 +1,34 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **選擇你的資訊\n\n電影和書籍中運用神祕信件來傳達祕密資訊。 \n\n\n\n+ 想出一條神祕資訊；合適的長度約為 12 個單詞。如果你想不出資訊，你可以使用示例：“Your next clue is in the safe.The code is 65536.”（你的下一條線索在保險櫃裡。密碼是 65536。）\n\n+ 要麼把你的資訊記錄下來，要麼把它背下來。 \n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

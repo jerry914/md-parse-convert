@@ -1,0 +1,406 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "##顯示圖像\n\n讓我們先通過顯示在您的微圖像：位時，它的開機。\n\n\n\n+轉到[rpf.io/microbit-new](\"https://rpf.io/microbit-new“，”“，”_blank“）開始在MakeCode（PXT）編輯一個新的項目。打電話給你的新項目“互動式徽章”。\n\n[[☃圖像1]]\n\n+您現在應該看到的代碼編輯器。要在你的微繪製圖像：位，當它，拖一個'秀leds`從代碼區（左側）的`start`塊內塊供電。\n\n[[☃圖像2]]\n\n+要創建顯示圖像，點擊LED燈要亮起來：\n\n[[☃圖像3]]\n\n+您的代碼將在左側模擬器自動運行：\n\n[[☃圖像4]]\n\n+您還可以測試在微代碼：位本身！要做到這一點，請單擊“下載”菜單在屏幕的左側。\n\n[[☃圖像5]\n\n這將創建並下載一個`.hex`文件，將在你的微運行：位。\n\n\n+使用USB電纜插上你的微：位到您的計算機。然後，你應該看到你的微：位出現在你的電腦的文件管理器作為一個USB驅動器。\n\n[[☃圖像6]\n\n+如果您使用的是微：位上傳那麼'.hex`文件將被自動複製到微：位。請與您的志願者，如果你還不能肯定。\n\n否則，你將需要`.hex`文件複製到微：位。\n\n如果你正在使用__Internet Explorer__您可以從菜單中選擇'保存as`，在瀏覽器的底部會出現，然後選擇微：鑽頭驅動：\n\n[[☃圖像7]\n\n如果你正在使用__Google Chrome__你可以下載的文件後，點擊箭頭並選擇“顯示文件夾”，然後突出顯示的文件拖動到微：鑽頭驅動：\n\n[[☃圖像8]\n\n+在你的微背面光：當文件被複製位將閃爍。一旦停止你的程序將運行。你可以點擊你的微背面的復位按鈕：位重新啟動程序。\n\n[[☃圖像9]]\n\n+您現在應該看到在微觀圖像：位。如果你願意，你可以從你的微拔下USB電纜：位，並安裝電池。該方案將被保存在微：位。\n\n[[☃圖像10]\n\n\n\n你並不需要一個帳戶來保存你的東西！您的項目會自動保存在瀏覽器中，您可以點擊'Projects`看到您的項目。\n\n您也可以點擊保存，下載您的項目包含您的項目`.hex`文件：\n\n[[☃圖像11]\n\n另一台計算機上加載的項目，點擊“項目”，然後“導入文件”，然後選擇您`.hex`文件。\n\n[[☃圖像12]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 12": {
+                                    "graded": true,
+                                    "id": "image 12",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-import.png",
+                                            "width": 406,
+                                            "height": 148
+                                        },
+                                        "box": [406,
+                                            148],
+                                        "labels": [],
+                                        "maxImageSize": 406,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 11": {
+                                    "graded": true,
+                                    "id": "image 11",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-save.png",
+                                            "width": 270,
+                                            "height": 51
+                                        },
+                                        "box": [270,
+                                            51],
+                                        "labels": [],
+                                        "maxImageSize": 270,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 10": {
+                                    "graded": true,
+                                    "id": "image 10",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-battery.jpg",
+                                            "width": 640,
+                                            "height": 530
+                                        },
+                                        "box": [640,
+                                            530],
+                                        "labels": [],
+                                        "maxImageSize": 640,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 9": {
+                                    "graded": true,
+                                    "id": "image 9",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-reset.jpg",
+                                            "width": 640,
+                                            "height": 479
+                                        },
+                                        "box": [640,
+                                            479],
+                                        "labels": [],
+                                        "maxImageSize": 640,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 8": {
+                                    "graded": true,
+                                    "id": "image 8",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-save-chrome.png",
+                                            "width": 818,
+                                            "height": 222
+                                        },
+                                        "box": [818,
+                                            222],
+                                        "labels": [],
+                                        "maxImageSize": 818,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-save-explorer.png",
+                                            "width": 803,
+                                            "height": 319
+                                        },
+                                        "box": [803,
+                                            319],
+                                        "labels": [],
+                                        "maxImageSize": 803,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-drive.png",
+                                            "width": 167,
+                                            "height": 32
+                                        },
+                                        "box": [167,
+                                            32],
+                                        "labels": [],
+                                        "maxImageSize": 167,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-download.png",
+                                            "width": 396,
+                                            "height": 81
+                                        },
+                                        "box": [396,
+                                            81],
+                                        "labels": [],
+                                        "maxImageSize": 396,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-emulator.png",
+                                            "width": 365,
+                                            "height": 292
+                                        },
+                                        "box": [365,
+                                            292],
+                                        "labels": [],
+                                        "maxImageSize": 365,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-pattern.png",
+                                            "width": 184,
+                                            "height": 276
+                                        },
+                                        "box": [184,
+                                            276],
+                                        "labels": [],
+                                        "maxImageSize": 184,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-draw.png",
+                                            "width": 572,
+                                            "height": 330
+                                        },
+                                        "box": [572,
+                                            330],
+                                        "labels": [],
+                                        "maxImageSize": 572,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-name.png",
+                                            "width": 645,
+                                            "height": 55
+                                        },
+                                        "box": [645,
+                                            55],
+                                        "labels": [],
+                                        "maxImageSize": 645,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

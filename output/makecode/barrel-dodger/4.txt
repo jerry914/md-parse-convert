@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " Step 4\n\nDrag a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite x}}\\\\$ into the $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{on start}}\\\\$, click the dropdown, and select ay (acceleration y). Set the value to 500 so that character is pulled down by \\"gravity\\".\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/barrel-dodger/3.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

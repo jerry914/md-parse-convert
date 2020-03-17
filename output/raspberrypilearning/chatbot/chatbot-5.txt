@@ -1,0 +1,724 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Chatbot (CodeClub)](https://projects.raspberrypi.org/en/projects/chatbot \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **會判斷的機器人**\n\n你將對聊天機器人編寫程式，讓它依據收到的答案來決定要做什麼。\n\n首先，你將讓聊天機器人問一個可以用「是」或「不是」的方式來回答的問題。\n\n[[☃ article-block 1]]\n\n目前，你的聊天機器人對「不好」這個答案並不會有任何反應。\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n你可以在[[☃ inline-scratch 1]]的區段裡編寫任何程式，不一定是「說出」這種外觀類積木！\n\n如果你切換到聊天機器人的**造型**頁籤，你可以看到這個角色預設的造型不只一種。\n\n[[☃ image 1]]\n\n[[☃ article-block 4]]\n\n觀察到了嗎？在更改聊天機器人的造型後，它會持續這個外觀，不會恢復到一開始時的樣子。\n\n你可以測試看看：運行程式後回答「不好」，這樣機器人會露出不高興的表情。 接著，你再點擊角色重新開始程式，觀察看看機器人在詢問你的名字前，臉上的表情是開心的嗎？\n\n[[☃ image 2]]\n\n[[☃ article-block 5]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-costume-bug-test.png",
+                                            "width": 485,
+                                            "height": 366
+                                        },
+                                        "box": [485,
+                                            366],
+                                        "labels": [],
+                                        "maxImageSize": 485,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-costume-view-annotated.png",
+                                            "width": 303,
+                                            "height": 446
+                                        },
+                                        "box": [303,
+                                            446],
+                                        "labels": [],
+                                        "maxImageSize": 303,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(如果…那麼…否則 ::ontro",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n修改一下聊天機器人的程式， 它要詢問使用者「今天過得好不好？」，最後再加上使用者的[[☃ inline-scratch 1]] 。 [[☃ inline-scratch 2]]使用者回答「好」，聊天機器人就會回應「那就太棒了！」；使用者說「不好」，那它就什麼也不回應。\n\n[[☃ image 1]]\n\n[[☃ image 2]]\n\n[[☃ image 3]]\n\n[[☃ scratch 1]]\n\n為了正確測試程式，你應該要測試**兩次**：一次輸入答案「好」，另一次回答「不好」。\n\n",
+                                "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/nano-sprite.png",
+                                            "width": 59,
+                                            "height": 57
+                                        },
+                                        "box": [59,
+                                            57],
+                                        "labels": [],
+                                        "maxImageSize": 59,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-if-test2.png",
+                                            "width": 489,
+                                            "height": 367
+                                        },
+                                        "box": [489,
+                                            367],
+                                        "labels": [],
+                                        "maxImageSize": 489,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-if-test1-annotated.png",
+                                            "width": 485,
+                                            "height": 367
+                                        },
+                                        "box": [485,
+                                            367],
+                                        "labels": [],
+                                        "maxImageSize": 485,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當角色被點擊\n詢問 (你叫什麼名字？) 並等待\n變數 [名字 v] 設為 (詢問的答案)\n說出 (字串組合 (哈囉！) (詢問的答案)) 持續 (2) 秒\n+ 詢問 (字串組合 (今天過得好不好？) (名字)) 並等待\n+ 如果 <(詢問的答案) = (好)> 那麼\n  說出 (那就太棒了！) 持續 (2) 秒\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(名字 ::variables",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(如果 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n修改聊天機器人的程式，在它問完「今天過得好不好？」之後，如果得到的回答是「不好」，那麼就回應「明天會更好」。\n\n把原來的[[☃ inline-scratch 1]]積木換成[[☃ inline-scratch 2]]積木，這樣子機器人對其餘的回答[[☃ inline-scratch 3]]。\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/nano-sprite.png",
+                                            "width": 59,
+                                            "height": 57
+                                        },
+                                        "box": [59,
+                                            57],
+                                        "labels": [],
+                                        "maxImageSize": 59,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當角色被點擊\n詢問 (你叫什麼名字？) 並等待\n變數 [名字 v] 設為 (詢問的答案)\n說出 (字串組合 (哈囉！) (詢問的答案)) 持續 (2) 秒\n詢問 (字串組合 (今天過得好不好？) (名字)) 並等待\n\n+ 如果 <(詢問的答案) = (好)> 那麼\n  說出 (那就太棒了！) 持續 (2) 秒\n否則\n+ 說出 (明天會更好) 持續 (2) 秒\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(如果…那麼 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(如果…那麼…否則 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 3": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(說出「明天會更好」 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n測試你的程式。 你應該會在回答「不好」後，在機器人身上得到不同的回應。事實上，只要你的回答**是「好」的以外的答案**的時候，機器人都會說「明天會更好」。\n\n[[☃ image 1]]\n\n[[☃ image 2]]\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-if-else-test.png",
+                                            "width": 486,
+                                            "height": 366
+                                        },
+                                        "box": [486,
+                                            366],
+                                        "labels": [],
+                                        "maxImageSize": 486,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-if-test2.png",
+                                            "width": 489,
+                                            "height": 367
+                                        },
+                                        "box": [489,
+                                            367],
+                                        "labels": [],
+                                        "maxImageSize": 489,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n修改聊天機器人的程式，讓它在使用者回答時變換造型。\n\n[[☃ image 1]]\n\n[[☃ image 2]]\n\n修改[[☃ inline-scratch 1]]區段的程式，添加[[☃ inline-scratch 2]]的程式。\n\n[[☃ image 3]]\n\n[[☃ scratch 1]]\n\n測試並儲存你的程式，你應該會看到聊天機器人會根據使用者的回答有不同的外觀反應。\n\n",
+                                "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/nano-sprite.png",
+                                            "width": 59,
+                                            "height": 57
+                                        },
+                                        "box": [59,
+                                            57],
+                                        "labels": [],
+                                        "maxImageSize": 59,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-costume-test2.png",
+                                            "width": 486,
+                                            "height": 367
+                                        },
+                                        "box": [486,
+                                            367],
+                                        "labels": [],
+                                        "maxImageSize": 486,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-costume-test1.png",
+                                            "width": 488,
+                                            "height": 369
+                                        },
+                                        "box": [488,
+                                            369],
+                                        "labels": [],
+                                        "maxImageSize": 488,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當角色被點擊\n詢問 (你叫什麼名字？) 並等待\n變數 [名字 v] 設為 (詢問的答案)\n說出 (字串組合 (哈囉！) (詢問的答案)) 持續 (2) 秒\n詢問 (字串組合 (今天過得好不好？) (名字)) 並等待\n如果 <(詢問的答案) = (好)> 那麼\n\n+ 造型換成 (nano-c v)\n  說出 (那就太棒了！) 持續 (2) 秒\n否則\n+ 造型換成 (nano-d v)\n  說出 (明天會更好) 持續 (2) 秒\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(如果…那麼…否則 ::control",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(切換造型 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 5": {
+                            "id": "article-block 5",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n要解決這個問題，必須在聊天機器人程式的一開始，也就是[[☃ inline-scratch 1]]的時候，先[[☃ inline-scratch 2]]。\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n[[☃ image 2]]\n\n",
+                                "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/chatbot-costume-fix-test.png",
+                                            "width": 486,
+                                            "height": 367
+                                        },
+                                        "box": [486,
+                                            367],
+                                        "labels": [],
+                                        "maxImageSize": 486,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/chatbot/zh-TW/images/nano-sprite.png",
+                                            "width": 59,
+                                            "height": 57
+                                        },
+                                        "box": [59,
+                                            57],
+                                        "labels": [],
+                                        "maxImageSize": 59,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當角色被點擊\n\n+ 造型換成 (nano-a v)\n詢問 (你叫什麼名字？) 並等待\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 1": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(當角色被點擊 ::events",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"inline-scratch 2": {
+                "type": "inline-scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "(切換一個預定的造型 ::looks",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

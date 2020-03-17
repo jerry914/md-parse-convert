@@ -1,0 +1,189 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Displaying a rating\n\nShow a friendship rating on the screen.\n\n\n\n+ Click 'Variables' and make a new variable called `rating`.\n\n[[☃ image 1]]\n\n+ Drag a `set` block to the end of your `on button A+B pressed` code and select the `rating` variable:\n\n[[☃ image 2]]\n\n+ Click 'Math', and use the `pick random` block to set the rating to a random number between 0 and 100.\n\n[[☃ image 3]]\n\n+ Add code to show the rating on the screen.\n\n[[☃ image 4]]\n\n+ Finally, after a delay, display the instructions again. Remember that you can use right-click then 'Duplicate' to copy a block.\n    \n[[☃ image 5]]\n\n+ Test your code. Now, if you press buttons A and B together, a random rating should be displayed.\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/rate-your-mates/master/en/images/rate-instruct.png",
+                                            "width": 438,
+                                            "height": 409
+                                        },
+                                        "box": [438,
+                                            409],
+                                        "labels": [],
+                                        "maxImageSize": 438,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/rate-your-mates/master/en/images/rate-rating-show.png",
+                                            "width": 426,
+                                            "height": 495
+                                        },
+                                        "box": [426,
+                                            495],
+                                        "labels": [],
+                                        "maxImageSize": 426,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/rate-your-mates/master/en/images/rate-rating-random.png",
+                                            "width": 610,
+                                            "height": 458
+                                        },
+                                        "box": [610,
+                                            458],
+                                        "labels": [],
+                                        "maxImageSize": 610,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/rate-your-mates/master/en/images/rate-rating-set.png",
+                                            "width": 248,
+                                            "height": 451
+                                        },
+                                        "box": [248,
+                                            451],
+                                        "labels": [],
+                                        "maxImageSize": 248,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/rate-your-mates/master/en/images/rate-rating.png",
+                                            "width": 433,
+                                            "height": 355
+                                        },
+                                        "box": [433,
+                                            355],
+                                        "labels": [],
+                                        "maxImageSize": 433,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

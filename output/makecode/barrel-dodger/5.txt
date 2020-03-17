@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " Step 5\n\nNow let's create a platform base at the bottom of the screen.\nGet a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{set tilemap to}}\\\\$ and put it in $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{on start}}\\\\$.\nClick on the gray box to open the tilemap editor.\nIn the bottom left corner, set the size of the tilemap to 10x8\nand draw a platform for in the bottom two rows of the tilemap.\nFinally, click the Wall button, and fill in those two rows with walls.\n\n![Example of drawing tilemap](/static/lessons/barrel-dodger/draw-tilemap.gif)\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/barrel-dodger/4.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

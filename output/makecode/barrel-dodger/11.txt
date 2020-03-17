@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " Step 11\n\nOur final step is to end the game if a barrel touches the sprite player. Drag an $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{on sprite overlaps}}\\\\$ onto the editor. Set the sprite kind for otherSprite to Projectile. End the game with a $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{game over}}\\\\$ block inside.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/barrel-dodger/10.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

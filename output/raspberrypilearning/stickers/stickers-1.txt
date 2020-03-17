@@ -1,0 +1,99 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹\n\n你將在本專案中建立許多可用來裝飾網頁的有趣貼紙。你將學習使用逐漸從一種顏色向另一種變化的漸變使你的貼紙看起來很酷。 \n\n[[☃ image 1]]\n\n## **更多俱樂部領導參考資訊\n\n如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/stickers/print)。\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-finished.png",
+                                            "width": 629,
+                                            "height": 428
+                                        },
+                                        "box": [629,
+                                            428],
+                                        "labels": [],
+                                        "maxImageSize": 629,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 俱樂部領導備註",
+                                "articleBlock": "---\n\n---\n\n\n# **介紹：\n孩子們將在本專案中認識 CSS 中的線性漸變和徑向漸變。他們還將學習更多有關邊框和定位的內容。 \n\n# **線上資源\n\n我們推薦使用 [trinket](https://trinket.io/) 來線上編寫 HTML & CSS。本專案包含以下 trinket：\n\n+ [“貼紙”起點  -- jumpto.cc/web-sunrise](http://jumpto.cc/web-sunrise)\n\n孩子們也可使用該空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 來編寫自己的 HTML & CSS，或者他們可以使用該 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。\n\n還有一個 trinket，其中包含相關挑戰的解決方案樣例：\n\n+ [“貼紙”已完成 -- trinket.io/html/bb4e538e0a](https://trinket.io/html/bb4e538e0a)\n\n# **離線資源\n如果願意的話，本專案可[離線完成](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/)。你可以通過單擊此專案的“專案材料”連結來訪問專案資源。此連結包含一個“專案資源”部分，其中包括孩子們離線完成本專案時所需的資源。確保每個孩子都能訪問這些資源的副本。本節包括以下檔案：\n\n+ intro/index.html\n+ template/template.html\n+ template/style.css\n+ stickers/index.html\n+ stickers/style.css\n+ stickers/script.js\n+ stickers/robot .png 圖片\n\n你還可以在“志願者資源”部分中找到本專案挑戰的完整版本，其中包含：\n\n+ stickers-finished/index.html\n+ stickers-finished/style.css\n+ stickers-finished/script.js\n+ stickers-finished/robot .png 圖片\n\n\n（以上所有的資源也可以作為專案和志願者 `.zip` 檔案下載。）\n\n# **學習目標\n+ 本專案介紹了使用 CSS 漸變來建立有趣的效果。學生們還將擴充套件他們的 CSS 邊框和定位知識。 \n\n本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：\n\n+ [設計基本的 2D 和 3D 資源](https://www.raspberrypi.org/curriculum/design/creator)。\n\n# **挑戰\n+ “建立你自己的漸變貼紙”- 向文字新增線性漸變和徑向漸變；\n+ “製作更多貼紙！”- 將漸變與圖片和文字相結合以建立更多貼紙。\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 專案材料",
+                                "articleBlock": "---\n\n---\n# **專案資源\n* [包含所有專案資源的 .zip 檔案](resources/stickers-project-resources.zip)\n* [包含所有“介紹”專案資源的線上 Trinket](http://jumpto.cc/web-intro)\n* [包含所有“貼紙”專案資源的線上 Trinket](http://jumpto.cc/web-stickers)\n* [線上 Trinket 模板](http://jumpto.cc/trinket-template)\n* [線上空白 Trinket](http://jumpto.cc/trinket-blank)\n* [template/index.html](resources/template-index.html)\n* [template/style.css](resources/template-style.css)\n* [stickers/index.html](resources/stickers-index.html)\n* [stickers/style.css](resources/stickers-style.css)\n* [stickers/prefixfree.js](resources/stickers-prefixfree.js)\n* [stickers/bluerobot.png](resources/stickers-bluerobot.png)\n* [stickers/firerobot.png](resources/stickers-firerobot.png)\n* [stickers/purplerobot.png](resources/stickers-purplerobot.png)\n* [stickers/spacerobot.png](resources/stickers-spacerobot.png)\n* [stickers/dogrobot.png](resources/stickers-dogrobot.png)\n* [stickers/greenrobot.png](resources/stickers-greenrobot.png)\n* [stickers/rainbowrobot.png](resources/stickers-rainbowrobot.png)\n* [stickers/yellowrobot.png](resources/stickers-yellowrobot.png)\n\n# **俱樂部領導資源\n* [包含所有已完成專案資源的 .zip 檔案](resources/stickers-volunteer-resources.zip)\n* [線上完整 Trinket 專案](https://trinket.io/html/bb4e538e0a)\n* [stickers-finished/index.html](resources/stickers-finished-index.html)\n* [stickers-finished/style.css](resources/stickers-finished-style.css)\n* [stickers-finished/prefixfree.js](resources/stickers-finished-prefixfree.js)\n* [stickers-finished/bluerobot.png](resources/stickers-finished-bluerobot.png)\n* [stickers-finished/firerobot.png](resources/stickers-finished-firerobot.png)\n* [stickers-finished/purplerobot.png](resources/stickers-finished-purplerobot.png)\n* [stickers-finished/spacerobot.png](resources/stickers-finished-spacerobot.png)\n* [stickers-finished/dogrobot.png](resources/stickers-finished-dogrobot.png)\n* [stickers-finished/greenrobot.png](resources/stickers-finished-greenrobot.png)\n* [stickers-finished/rainbowrobot.png](resources/stickers-finished-rainbowrobot.png)\n* [stickers-finished/yellowrobot.png](resources/stickers-finished-yellowrobot.png)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

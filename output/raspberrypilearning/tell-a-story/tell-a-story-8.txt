@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 上傳圖片\n\n**如果你有 Trinket 賬戶**，你還可以將你自己的圖片上傳至你的網頁。\n\n+ 點選 trinket 頂部的圖片圖示，然後點選 **Add Image**（新增圖片）。\n\n[[☃ image 1]]\n\n+ 點選 **Upload**（上傳）按鈕，然後在電腦上找到你想使用的圖片，將其拖進方框中。或者使用按鈕來選中它。\n\n![Upload]\n\n+ 然後只需在 `<img>` 標記中的引號之間新增新圖片的名稱，如下所示：\n\n```html\n<img src=\"buildings.png\">\n```\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-upload.png",
+                                            "width": 510,
+                                            "height": 412
+                                        },
+                                        "box": [510,
+                                            412],
+                                        "labels": [],
+                                        "maxImageSize": 510,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

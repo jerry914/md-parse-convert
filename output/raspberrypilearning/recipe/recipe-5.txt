@@ -1,0 +1,96 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **方法\n\n接下來，讓我們說明如何製作你的食譜。\n\n\n\n+ 你將使用另一個列表寫出你的方法，但這次將使用__有序列表__，其中要運用 `<ol>` 標記。\n\n有序列表為編號列表，你應在步驟順序非常重要的情況下使用有序列表。\n\n在你原料列表的下方新增以下程式碼，確保其仍處於你的 `<body>` 標記內部：\n\n```\n<h3>Method:</h3>\n\n<ol>\n\n</ol>\n```\n\n[[☃ image 1]]\n\n+ 現在你只需要向你的新有序列表中新增列表專案：\n\n```\n<li>Peel the banana and add to a blender</li>\n```\n\n[[☃ image 2]]\n\n請注意，列表專案會被自動編號！\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-ol.png",
+                                            "width": 297,
+                                            "height": 227
+                                        },
+                                        "box": [297,
+                                            227],
+                                        "labels": [],
+                                        "maxImageSize": 297,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-method.png",
+                                            "width": 278,
+                                            "height": 193
+                                        },
+                                        "box": [278,
+                                            193],
+                                        "labels": [],
+                                        "maxImageSize": 278,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

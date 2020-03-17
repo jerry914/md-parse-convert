@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Three: Finishing the Setup\n\nNow on to finish the set up of the game. From $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{Info}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{set score to 0}}\\\\$ block and drag it into the $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{on start}}\\\\$. Change the **0** to **1**. From $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{Scene}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{set background color to}}\\\\$ and set it to light pink. Lastly, from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set var to}}\\\\$ and drag it into $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{on start}}\\\\$. Click the drop down and hit new variable, and make a variable called **direction**, and set its value to **1**.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/4.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,124 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Six: Setting Score and Creating Collisions\n\n### Setting Score and Setting Lives\n\nIn our game we want the player to have a score for the number of projectiles they destroy and then we want the player to have multiple lives in case they miss blocks. To do this go into $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{信息}}\\\\$ and drag $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{集比分}}\\\\$ into the $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{在啟動}}\\\\$ block. Then grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{集生活}}\\\\$ and drag it below the set $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{集比分}}\\\\$. Now change the number in $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{集生活}}\\\\$ to **5** so that the player can miss five projectiles before the game ends.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\nWhen the player runs out of lives the game should end and the player's score should be displayed. To do this, go to $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{信息}}\\\\$, grab $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{生活零}}\\\\$,and it into your workspace. Then go to $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{遊戲}}\\\\$ and grab $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{遊戲結束輸}}\\\\$. Drag it into $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{生活零}}\\\\$. Click on the lose button so it switches to win and then click the **(+)** symbol. When you click the **(+)** you should have to option to select an effect. Select the confetti effect.\n\n[[☃ iframe 3]]\n\n[[☃ iframe 4]]\n\nYou have now set up the basis of the scoring system!\n\n### Handling Collisions\n\nWhen a projectile hits the bottom wall, we want that to be a collision and to have the player's lives decrease by one. To add this feature, go into $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{現場}}\\\\$ and select $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{在那種命中牆上的精靈}}\\\\$ and drag it into your workspace. Now set the kind to be projectile.\n\nNow go into $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{雪碧}}\\\\$, select $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{破壞與影響精靈}}\\\\$, and drag it into on $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{精靈樣命中牆}}\\\\$. Then select the effect to as fire and click the **(+)** symbol next to it. Set the time to 100 ms. Drag out a $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{通過改變生活}}\\\\$ and put it under $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{破壞與影響精靈}}\\\\$. Set the number to -1. Now whenever a projectile collides with the bottom, it will be destroyed and the player's remaining lives will go down.\n\n![Player moving on the screen](/static/lessons/dance-party/missed-collision.gif)\n\n[[☃ iframe 5]]\n\n[[☃ iframe 6]]\n\nWhen the player collides with a projectile, their score should increase and the projectile should be destroyed. Go to $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{精靈}}\\\\$ and grab $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{對這樣的球員精靈重疊otherSprite樣的}}\\\\$ and drag it into your workspace. Change the field after otherSprite from player to projectile. Now go back into $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{精靈}}\\\\$ and drag $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{破壞與影響精靈}}\\\\$ into it. Set the effect to be disintegrate and then click the **(+)** symbol and enter 100 ms. Now go to $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{信息}}\\\\$ and grab $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{改變得分}}\\\\$ and drag it under $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{破壞與影響精靈}}\\\\$.\n\n![Player moving on the screen](/static/lessons/dance-party/collision-projectiles.gif)\n\n[[☃ iframe 7]]\n\n[[☃ iframe 8]]\n\nAnd now we have a fully functioning game!\n\n## Final Game\n\n[[☃ iframe 9]]\n\n[[☃ iframe 10]]\n\n![Working Game](/static/lessons/dance-party/working-game.gif)\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/7.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"iframe 4": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/8.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"iframe 6": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/9.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"iframe 8": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/10.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"iframe 10": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/11.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

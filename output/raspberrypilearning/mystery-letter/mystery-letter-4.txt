@@ -1,0 +1,96 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **使用類樣式\n\n\n\n+ 你是否注意到了 `<span>` 標記中的 `class=\"\"`？你可以用它來以同樣的方式設定多項內容的樣式。 \n\n+ 向你的一些 `<span>` 標記新增 `magazine1`（雜誌 1）類，並測試你的網頁。\n\n[[☃ image 1]]\n\n\n\n+ 你可以向一個元素新增多個類。只需在類之間留一個空格。向其中一個 `<span>` 標記新增 `big`（大）類。測試你的頁面。 \n\n[[☃ image 2]]\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-big.png",
+                                            "width": 885,
+                                            "height": 143
+                                        },
+                                        "box": [885,
+                                            143],
+                                        "labels": [],
+                                        "maxImageSize": 885,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-magazine1.png",
+                                            "width": 872,
+                                            "height": 362
+                                        },
+                                        "box": [872,
+                                            362],
+                                        "labels": [],
+                                        "maxImageSize": 872,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

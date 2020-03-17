@@ -1,0 +1,34 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Dance Party\n\nPress the arrow keys that match the ones appearing in blocks on the screen. When your player collides with an arrow block you will get points. Try to beat your high score and dance away!\n\n![Game view in simulator](/static/lessons/dance-party/working-game.gif)\n\n## Learning Objectives\n\nLearn the basics for a collision based game!\n\n* The concept of sprite\n* How to set up a tilemap and scene\n* Spawning and destroying projectiles\n* Setting and moving a character\n* Setting a score increment\n* Creating particle effects\n* Random generation\n\n## Lesson Sections\n\n* [Part One: Setting the Scene](#part-one-setting-the-scene)\n* [Part Two: Creating the Sprite](#part-two-creating-the-sprite)\n* [Part Three: Move the Player](#part-three-move-the-player)\n* [Part Four: Setting Speed Variables](#part-four-setting-speed-variables)\n* [Part Five: Spawning Projectiles](#part-five-spawning-projectiles)\n* [Part Six: Setting Score and Creating Collisions](#part-six-setting-score-and-creating-collisions)\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

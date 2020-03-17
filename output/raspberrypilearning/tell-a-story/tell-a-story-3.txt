@@ -1,0 +1,34 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 確定一個故事\n\n在你進行編碼之前，你需要確定一個故事。考慮一下你想講述的故事。可以是：\n\n+ 一個著名的故事\n+ 一個你虛構的故事\n+ 在你或你認識的人身上發生的故事\n\n甚至無需為一個故事，可以是一個笑話、一首詩歌或你想講述的任何其他內容！\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

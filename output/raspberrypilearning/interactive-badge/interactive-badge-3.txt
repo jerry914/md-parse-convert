@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "##顯示一個笑臉\n\n讓我們顯示在您的微幸福的臉：位按下“A”按鈕時。\n\n\n\n位上電：+到目前為止，當微你只運行代碼。當按下一個按鈕，你也可以運行代碼。\n\n從拖動輸入一個“按鈕按下”塊並確保'A'是選自：\n\n[[☃圖像1]]\n\n按下位：在你的微的'A'按鈕時，此塊中添加的任何代碼運行。\n\n+拖到另一個人'show leds`塊新的事件中，畫一個笑臉圖案。\n\n[[☃圖像2]]\n\n+測試在仿真器中的新代碼。按“A”按鈕，你會看到你的微幸福的臉：位：\n\n[[☃圖像3]]\n\n您也可以在自己的微測試出你的新代碼：位。",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-happy-emulator.png",
+                                            "width": 376,
+                                            "height": 302
+                                        },
+                                        "box": [376,
+                                            302],
+                                        "labels": [],
+                                        "maxImageSize": 376,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-happy.png",
+                                            "width": 227,
+                                            "height": 283
+                                        },
+                                        "box": [227,
+                                            283],
+                                        "labels": [],
+                                        "maxImageSize": 227,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/interactive-badge/zh-CN/images/badge-button-a.png",
+                                            "width": 610,
+                                            "height": 315
+                                        },
+                                        "box": [610,
+                                            315],
+                                        "labels": [],
+                                        "maxImageSize": 610,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

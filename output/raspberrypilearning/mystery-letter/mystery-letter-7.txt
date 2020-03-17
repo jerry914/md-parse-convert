@@ -1,0 +1,344 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **建立一個新類 \n\n讓我們建立一個看起來像從漫畫書上剪下下來的樣式。[jumpto.cc/web-fonts](\"http://jumpto.cc/web-fonts\",\" \" \"_blank\") 提供了大量可免費使用的字型。 \n\n\n\n+ 在 __style.css__ 檔案中新增一個 `comic`（漫畫）類。在 ​`magazine2`（雜誌 2）後面比較合適。請不要忘記類名稱前面的小點。 \n\n[[☃ image 1]]\n\n如果你收到一個警告說“The Rule is empty”（規則為空），請不要擔心；你接下來會解決這個問題。\n\n+ 現在向漫畫 CSS 類新增一些 CSS。如果你喜歡，你可以使用不同的顏色。在 [jumpto.cc/web-fonts](\"http://jumpto.cc/web-fonts\",\" \" \"_blank\") 有大量顏色的列表。\n\n[[☃ image 2]]\n\n+ 將漫畫樣式用在 HTML 檔案內的某些 `<span>` 標記中，並測試你的頁面：\n\n[[☃ image 3]]\n\n+ 現在你可以新增一個有趣的字型。開啟一個新的瀏覽器選項卡或視窗。前往 [jumpto.cc/web-fonts](\"http://jumpto.cc/web-fonts\",\" \" \"_blank\") 並搜尋 __'bangers'__：\n\n[[☃ image 4]]\n\n+ 點選 Quick-use（快速使用）按鈕：\n\n[[☃ image 5]]\n\n+ 將載入一個新的頁面。向下滾動，直至你看到：\n\n[[☃ image 6]]\n\n然後複製高亮程式碼。 \n\n+ 將你剛剛從谷歌字型複製的 `<link>` 程式碼貼上到你網頁的 `<head>` 中：\n\n[[☃ image 7]]\n\n這讓你能在你的網頁中使用 Bangers 字型。 \n\n+ 返回到谷歌字型，繼續向下滾動頁面，然後複製 font-family 程式碼：\n\n[[☃ image 8]]\n\n+ 現在返回 trinket 中的 __'style.css'__ 檔案，並將 font-family 程式碼貼上到漫畫樣式中：\n\n[[☃ image 9]]\n\n+ 測試你的網頁。效果應如下所示： \n\n[[☃ image 10]]\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 10": {
+                                    "graded": true,
+                                    "id": "image 10",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts-output.png",
+                                            "width": 473,
+                                            "height": 355
+                                        },
+                                        "box": [473,
+                                            355],
+                                        "labels": [],
+                                        "maxImageSize": 473,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 9": {
+                                    "graded": true,
+                                    "id": "image 9",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts-comic.png",
+                                            "width": 369,
+                                            "height": 119
+                                        },
+                                        "box": [369,
+                                            119],
+                                        "labels": [],
+                                        "maxImageSize": 369,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 8": {
+                                    "graded": true,
+                                    "id": "image 8",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts-bangers.png",
+                                            "width": 916,
+                                            "height": 173
+                                        },
+                                        "box": [916,
+                                            173],
+                                        "labels": [],
+                                        "maxImageSize": 916,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts-head.png",
+                                            "width": 878,
+                                            "height": 91
+                                        },
+                                        "box": [878,
+                                            91],
+                                        "labels": [],
+                                        "maxImageSize": 878,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts-link.png",
+                                            "width": 734,
+                                            "height": 191
+                                        },
+                                        "box": [734,
+                                            191],
+                                        "labels": [],
+                                        "maxImageSize": 734,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts2.png",
+                                            "width": 771,
+                                            "height": 174
+                                        },
+                                        "box": [771,
+                                            174],
+                                        "labels": [],
+                                        "maxImageSize": 771,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts1.png",
+                                            "width": 918,
+                                            "height": 325
+                                        },
+                                        "box": [918,
+                                            325],
+                                        "labels": [],
+                                        "maxImageSize": 918,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-comic-output.png",
+                                            "width": 929,
+                                            "height": 357
+                                        },
+                                        "box": [929,
+                                            357],
+                                        "labels": [],
+                                        "maxImageSize": 929,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-comic2.png",
+                                            "width": 307,
+                                            "height": 101
+                                        },
+                                        "box": [307,
+                                            101],
+                                        "labels": [],
+                                        "maxImageSize": 307,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-comic1.png",
+                                            "width": 424,
+                                            "height": 189
+                                        },
+                                        "box": [424,
+                                            189],
+                                        "labels": [],
+                                        "maxImageSize": 424,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

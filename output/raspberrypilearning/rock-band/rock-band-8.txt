@@ -1,0 +1,186 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **挑戰：改良你的樂隊**\n\n使用你在本專案學到的技能來創建自己的樂隊！你可以創造任何你想要的樂器 - 從範例庫看看有哪些跟樂器有關的角色和音效，從裡頭獲得靈感。\n\n[[☃ image 1]]\n\n[[☃ scratch 1]]\n\n你的樂器不一定要十分合理。例如，你可以让鬆餅製成鋼琴！\n\n[[☃ image 2]]\n\n你可以用範例庫中現成的角色，也可以自己畫一個！\n\n[[☃ image 3]]\n\n[[☃ article-block 1]]\n\n如果你有麥克風，你可以錄下自己的聲音，甚至可以用攝像裝置來敲擊樂器！\n\n[[☃ image 4]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-band/zh-TW/images/band-io.png",
+                                            "width": 270,
+                                            "height": 342
+                                        },
+                                        "box": [270,
+                                            342],
+                                        "labels": [],
+                                        "maxImageSize": 270,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-band/zh-TW/images/band-draw.png",
+                                            "width": 145,
+                                            "height": 201
+                                        },
+                                        "box": [145,
+                                            201],
+                                        "labels": [],
+                                        "maxImageSize": 145,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-band/zh-TW/images/band-piano.png",
+                                            "width": 610,
+                                            "height": 462
+                                        },
+                                        "box": [610,
+                                            462],
+                                        "labels": [],
+                                        "maxImageSize": 610,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-band/zh-TW/images/band-ideas-sounds.png",
+                                            "width": 720,
+                                            "height": 388.07339449541286
+                                        },
+                                        "box": [720,
+                                            388.07339449541286],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當角色被點擊\n演奏樂器設為 (\\(1\\) 鋼琴 v)\n演奏音階 (60) (0.25) 拍\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 為什麼角色在換造型時畫面有「跳」一下的感覺？",
+                                "articleBlock": "---\n\n---\n在創建自己的角色時，你可能會發現當你點擊角色，它在換造型時有「跳」一下，這是因為角色的兩個造型的中心位置不一樣。\n\n這修正這個問題，請讓角色中每個造型的中心位置保持一致。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

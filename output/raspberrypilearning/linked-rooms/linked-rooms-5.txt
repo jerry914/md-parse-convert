@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：設定遊戲房間樣式並進行連結\n\n編輯遊戲房間的 HTML 和 CSS，使網頁如下所示： \n\n[[☃ image 1]]\n\n提示：你將需要在 `gamesroom.css` 中更改背景顏色、字型顏色和邊框顏色。亮綠色叫做 `chartreuse`。  \n\n提示：你將需要在 `gamesroom.html` 中新增一個連結到 `hall.html` 的 `<a>` 連結。\n\n\n\n\n--- /challenge ---\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-games-challenge.png",
+                                            "width": 490,
+                                            "height": 285
+                                        },
+                                        "box": [490,
+                                            285],
+                                        "labels": [],
+                                        "maxImageSize": 490,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

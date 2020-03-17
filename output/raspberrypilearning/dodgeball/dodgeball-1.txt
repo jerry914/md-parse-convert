@@ -1,0 +1,166 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Dodgeball (CodeClub)](https://projects.raspberrypi.org/en/projects/dodgeball \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {"image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "useBoxSize": true,
+                    "backgroundImage": {
+                        "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                        "width": 75,
+                        "height": 26
+                    },
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "aspectRatio": 0.34987593052109184
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "\n\n這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2) 版本。\n\n\n\n# **介紹**\n\n您將學習如何創建一個平台類型的遊戲（platform game），在該遊戲中玩家必須躲開迎面而來的球，抵達終點才能獲得勝利。\n\n\n\n點擊綠旗開始遊戲，用方向鍵移動，用<kbd>空白鍵</kbd>跳躍。\n\n[[☃ iframe 1]]\n\n\n\n--- print-only ---\n\n[[☃ image 1]]\n\n--- /print-only ---\n\n# **[[☃ article-block 1]]\n\n# **[[☃ article-block 2]]\n\n# **[[☃ article-block 3]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://scratch.mit.edu/projects/embed/251809924/?autostart=false",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/dodgeball/zh-TW/images/dodgeball-showcase.png",
+                                            "width": 482,
+                                            "height": 362
+                                        },
+                                        "box": [482,
+                                            362],
+                                        "labels": [],
+                                        "maxImageSize": 482,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "# **📍 你會用到**## **硬體**+ 可運行 Scratch 3 的電腦## **軟體**+ Scratch 3 ([線上版](https://scratch.mit.edu/projects/editor/) 或 [離線版](https://scratch.mit.edu/download/))## **下載**材料包可[由此下載](http://rpf.io/p/en/dodgeball-go)。",
+                                "articleBlock": "*\n\n# **title: 你會用到**\n\n## **硬體**\n\n+ 可運行 Scratch 3 的電腦\n\n## **軟體**\n\n+ Scratch 3 ([線上版](https://scratch.mit.edu/projects/editor/) 或 [離線版](https://scratch.mit.edu/download/))\n\n## **下載**\n\n材料包可[由此下載](http://rpf.io/p/en/dodgeball-go)。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "# **📍 你會學到**+ 如何讓玩家用鍵盤按鍵控制遊戲中的角色+ 怎麼用 Scratch 中的判斷陳述式積木：`如果…那麼…否則`{:class=\"block3control\"}+ 角色分身的使用時機",
+                                "articleBlock": "*\n\n# **title: 你會學到**\n\n+ 如何讓玩家用鍵盤按鍵控制遊戲中的角色\n+ 怎麼用 Scratch 中的判斷陳述式積木：`如果…那麼…否則`{:class=\"block3control\"}\n+ 角色分身的使用時機\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "# **📍 給教師的其它資訊**如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/dodgeball/print \"_blank\" \"title\")。你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/dodgeball-get)。",
+                                "articleBlock": "*\n\n# **title: 給教師的其它資訊**\n\n\n\n如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/dodgeball/print \"_blank\" \"title\")。\n\n\n\n你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/dodgeball-get)。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

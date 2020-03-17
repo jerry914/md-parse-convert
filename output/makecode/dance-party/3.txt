@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Three: Move the Player\n\nOur next step is to create a player that can move strictly between four spots. To do this go to $\\require{enclose}\\enclose{box}[mathcolor=\"#d54322\",mathbackground=\"#d54322\"]{\\color{white}{調節器}}\\\\$ and grab $\\require{enclose}\\enclose{box}[mathcolor=\"#d54322\",mathbackground=\"#d54322\"]{\\color{white}{按鈕按下}}\\\\$ and drag it into your workspace. Then in the first drop down list select **right**. Now grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{集mySprite上位置X Y}}\\\\$ and under the drop down select your sprite. For the x value type in **130** and then for the y value type in **100**.\n\nSelect the $\\require{enclose}\\enclose{box}[mathcolor=\"#d54322\",mathbackground=\"#d54322\"]{\\color{white}{按鈕按下}}\\\\$ that contains the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{集mySprite上位置X Y}}\\\\$ and duplicate it **3** times. For each of the new copies, set one to up, the other to down, and the third to left. Because we want the y variable to remain the same, only change the positions for x.\n\n* Up:     x = 60\n* Down:   x = 100\n* Right:  x = 130\n* Left:   x = 30\n\nNow you should have four $\\require{enclose}\\enclose{box}[mathcolor=\"#d54322\",mathbackground=\"#d54322\"]{\\color{white}{調節器}}\\\\$ blocks that look like this.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n![Player moving on the screen](/static/lessons/dance-party/moving-player.gif)\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/3.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

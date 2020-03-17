@@ -1,0 +1,12 @@
+"scratch IDX": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "BLOCK",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },

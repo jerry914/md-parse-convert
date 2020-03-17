@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **編輯你的資訊\n\n讓我們將你的資訊放在網頁上。\n\n\n\n+ 開啟這個 trinket：[jumpto.cc/web-letter](\"http://jumpto.cc/web-letter\",\" \" \"_blank\")。 \n\n此專案應如下所示：\n\n[[☃ image 1]]\n\n+ “生日快樂”專案中已介紹過段落標記 `<p>`。`<span>` 標記用於將一個段落內部的較小文字塊分組，由此我們可以設定其樣式。 \n\n[[☃ image 2]]\n\n\n\n+ 通過在每個 `<span>` 內放一個單詞來將這些單詞變為你的資訊。如果你的資訊長度不同，你將需要增加或移除 `<span>` 標記。 \n\n[[☃ image 3]]\n\n\n\n+ 點選執行按鈕來測試你的 trinket。\n\n如果你檢視這些單詞，你會發現他們的樣式被設定為像貼上在頁面上一樣。\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-message.png",
+                                            "width": 779,
+                                            "height": 179
+                                        },
+                                        "box": [779,
+                                            179],
+                                        "labels": [],
+                                        "maxImageSize": 779,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-placeholder.png",
+                                            "width": 391,
+                                            "height": 422
+                                        },
+                                        "box": [391,
+                                            422],
+                                        "labels": [],
+                                        "maxImageSize": 391,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-starter.png",
+                                            "width": 715,
+                                            "height": 186
+                                        },
+                                        "box": [715,
+                                            186],
+                                        "labels": [],
+                                        "maxImageSize": 715,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,70 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Four: Setting Speed Variables\n\nTo get started with our speed variables, drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{集VAR來}}\\\\$ and drag it into start. Rename the variable to speed and set it to 40.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n### ~hint\n\n#### Changing Speed\n\nWe can increase the speed at which projectiles fall. To do this go to $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{在遊戲更新每毫秒}}\\\\$ and drag it into workspace. Then change the number to 2000 ms. Go to $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{變量}}\\\\$ and select $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{通過改變}}\\\\$ and drag it into $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{在遊戲更新}}\\\\$. Select the drop down and choose the speed variable. Now every two seconds, the projectile speed will increment by 1.\n\n[[☃ iframe 3]]\n\n[[☃ iframe 4]]\n### ~\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/4.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"iframe 4": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/5.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

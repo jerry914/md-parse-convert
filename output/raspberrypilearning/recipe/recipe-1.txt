@@ -1,0 +1,99 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹\n\n你將在本專案中學習如何為你最喜愛的食譜建立一個網頁。\n\n[[☃ image 1]]\n\n## **更多俱樂部領導參考資訊\n\n如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/recipe/print)。\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-final.png",
+                                            "width": 460,
+                                            "height": 482
+                                        },
+                                        "box": [460,
+                                            482],
+                                        "labels": [],
+                                        "maxImageSize": 460,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 俱樂部領導備註",
+                                "articleBlock": "---\n\n---\n\n\n# **介紹：\n孩子們將在本專案中學習 HTML 列表和 CSS 顏色相關內容。他們將建立自己的食譜，新增原料和方法列表。\n\n# **線上資源\n\n我們推薦使用 [trinket](https://trinket.io/) 來線上編寫 HTML & CSS。\n\n孩子們也可使用該空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 來編寫自己的 HTML & CSS，或者他們可以使用該 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。\n\n還有一個 trinket，其中包含相關挑戰的解決方案樣例：\n\n+ [“食譜”已完成 -- trinket.io/html/c0fd9b40cd](https://trinket.io/html/c0fd9b40cd)\n\n# **離線資源\n如果願意的話，本專案可[離線完成](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/)。你可以通過單擊此專案的“專案材料”連結來訪問專案資源。此連結包含一個“專案資源”部分，其中包括孩子們離線完成本專案時所需的資源。確保每個孩子都能訪問這些資源的副本。本節包括以下檔案：\n\n+ template/index.html\n+ template/style.css\n\n你還可以在“志願者資源”部分中找到本專案挑戰的完整版本，其中包含：\n\n+ recipe-finished/index.html\n+ recipe-finished/style.css\n+ recipe-finished/banana.jpg\n\n（以上所有的資源也可以作為專案和志願者 `.zip` 檔案下載。）\n\n# **學習目標\n+ 編寫 HTML：\n+ `<ul>`、`<ol>` 和 `<li>` 列表標記；\n+ `<hr/>` 標記；\n+ 鞏固巢狀標記的使用。\n\n+ 編寫 CSS：\n+ 顏色（名稱和十六進位制程式碼）。\n\n本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：\n\n+ [設計基本的 2D 和 3D 資源](https://www.raspberrypi.org/curriculum/design/creator)。\n\n# **挑戰\n“更多原料”- 向無序列表新增更多專案；\n“更多步驟”- 向有序列表新增更多專案；\n“更多顏色”- 新增顏色名稱、rgb 值和十六進位制程式碼；\n“評論”- 新增另一個無序列表；\n“更多樣式”- 新增圖片和字型。\n\n# **離線完成此專案\n如果孩子們要離線完成此專案，他們將需要把他們打算使用的圖片儲存在 Template.html 檔案所在的資料夾中。\n\n他們隨後可以將檔名新增進他們的 `<img>` 標記中：\n\n```\n<img src=\"banana.jpg\" />\n```\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 專案材料",
+                                "articleBlock": "---\n\n---\n# **專案資源\n* [包含所有專案資源的 .zip 檔案](resources/recipe-project-resources.zip)\n* [線上 Trinket 模板](http://jumpto.cc/trinket-template)\n* [線上空白 Trinket](http://jumpto.cc/trinket-blank)\n* [template/index.html](resources/template-index.html)\n* [template/style.css](resources/template-style.css)\n\n# **俱樂部領導資源\n* [包含所有已完成專案資源的 .zip 檔案](resources/recipe-volunteer-resources.zip)\n* [線上完整 Trinket 專案](https://trinket.io/html/c0fd9b40cd)\n* [recipe-finished/index.html](resources/recipe-finished-index.html)\n* [recipe-finished/style.css](resources/recipe-finished-style.css)\n* [recipe-finished/banana.png](resources/recipe-finished-banana.png)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

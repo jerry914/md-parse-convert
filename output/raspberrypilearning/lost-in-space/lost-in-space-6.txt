@@ -1,0 +1,178 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **彈跳的行星**\n\n現在我們添加一個在太空漂浮的岩石。\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n\n當**綠旗被點擊**時，你的岩石角色應該**不停**的**移動**，而且一碰到邊緣就**反彈**。\n\n \n\n這裡是你需要的程式積木：\n\n```blocks3\n移動 (10) 點\n\n碰到邊緣就反彈\n\n當 @greenflag 被點擊\n\n重複無限次\n```\n\n你也可以用下面其中一個積木，讓岩石角色朝不同的方向移動：\n\n```blocks3\n右轉 @turnright (15) 度\n\n面朝 (Earth v) 向\n```\n\n \n\n這是讓岩石不斷彈跳的程式：\n\n[[☃ image 1]]\n\n```blocks3\n當 @greenflag 被點擊\n面朝 (Earth v) 向\n重複無限次\n    移動 (2) 點\n    碰到邊緣就反彈\nend\n```\n\n ",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-rock.png",
+                                            "width": 64,
+                                            "height": 40
+                                        },
+                                        "box": [64,
+                                            40],
+                                        "labels": [],
+                                        "maxImageSize": 64,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n添加一個名為 rock（岩石）的角色到你的動畫裡。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-rock-sprite.png",
+                                            "width": 473,
+                                            "height": 356
+                                        },
+                                        "box": [473,
+                                            356],
+                                        "labels": [],
+                                        "maxImageSize": 473,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n你可以為岩石編寫程式，讓它在舞台上四處彈跳嗎？\n\n[[☃ image 1]]\n\n[[☃ article-block 1]] ",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-bounce-test.png",
+                                            "width": 117,
+                                            "height": 89
+                                        },
+                                        "box": [117,
+                                            89],
+                                        "labels": [],
+                                        "maxImageSize": 117,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

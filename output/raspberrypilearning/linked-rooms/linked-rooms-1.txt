@@ -1,0 +1,86 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹\n\n你將在本專案中建立一組互連房間，其中每個房間都為一個不同的網頁，你可以使用 HTML 進行裝飾。 \n\n[[☃ iframe 1]]\n\n__說明__：點選房門以在房間之間移動。\n\n## **更多俱樂部領導參考資訊\n\n如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/linked-rooms/print)。\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/html/ba5d27ec68?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 俱樂部領導備註",
+                                "articleBlock": "---\n\n---\n\n\n# **介紹：\n孩子們將在本專案中認識同一專案中的多個互連網頁，每個網頁都有自身的 CSS 檔案。 \n\n\n# **線上資源\n\n我們推薦使用 [trinket](https://trinket.io/) 來線上編寫 HTML & CSS。本專案包含以下 trinket：\n\n+ [‘互連房間’起點  -- jumpto.cc/web-rooms](http://jumpto.cc/web-rooms)\n\n孩子們也可使用該空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 來編寫自己的 HTML & CSS，或者他們可以使用該 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。\n\n還有一個 trinket，其中包含相關挑戰的解決方案樣例：\n\n+ [‘互連房間已完成’-- https://trinket.io/html/ba5d27ec68](https://trinket.io/html/ba5d27ec68)\n\n# **離線資源\n如果願意的話，本專案可[離線完成](https://www.codeclubprojects.org/en-GB/resources/webdev-working-offline/)。你可以通過單擊此專案的“專案材料”連結來訪問專案資源。此連結包含一個“專案資源”部分，其中包括孩子們離線完成本專案時所需的資源。確保每個孩子都能訪問這些資源的副本。本節包括以下檔案：\n\n+ linked-rooms/index.html\n+ linked-rooms/style.css\n+ linked-rooms/script.js\n+ linked-rooms/prefixfree.js\n+ linked-rooms/4 張 .png 圖片\n+ template/template.html\n+ template/style.css\n\n你還可以在“志願者資源”部分中找到本專案挑戰的完整版本，其中包含：\n\n+ linked-rooms-finished/index.html\n+ linked-rooms-finished/style.css\n+ linked-rooms-finished/script.js\n+ linked-rooms-finished/prefixfree.js\n+ linked-rooms-finished/4 張 .png 圖片\n\n（以上所有的資源也可以作為專案和志願者 `.zip` 檔案下載。）\n\n# **學習目標\n+ 本專案介紹了具備多個互連 html 頁面的專案\n+ 還介紹了多個 CSS 檔案\n\n本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：\n\n+ [設計基本的 2D 和 3D 資源](https://www.raspberrypi.org/curriculum/design/creator)。\n\n# **挑戰\n+ “新增另一個連結”- 在同一專案的頁面之間新增一個連結；\n+ “設定遊戲房間樣式並進行連結”- 新增一個連結並使用頁面自身的 CSS 檔案設定頁面樣式。 \n+ “新增更多房門！”- 使用 <div> 作為可點選的連結\n+ “向遊戲房間新增桌布”- 新增一張背景圖片\n+ “化為己有！”- 運用所學技術新增更多房間\n+ “新增一個鑰匙游標”- 一個有趣的額外可選項，適用於完成專案的孩子\n\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 專案材料",
+                                "articleBlock": "---\n\n---\n# **專案資源\n* [包含所有專案資源的 .zip 檔案](resources/rooms-project-resources.zip)\n* [包含所有“互連房間”專案資源的線上 Trinket](http://jumpto.cc/web-rooms)\n* [線上 Trinket 模板](http://jumpto.cc/trinket-template)\n* [線上空白 Trinket](http://jumpto.cc/trinket-blank)\n* [template/index.html](resources/template-index.html)\n* [template/style.css](resources/template-style.css)\n* [linked-rooms/index.html](resources/linked-rooms-index.html)\n* [linked-rooms/style.css](resources/linked-rooms-style.css)\n* [linked-rooms/tvroom.html](resources/linked-rooms-tvroom.html)\n* [linked-rooms/tvroom.css](resources/linked-rooms-tvroom.css)\n* [linked-rooms/wallpaper.png](resources/linked-rooms-wallpaper.png)\n* [linked-rooms/space-invader.png](resources/linked-rooms-space-invader.png)\n* [linked-rooms/tiles.png](resources/linked-rooms-tiles.png)\n* [linked-rooms/star.png](resources/linked-rooms-star.png)\n* [linked-rooms/stripes.png](resources/linked-rooms-stripes.png)\n\n# **俱樂部領導資源\n* [包含所有已完成專案資源的 .zip 檔案](resources/rooms-volunteer-resources.zip)\n* [線上完整 Trinket 專案](https://trinket.io/html/1d4d4c5ce1)\n* [linked-rooms-finished/index.html](resources/linked-rooms-finished-index.html)\n* [linked-rooms-finished/style.css](resources/linked-rooms-finished-style.css)\n* [linked-rooms-finished/tvroom.html](resources/linked-rooms-finished-tvroom.html)\n* [linked-rooms-finished/tvroom.css](resources/linked-rooms-finished-tvroom.css)\n* [linked-rooms-finished/gamesroom.html](resources/linked-rooms-finished-gamesroom.html)\n* [linked-rooms-finished/gamesroom.css](resources/linked-rooms-finished-gamesroom.css)\n* [linked-rooms-finished/wallpaper.png](resources/linked-rooms-finished-wallpaper.png)\n* [linked-rooms-finished/space-invader.png](resources/linked-rooms-finished-space-invader.png)\n* [linked-rooms-finished/tiles.png](resources/linked-rooms-finished-tiles.png)\n* [linked-rooms-finished/star.png](resources/linked-rooms-finished-star.png)\n* [linked-rooms-finished/stripes.png](resources/linked-rooms-finished-stripes.png)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,124 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[Create your own world (CodeClub)](https://projects.raspberrypi.org/en/projects/create-your-own-world \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **挑戰：加個敵人**\n\n如果你有辦法的話，可以在遊戲中加入一個四處巡邏的敵人。 只要`玩家`被敵人抓到，遊戲就以失敗結束。\n\n+ 材料包裡已經有`敵人`角色。 為`敵人`角色寫個程式，讓他只出現在空間2裡頭。\n\n+ 再添加一些程式，讓`敵人`在碰到`玩家`角色時，結束所有的程式。 把這些程式分開編寫會比較容易。 `敵人`角色的程式看起來會像這樣：\n\n[[☃ scratch 1]]\n\n+ 測試你新寫的程式，檢查以下： \n    + `敵人`只會在空間2顯示\n    + `敵人`在某個定點巡邏\n    + `敵人`碰到`玩家`就結束\n\n你能在空間 3 再創造一個在牆另一側巡邏的`敵人`嗎？\n\n[[☃ image 1]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/create-your-own-world/zh-TW/images/world-enemy2.png",
+                                            "width": 392,
+                                            "height": 224
+                                        },
+                                        "box": [392,
+                                            224],
+                                        "labels": [],
+                                        "maxImageSize": 392,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"scratch 1": {
+                "type": "scratch",
+                "graded": true,
+                "options": {
+                    "scratchText": "\n當 @greenflag 被點擊\n重複無限次\n如果 <(空間 :: variables) = (2)> 那麼\n顯示\n否則\n隱藏\nend\n\n當 @greenflag 被點擊\n重複無限次\n如果 <碰到 (玩家 v)？> 那麼\n停止 [全部 v]\nend\n\n當 @greenflag 被點擊\n定位到 x:(170) y:(0)\n重複無限次\n重複 (130) 次\nx 改變 (-1)\nend\n重複 (130) 次\nx 改變 (1)\nend\nend\n",
+                    "scratchVersion": "scratch3"
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

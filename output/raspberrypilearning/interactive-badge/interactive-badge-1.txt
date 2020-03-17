@@ -1,0 +1,86 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "＃＃ 介紹\n\n你要做出一個互動的徽章，這將顯示出你的心情給你的朋友。\n\n__Instructions__：如果你正在讀這篇文章在網上，在微按__A__：下方顯示一個快樂的臉一下，__B__表現出悲傷的臉。\n\n[[☃的iframe 1]]\n\n\n###為俱樂部領導的其他信息\n\n如果您需要打印此項目，請用[打印版本]（https://projects.raspberrypi.org/zh-CN/projects/interactive-badge/print）。\n\n\n [[☃ article-block 1]]\n\n\n [[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/msmc/player.html?id=_M6yLfbemfPUv",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "標題：俱樂部領導筆記",
+                                "articleBlock": "---\n\n---\n\n\n＃＃ 介紹：\n在這個項目中，孩子們將學習如何使用輸入事件來執行的指令序列，通過使一個互動徽章。按壓微按鈕：位將改變畫面上顯示的圖像。\n\n##資源\n對於這個項目，應使用[MakeCode（PXT）（http://jumpto.cc/pxt-new）microbit編輯器。\n\n你會發現在這個項目的完成版[makecode.microbit.org/#pub:90418-17495-16581-63753](https://makecode.microbit.org/#pub:90418-17495-16581-63753）和編譯的.hex文件可通過點擊“下載項目資料”鏈接這個項目，其中包含下載：\n\n+ microbit交互式-Badge.hex\n\n＃＃ 學習目標\n+輸入（`上按鈕pressed`）;\n+排序的說明。\n\n該項目從[樹莓裨數字製作課程]以下鏈蓋元件（http://rpf.io/curriculum）：\n\n+ [使用基本的編程結構來創建簡單的程序。（https://www.raspberrypi.org/curriculum/programming/creator）\n\n##挑戰\n+“顯示悲傷的臉” - 上按鍵pressed`事件將代碼添加到一個新的`;\n+“創建您自己的互動徽章！” - 整合在這個項目中學到的技能。\n\n\n ",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "標題：工程材料",
+                                "articleBlock": "---\n\n---\n\n\n##俱樂部領導資源\n* [網上完成的項目（https://makecode.microbit.org/#pub:90418-17495-16581-63753）\n* [.HEX項目文件傳輸到你的微：位（資源/ microbit交互式-Badge.hex）\n\n ",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

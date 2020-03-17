@@ -1,0 +1,220 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **建立欄目\n\n網站通常使用多個欄目。讓我們來為你的雜誌建立一個兩欄佈局。\n\n\n\n+ 首先建立兩個欄目 `div`。\n\n向 `index.html` 新增高亮的 HTML：\n\n[[☃ image 1]]\n\n+ 現在設定欄目 div 的樣式，使得一欄浮動到左側，另一欄浮動到右側。\n\n[[☃ image 2]]\n\n每個欄目的寬度應小於 50% 來留出內邊距。\n\n你將需要向欄目新增一些內容來檢視效果。\n\n+ 讓我們向欄目 2 的頂部新增一張貓咪圖片。\n\n[[☃ image 3]]\n\n請注意將貓咪圖片放在頁面第二欄的半邊。\n\n但圖片有點大！\n\n+ 讓我們使用 `max-width: `（最大寬度）來使圖片適應其容器。\n\n向 `style.css` 新增以下樣式。\n\n[[☃ image 4]]\n\n這將應用到你在雜誌中使用的所有圖片，不僅僅是貓咪圖片。\n\n+ 現在向圖片新增一個 `photo`（照片）類，使得你能設定其樣式：\n\n[[☃ image 5]]\n\n+ 然後新增陰影和旋轉來設定圖片樣式，使圖片躍出頁面：\n\n[[☃ image 6]]\n\n進行一些更改直至你對成果滿意。\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-photo-style.png",
+                                            "width": 844,
+                                            "height": 240
+                                        },
+                                        "box": [844,
+                                            240],
+                                        "labels": [],
+                                        "maxImageSize": 844,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-photo.png",
+                                            "width": 371,
+                                            "height": 65
+                                        },
+                                        "box": [371,
+                                            65],
+                                        "labels": [],
+                                        "maxImageSize": 371,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-img-width.png",
+                                            "width": 844,
+                                            "height": 307
+                                        },
+                                        "box": [844,
+                                            307],
+                                        "labels": [],
+                                        "maxImageSize": 844,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-kitten.png",
+                                            "width": 844,
+                                            "height": 287
+                                        },
+                                        "box": [844,
+                                            287],
+                                        "labels": [],
+                                        "maxImageSize": 844,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-columns-style.png",
+                                            "width": 843,
+                                            "height": 181
+                                        },
+                                        "box": [843,
+                                            181],
+                                        "labels": [],
+                                        "maxImageSize": 843,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-columns.png",
+                                            "width": 360,
+                                            "height": 181
+                                        },
+                                        "box": [360,
+                                            181],
+                                        "labels": [],
+                                        "maxImageSize": 360,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

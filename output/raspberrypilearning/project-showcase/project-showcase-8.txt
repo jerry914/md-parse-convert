@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **建立目錄\n\n讓我們新增一個目錄，這樣我們便能輕鬆進入每個專案。 \n\n\n\n+ 除了能夠連結到其他網頁之外，如果賦予其一個 id，我們還可以連結至網頁的多個部分。 \n\n向生日快樂專案的 `<h2>` 標題新增一個 id：\n\n[[☃ image 1]]\n\n+ 向你的每個專案新增 id，並賦予其簡稱：故事、尋物、食譜和信。 \n\n+ 你可以通過在一個元素的名稱前面放一個井號“#”來將元素與 id 相關聯。例如，`#生日`。 \n\n為你的專案建立一個有序連結列表。（食譜專案中介紹了有序列表。）\n\n[[☃ image 2]]\n\n+ 執行你的專案並通過點選連結轉向你的專案來進行測試。 \n\n[[☃ image 3]]\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-list-output.png",
+                                            "width": 607,
+                                            "height": 449
+                                        },
+                                        "box": [607,
+                                            449],
+                                        "labels": [],
+                                        "maxImageSize": 607,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-list.png",
+                                            "width": 642,
+                                            "height": 260
+                                        },
+                                        "box": [642,
+                                            260],
+                                        "labels": [],
+                                        "maxImageSize": 642,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/showcase-id.png",
+                                            "width": 396,
+                                            "height": 48
+                                        },
+                                        "box": [396,
+                                            48],
+                                        "labels": [],
+                                        "maxImageSize": 396,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

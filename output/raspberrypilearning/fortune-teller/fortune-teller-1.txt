@@ -1,0 +1,86 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Introduction\n\nYou are going to code your micro:bit to read the future! Simply ask the micro:bit a question, and press a button to find out the answer!\n\n__Instructions__: If you're reading this online, ask the micro:bit below a question and press __A__ to get your answer!\n\n[[☃ iframe 1]]\n\n\n### Additional information for club leaders\n\nIf you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/fortune-teller/print).\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/msmc/player.html?id=_X8jUAqb9mdfj",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Club leader notes",
+                                "articleBlock": "---\n\n---\n\n\n## Introduction:\nIn this project, children will learn how to make use of selection, by making a 'fortune teller'. The fortune teller will work like a magic 8-ball, and will give the user the answer to a question they ask the micro:bit.\n\n## Resources\nFor this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.\n\nYou can find a completed version of this project at [makecode.microbit.org/#pub:18828-96734-17356-00995](https://makecode.microbit.org/#pub:18828-96734-17356-00995), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:\n\n+ FortuneTeller.hex\n\n## Learning Objectives\n+ Selection `if` blocks;\n+ The `random` block.\n\nThis project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):\n\n+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)\n\n## Challenges\n+ \"Multiple answers\" - Consolidating use of `if` blocks, by adding 'No' and 'Ask again' answers.\n+ \"Shake your micro:bit\" - Shake the micro:bit instead of pressing a button.\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Project materials",
+                                "articleBlock": "---\n\n---\n\n\n## Club leader resources\n* [online completed project](https://makecode.microbit.org/#pub:18828-96734-17356-00995)\n* [.hex project file to transfer onto your micro:bit](resources/microbit-Fortune-Teller.hex)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

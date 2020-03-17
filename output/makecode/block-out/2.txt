@@ -1,0 +1,70 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Two: Creating the Blocks\n\nIn this part of the lesson we are going to create the blocks. Go into $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{Loops}}\\\\$, grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{for index from 0 to}}\\\\$, and drag it into the workspace. Change the field input to **9**. Duplicate the same block and place it inside the first loop. Now change the field input from **9** to **2**. Go into $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ and create a new variable called index2.  Next drag out the $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{index2}}\\\\$ and place it in the input of the second $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{for loop}}\\\\$. \n\n### Creating an Offset\n\n![Block Offset](/static/lessons/block-out/offset.png)\n\nIn $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ drag out a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set var to}}\\\\$ and place it in the second $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{for}}\\\\$ loop. Select the drop down and rename the variable to **x**. From $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{Math}}\\\\$grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{_ X _}}\\\\$ block and pull it into the $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set x to}}\\\\$ block. From $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ drag out an $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{index}}\\\\$ block and drag it into the first field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{_ X _}}\\\\$ block. Set the second field to **18**. \n\nNow, from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$, grab an $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then}}\\\\$ statement and drag it into the second loop. Drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 = 0}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ and place it inside the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then}}\\\\$ statement. From $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{Math}}\\\\$ pull out a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{remainder of _ / _}}\\\\$ block and move it into the first field of the equal statement. From variables, grab $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{index2}}\\\\$ block and drag it into the first field of the remainder. Set the second field of the remainder to **2**. Lastly, set the end field of the equal statement to **1**. \n\nNow we are going to offset the blocks dependent on the row they are spawned in. From $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set x to}}\\\\$ and drag it into the if statement. Grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 + 0}}\\\\$ block from math and drag it into the $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set x to}}\\\\$. Then in the first field place a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ and then from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{index}}\\\\$ block and drag it into the first field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$. Now set the second field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ to **18** and set the second field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 + 0}}\\\\$ to **8**. \n\n### ~hint\n\nYour $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{for}}\\\\$ should look like this.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n### ~\n\n### Spawning the Blocks\n\nNow in $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$, grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{ set x to}}\\\\$ and place it after the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement. Select the drop down and then click new variable and name it tilePick. From $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{Math}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{pick random}}\\\\$ and set it to be from **0** to **2**.\n\nGet an $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{ if then else}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ and drag it in after the $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set tilePick to}}\\\\$. Click the **(+)** symbol on the new $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then else}}\\\\$. In both of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then else}}\\\\$ fields, place a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 = 0}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$. Then from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$, drag out 2 $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{tilePick}}\\\\$ blocks and place them in the first field of each of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 = 0}}\\\\$ blocks. Set the second field of the first part to **0** and the second field of the second part to **1**. \n\nThen from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite to sprite of kind player}}\\\\$ block. Select the first drop down and create a new name called tile. Then click player and select add a new kind and name it block. Draw a picture of a block in the sprite editor. Duplicate this block and set it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{else if}}\\\\$ section and the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{else}}\\\\$ section. Draw different tiles for each part.\n\nLastly, from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite position to}}\\\\$ and drag it in after the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then else if then else}}\\\\$ block. Click mySprite and select tile. Then drag from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{x}}\\\\$ block and place it in the x field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite position to}}\\\\$. In the y field drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 + 0}}\\\\$ block and place it there. In the first field, drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ block there and set the second field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ block to **18**. In the first part of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ block, put in a a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{index2}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$. In the last field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 + 0}}\\\\$ block set it to **20**.\n\n[[☃ iframe 3]]\n\n[[☃ iframe 4]]\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/2.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"iframe 4": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/3.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

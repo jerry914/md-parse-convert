@@ -1,0 +1,158 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **HTML & CSS 貼紙\n\n漸變還能從中間向外部邊緣變換顏色，這被稱為徑向漸變。 \n\n+ 讓我們建立一個顯示文字 `HTML & CSS.` 的貼紙。​`&` 是另一個需要在 HTML 中編碼的字元，程式碼為 `&amp;`。\n\n新增以下高亮程式碼來建立一個新貼紙： \n\n[[☃ image 1]]\n\n+ 現在切換到你的 `style.css` 檔案並向你的新貼紙新增一個樣式：\n\n[[☃ image 2]]\n\n`text-shadow`（文字陰影）程式碼新增了一個向文字下方和右側延伸 2 畫素的陰影，來突出文字。 \n\n+ 現在新增漸變。這次我們來使用徑向漸變。顏色將從中心的黃色過渡到橙色最後變換為紅色。 \n\n[[☃ image 3]]\n\n請注意漸變可包含多種顏色，不只是兩種。 \n\n+ 新增一些內邊距和圓角邊框，貼紙的效果會更好。 \n\n新增以下高亮程式碼：\n\n[[☃ image 4]]\n\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-web-padding.png",
+                                            "width": 996,
+                                            "height": 212
+                                        },
+                                        "box": [996,
+                                            212],
+                                        "labels": [],
+                                        "maxImageSize": 996,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-web-gradient.png",
+                                            "width": 939,
+                                            "height": 219
+                                        },
+                                        "box": [939,
+                                            219],
+                                        "labels": [],
+                                        "maxImageSize": 939,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-web-font.png",
+                                            "width": 943,
+                                            "height": 213
+                                        },
+                                        "box": [943,
+                                            213],
+                                        "labels": [],
+                                        "maxImageSize": 943,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/stickers/master/zh-CN/images/stickers-web-html.png",
+                                            "width": 926,
+                                            "height": 209
+                                        },
+                                        "box": [926,
+                                            209],
+                                        "labels": [],
+                                        "maxImageSize": 926,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

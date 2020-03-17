@@ -1,0 +1,158 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **新增第二頁\n\n讓我們向你的雜誌網站新增另一個頁面。\n\n\n\n+ 向你的專案新增一個新頁面並將其命名為 `page2.html`：\n\n[[☃ image 1]]\n\n+ 第 2 頁將與雜誌的首頁十分相似，因此你可以複製 `index.html` 的 html 然後貼上到 `page2.html`。\n\n[[☃ image 2]]\n\n請注意這兩頁使用同樣的 `style.css`，因此它們的樣式相同。\n\n+ 更改第 2 頁的 `<h1>` 標題：\n\n[[☃ image 3]]\n\n+ 現在你需要通過頁面之間的連結來到達第 2 頁並返回首頁。\n\n返回 `index.html`。在 `index.html` 中第 2 欄內的 div 內部新增一個連結：\n\n[[☃ image 4]]\n\n+ 測試你能否點選新連結並移向雜誌的第 2 頁。\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-page2-link.png",
+                                            "width": 1029,
+                                            "height": 264
+                                        },
+                                        "box": [1029,
+                                            264],
+                                        "labels": [],
+                                        "maxImageSize": 1029,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-page2-h1.png",
+                                            "width": 488,
+                                            "height": 253
+                                        },
+                                        "box": [488,
+                                            253],
+                                        "labels": [],
+                                        "maxImageSize": 488,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-page2-html.png",
+                                            "width": 487,
+                                            "height": 307
+                                        },
+                                        "box": [487,
+                                            307],
+                                        "labels": [],
+                                        "maxImageSize": 487,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/magazine/master/zh-CN/images/magazine-page2.png",
+                                            "width": 408,
+                                            "height": 39
+                                        },
+                                        "box": [408,
+                                            39],
+                                        "labels": [],
+                                        "maxImageSize": 408,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

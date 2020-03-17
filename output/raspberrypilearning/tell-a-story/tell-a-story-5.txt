@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n ** ** 挑戰：做出一些變動\n編輯 HTML 和 CSS 程式碼來自定義你的網頁。\n\n[[☃ image 1]]\n\n你可以更改網頁中使用的顏色，你還可以使用多種字型，如：\n+ `<span style=\"font-family: Arial;\">Arial</span>`\n+ `<span style=\"font-family: Comic Sans MS;\">Comic Sans MS</span>`\n+ `<span style=\"font-family: Impact;\">Impact</span>`\n+ `<span style=\"font-family: Tahoma;\">Tahoma</span>`\n\n在[這裡](http://jumpto.cc/colours \"_blank\" \"title\")找到更多 CSS 顏色名稱。\n\n--- /challenge ---\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-changes.png",
+                                            "width": 226,
+                                            "height": 286
+                                        },
+                                        "box": [226,
+                                            286],
+                                        "labels": [],
+                                        "maxImageSize": 226,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

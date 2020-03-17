@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Five: Spawning Projectiles\n\nEvery half a second we want the projectiles to spawn. So go into $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{遊戲}}\\\\$ and grab $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{在遊戲更新每毫秒}}\\\\$ and place it in your workspace. Set the interval time at 500 ms. Next, we want to choose which \\"lane\\" to spawn our projectile in. We'll need a lane variable for this. To create this variable go into $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{變量}}\\\\$ and grab $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{集VAR來}}\\\\$. Rename the variable to lane and then grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{隨機挑}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{數學}}\\\\$ and place it after the to in our $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{集車道}}\\\\$. Set the first number to 1 and the second to 4.\n\nNow we want to create the projectiles for each lane. Grab an $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{如果那麼否則，如果}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{邏輯}}\\\\$ and place it under the lane variable. Then from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{邏輯}}\\\\$ take a $\\require{enclose}\\enclose{box}[mathcolor=\"black\",mathbackground=\"black\"]{\\color{white}{_ = _}}\\\\$ block and place it in the first $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{如果再}}\\\\$ statement. Now drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{車道}}\\\\$ block and put it in the first section and type 1 in the second section. Duplicate this equal statement 3 times and set each second section to 2, 3, and 4 respectively. Click the **(+)** symbol twice in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{如果別的}}\\\\$ statement block and drag these equal statements into the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{其他}}\\\\$ statements.\n\nNow grab 4 $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{集mySprite上雪碧種}}\\\\$ and drag one into each of the 4 positions in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{如果}}\\\\$ statement. Set each variable for each $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{如果}}\\\\$ statement like this:\n\n* For 1 the variable name is Left\n* For 2 the variable name is Up\n* For 3 the variable name is Down\n* For 4 the variable name is Right\n\nAccording to the variable names, select the grey box and draw an arrow pointing the direction of the variable name. Set each kind to a projectile.\n\nEarlier we created a speed variable. This will now determine the speed that the projectiles spawn at. Grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{集mySprite上速度}}\\\\$ and drag it into each of the 4 positions on the if statement. Match the mySprite to the variable of the if statement and then set vx to 0 and drag the speed variable from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{變量}}\\\\$ into the vy position. Repeat for all sections.\n\nFrom $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{精靈}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{設定位置}}\\\\$ block for each of 4 sections of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{如果}}\\\\$ statements. Put them at the end of each section. Switch the mySprite variable to match the direction variable for the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{如果}}\\\\$ statement and set y to 8. Now set the x positions to these values:\n\n* Left: 30\n* Up: 60\n* Down: 100\n* Right: 130\n\nCongrats, now we can spawn projectiles!\n\n![Spawning Projectiles](/static/lessons/dance-party/spawning-projectiles.gif)\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/6.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

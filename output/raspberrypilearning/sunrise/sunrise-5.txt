@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **無限動畫\n\n讓我們來使動畫永遠重複進行。\n\n\n\n+ 如果你希望太陽升起後落下，只需向你的動畫新增更多關鍵幀：\n\n    ```\n    @keyframes sunrise {\n        0%  \n        33% \n        66% \n        100%\n    }\n    ```\n\n    這表明動畫以太陽位於天空的底部開始和結束，並在動畫的 33% 至 66% 之間停留在頂部。\n\n+ 現在你只需向 `#sun`（太陽）動畫新增 `infinite`（無限）這個詞，來使動畫無限迴圈：\n\n    [[☃ image 1]]\n\n+ 測試你的動畫。太陽是否不斷升起和落下？ \n\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-infinite.png",
+                                            "width": 883,
+                                            "height": 276
+                                        },
+                                        "box": [883,
+                                            276],
+                                        "labels": [],
+                                        "maxImageSize": 883,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

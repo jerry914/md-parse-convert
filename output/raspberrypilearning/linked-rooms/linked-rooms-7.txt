@@ -1,0 +1,96 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：新增更多房門！\n\n用同樣的方式將你專案中的其他連結變為房門。 \n\n就每扇門而言，你將需要：\n\n+ 編輯房門連結，使用帶有 `hall2games` 等 id 的 `<div>`，使得你能設定其樣式。 \n\n例如： \n\n`[Games Room](\"gamesroom.html\",\" \" \"_blank\")`\n\n+ 將房門 id 的 CSS 新增到其房間的 `.css` 檔案。運用_複製_和_貼上_來節省時間。如果你喜歡，你可以使每扇門的外觀都不同。 \n\n+ 使用 `bottom:`、​`left:` 或 `right:` 來定位房門。\n\n大廳可能如下所示：\n\n[[☃ image 1]]\n\n電視房間應如下所示：\n\n[[☃ image 2]]\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-tvroom-door.png",
+                                            "width": 492,
+                                            "height": 284
+                                        },
+                                        "box": [492,
+                                            284],
+                                        "labels": [],
+                                        "maxImageSize": 492,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-hall-doors.png",
+                                            "width": 405,
+                                            "height": 277
+                                        },
+                                        "box": [405,
+                                            277],
+                                        "labels": [],
+                                        "maxImageSize": 405,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

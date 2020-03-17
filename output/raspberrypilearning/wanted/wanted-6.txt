@@ -1,0 +1,96 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 設定標題樣式\n\n讓我們來完善 `<h1>` 標題的樣式。\n\n\n\n+ 向圖片 CSS 的下方新增以下程式碼：\n\n```\nh1 {\n\n}\n```\n\n這就是你將向 `<h1>` 主標題新增 CSS 屬性的地方。\n\n+ 要更改 `<h1>` 標題的字型，在花括號之間新增以下程式碼：\n\n```\nfont-family: Impact;\n```\n\n+ 你還可以更改標題的尺寸：\n\n```\nfont-size: 50pt;\n```\n\n+ 你是否注意到了 `<h1>` 標題和其周圍內容之間的間隔很大？\n\n[[☃ image 1]]\n\n這是因為標題周圍有一個邊距。邊距指元素（在這裡是一個標題）與其周圍的其他內容之間的間距。\n\n你可以使用以下程式碼來縮小邊距：\n\n```\nmargin: 10px;\n```\n\n[[☃ image 2]]\n\n+ 你還可以為你的標題新增下劃線：\n\n```\ntext-decoration: underline;\n```\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/wanted/master/zh-CN/images/wanted-h1-margin-small.png",
+                                            "width": 419,
+                                            "height": 145
+                                        },
+                                        "box": [419,
+                                            145],
+                                        "labels": [],
+                                        "maxImageSize": 419,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/wanted/master/zh-CN/images/wanted-h1-margin.png",
+                                            "width": 419,
+                                            "height": 202
+                                        },
+                                        "box": [419,
+                                            202],
+                                        "labels": [],
+                                        "maxImageSize": 419,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

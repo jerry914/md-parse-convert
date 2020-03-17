@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 介紹\n\n你將在本專案中學習如何建立你自己的網頁來講述一個故事、笑話或一首詩歌。\n\n ** ** ** 你將做出什麼\n\n在 trinket 中向下滾動來檢視笑話！\n\n[[☃ iframe 1]]\n\n\n ** ** ** 你將學習什麼\n\n本專案包括[Raspberry Pi 數字製作課程](http://rpf.io/curriculum \"_blank\" \"title\")以下幾個部分的元素：\n\n+ [設計基本的 2D 和 3D 資源](https://www.raspberrypi.org/curriculum/design/creator \"_blank\" \"title\")。\n\n ** ** ** 更多教師參考資訊\n\n如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/tell-a-story/print \"_blank\" \"title\")。\n\n使用頁尾中的連結訪問本專案的 GitHub 資源庫，“en/resources”資料夾中包含所有資源（包括已完成專案示例）。\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/html/c8afdef912?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

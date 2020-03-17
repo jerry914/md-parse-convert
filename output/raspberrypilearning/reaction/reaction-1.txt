@@ -1,0 +1,86 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Introduction\n\nYou are going to create a 2-player game to see who has the fastest reactions. The game will work by showing an image after a random amount of time - whoever presses their button first is the winner.\n\n__Instructions__: If you're reading this online, wait for an image to display on the micro:bit below and then press __A__ or __B__ first to see who is the fastest.\n\n[[☃ iframe 1]]\n\n\n### Additional information for club leaders\n\nIf you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/reaction/print).\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/msmc/player.html?id=_RAu6KxHvEXMp",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Club leader notes",
+                                "articleBlock": "---\n\n---\n\n\n## Introduction:\nIn this project, children will make a reaction game. An image will be displayed on the micro:bit after a random amount of time - the first person to press their button is the winner.\n\nChildren will make use of all of the coding concepts used in previous projects, as well as using Boolean operators to wait until a button has been pressed.\n\n## Resources\nFor this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.\n\nYou can find a completed version of this project at [makecode.microbit.org/#pub:50800-81674-84873-32898\n](https://makecode.microbit.org/#pub:50800-81674-84873-32898\n), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:\n\n+ microbit-Reaction.hex\n\nThere is also a version of the project with the \"Keep score\" challenge completed. This can be found at [makecode.microbit.org/#pub:23812-11544-45113-45147\n](https://makecode.microbit.org/#pub:23812-11544-45113-45147\n), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:\n\n+ microbit-Reaction-Score.hex\n\n## Learning Objectives\n+ Boolean operators:\n+ AND;\n+ NOT.\n\nThis project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):\n\n+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)\n\n## Challenges\n+ \"Choose your own image\" - changing the image displayed on the micro:bit.\n+ \"Choose your own delay\" - changing the parameters to the `random` function.\n+ \"Keep score\" - use variables to keep track of player scores.\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Project materials",
+                                "articleBlock": "---\n\n---\n\n\n## Club leader resources\n* [online completed project](https://makecode.microbit.org/#pub:50800-81674-84873-32898)\n* [online completed project, including 'Keep score' challenge](https://makecode.microbit.org/#pub:23812-11544-45113-45147)\n* [.hex project file to transfer onto your micro:bit](resources/microbit-Reaction.hex)\n* [.hex project file including 'Keep Score' challenge](resources/microbit-Reaction-Score.hex)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

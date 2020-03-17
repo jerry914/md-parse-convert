@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " Step 9\n\nWe need to make sure that the sprite is on the ground before jumping, so drag an $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then}}\\\\$ conditional into the $\\require{enclose}\\enclose{box}[mathcolor=\"#d54322\",mathbackground=\"#d54322\"]{\\color{white}{on A button pressed}}\\\\$. Replace true with $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{is mySprite hitting wall}}\\\\$ and change left side bottom. Finally, put in a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite x}}\\\\$ and choose $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{vy (velocity y)}}\\\\$ from the dropdown. Set the value to -250.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/barrel-dodger/8.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

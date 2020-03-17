@@ -1,0 +1,344 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Making a decision\n\nLet's get your micro:bit to make a decision by randomly choosing a number (`0` for 'No' and `1` for 'Yes').\n\n\n\n+ Add a new `on button A pressed` event to your code.\n\n[[☃ image 1]]\n\n+ Let's create a new variable to store the answer. Click the 'Variables' and then click 'Make a variable'.\n\n[[☃ image 2]]\n\n+ Name the new variable called `answer`.\n\n[[☃ image 3]]\n\n+ Drag a `set` block from Variables into your `on button A pressed` block and select the `answer` variable.\n\n[[☃ image 4]]\n\nAs you can see, the `to` in the block means that you can set the answer to display.\n\n+ Click 'Math' and drag a `pick random` block after the `to`:\n\n[[☃ image 5]]\n\n+ Tell the random block to choose a number between 0 and 1. Here's how your code should look:\n\n[[☃ image 6]]\n\n+ Next, you want to display the word `No` on the micro:bit only `if` the `answer` is 0.\n\nTo do this, drag an `if` block onto the bottom of your `on button A pressed` event:\n\n[[☃ image 7]]\n\n+ Next drag an `=` block as the condition in the `if`:\n\n[[☃ image 8]]\n\n+ Drag your `answer` variable onto the left side of the `if` block.\n\n[[☃ image 9]]\n\n+ Any code inside the `if` block will only run if the `answer` is 0. As 0 is `No`, let's add a `show string` block.\n\n[[☃ image 10]]\n\n+ Test your code.\n+ Sometimes the `answer` will be 0, and the micro:bit should say 'No'.\n+ Sometimes the `answer` will be 1, and nothing will happen!\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 10": {
+                                    "graded": true,
+                                    "id": "image 10",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-no.png",
+                                            "width": 426,
+                                            "height": 253
+                                        },
+                                        "box": [426,
+                                            253],
+                                        "labels": [],
+                                        "maxImageSize": 426,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 9": {
+                                    "graded": true,
+                                    "id": "image 9",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-if-finished.png",
+                                            "width": 621,
+                                            "height": 272
+                                        },
+                                        "box": [621,
+                                            272],
+                                        "labels": [],
+                                        "maxImageSize": 621,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 8": {
+                                    "graded": true,
+                                    "id": "image 8",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-equals.png",
+                                            "width": 666,
+                                            "height": 255
+                                        },
+                                        "box": [666,
+                                            255],
+                                        "labels": [],
+                                        "maxImageSize": 666,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-if.png",
+                                            "width": 730,
+                                            "height": 290
+                                        },
+                                        "box": [730,
+                                            290],
+                                        "labels": [],
+                                        "maxImageSize": 730,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-random-1.png",
+                                            "width": 408,
+                                            "height": 131
+                                        },
+                                        "box": [408,
+                                            131],
+                                        "labels": [],
+                                        "maxImageSize": 408,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-random.png",
+                                            "width": 410,
+                                            "height": 131
+                                        },
+                                        "box": [410,
+                                            131],
+                                        "labels": [],
+                                        "maxImageSize": 410,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-set.png",
+                                            "width": 232,
+                                            "height": 131
+                                        },
+                                        "box": [232,
+                                            131],
+                                        "labels": [],
+                                        "maxImageSize": 232,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-answer.png",
+                                            "width": 517,
+                                            "height": 211
+                                        },
+                                        "box": [517,
+                                            211],
+                                        "labels": [],
+                                        "maxImageSize": 517,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-variables.png",
+                                            "width": 418,
+                                            "height": 363
+                                        },
+                                        "box": [418,
+                                            363],
+                                        "labels": [],
+                                        "maxImageSize": 418,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-on-a-pressed.png",
+                                            "width": 214,
+                                            "height": 102
+                                        },
+                                        "box": [214,
+                                            102],
+                                        "labels": [],
+                                        "maxImageSize": 214,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

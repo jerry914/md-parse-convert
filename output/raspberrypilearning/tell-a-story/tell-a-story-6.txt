@@ -1,0 +1,220 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 講述你的故事\n\n讓我們向你的故事新增第二個部分。\n\n+ 轉向程式碼第 15 行，並加入另一組 `<div>` 和 `</div>` 開始和結束標記。以此來為故事的下一部分建立一個新的方框。\n\n[[☃ image 1]]\n\n+ 在你的新 `<div>` 標記內新增一段文字：\n\n```html\n<p>More text here!</p>\n```\n\n[[☃ image 2]]\n\n+ 你可以通過在 `<div>` 標記內部新增以下程式碼在你的新方框中顯示一張圖片：\n\n```html\n<img src=\"\">\n```\n\n[[☃ image 3]]\n\n請注意 `<img>` 標記與其他標記有些不同：它們沒有結束標記。\n\n+ 為使圖片顯示出來，你需要在引號內部新增該圖片的**源** (`src`)。\n\n點選圖片圖示來檢視你的故事可使用的圖片。\n\n[[☃ image 4]]\n\n+ 確定你想新增的圖片並記住圖片名稱，比如 `buildings.png`。\n\n+ 點選 `index.html` 來返回你的程式碼。\n\n[[☃ image 5]]\n\n+ 在 `<img>` 標記中的引號之間新增該圖片的名稱。\n\n```html\n<img src=\"buildings.png\">\n```\n\n[[☃ image 6]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-image-name-add.png",
+                                            "width": 927,
+                                            "height": 312
+                                        },
+                                        "box": [927,
+                                            312],
+                                        "labels": [],
+                                        "maxImageSize": 927,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-image-name.png",
+                                            "width": 509,
+                                            "height": 411
+                                        },
+                                        "box": [509,
+                                            411],
+                                        "labels": [],
+                                        "maxImageSize": 509,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-see-images.png",
+                                            "width": 509,
+                                            "height": 411
+                                        },
+                                        "box": [509,
+                                            411],
+                                        "labels": [],
+                                        "maxImageSize": 509,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-img-tag.png",
+                                            "width": 917,
+                                            "height": 273
+                                        },
+                                        "box": [917,
+                                            273],
+                                        "labels": [],
+                                        "maxImageSize": 917,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-paragraph.png",
+                                            "width": 917,
+                                            "height": 291
+                                        },
+                                        "box": [917,
+                                            291],
+                                        "labels": [],
+                                        "maxImageSize": 917,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-div.png",
+                                            "width": 915,
+                                            "height": 295
+                                        },
+                                        "box": [915,
+                                            295],
+                                        "labels": [],
+                                        "maxImageSize": 915,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

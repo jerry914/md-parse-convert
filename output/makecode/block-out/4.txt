@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Four: Ball and Paddle Interactions\n\n![Ball and Paddle](/static/lessons/block-out/moving-player.gif)\n\nTo create the interaction, go to $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$ and grab an $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{on sprite of kind player overlaps othersprite of kind player}}\\\\$ and drag it anywhere in your workspace. Change the first player to projectile and check that the second is set to player. Next, from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$, grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite velocity to}}\\\\$ and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{on sprite of kind player overlaps}}\\\\$. Drag sprite from the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{overlaps}}\\\\$ block and drag it into the mySprite section of the velocity block. \n\nBack in $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite x}}\\\\$ block and drag it into the vx field. Drag the sprite out of the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{overlap}}\\\\$ block and place it over the mySprite in the vx field. Now click the x drop down and select vx (velocity x). \n\nFrom $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{Math}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ block and place it in the vy section of the velocity block. Set the first field of the block to **-1** and, in $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$, grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite x}}\\\\$ and drag it into the second field. Click the drop down and select vy (velocity y). Drag sprite from the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{overlap}}\\\\$ block and place it over the mySprite in the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite vy}}\\\\$.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/5.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

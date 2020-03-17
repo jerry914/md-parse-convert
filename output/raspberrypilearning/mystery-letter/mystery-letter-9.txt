@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：建立你自己的樣式\n\n現在建立你自己的類樣式，並使你的神祕信件更加有趣。使用你在先前專案中學到的 CSS 並檢視 __style.css__ 中的示例來汲取創意。 \n\n示例：\n\n[[☃ image 1]]\n\n點選 trinket 中的 Images（圖片）選項卡，你會看到可供使用的圖片。\n嘗試使用其中所包含的圖片之一設定圖片背景： \n\n+ `rough-paper.png`\n\n+ `canvas.png`\n\n如果你有 trinket 賬戶，你可以上傳你自己的圖片，與你在“講故事”專案中的操作一樣。 \n\n在 [jumpto.cc/web-fonts](\"http://jumpto.cc/web-fonts\",\" \" \"_blank\") 尋找你喜歡的字型，並將它們的 `<link>` 和 CSS 程式碼複製到你的 trinket 中來使用。 \n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts-challenge3.png",
+                                            "width": 563,
+                                            "height": 277
+                                        },
+                                        "box": [563,
+                                            277],
+                                        "labels": [],
+                                        "maxImageSize": 563,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,158 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **建立太陽\n\n讓我們首先新增一張太陽的圖片並使用一些 CSS 對其定位。\n\n\n\n+ 開啟這個 trinket：[jumpto.cc/web-sunrise](\"http://jumpto.cc/web-sunrise\",\" \" \"_blank\")。 \n\n    此專案應如下所示：\n\n[[☃ image 1]]\n\n+ 檢視你的 `index.html` 檔案的 `body` 內部，你會發現天空和海洋的 `div` 元素。\n\n    ```\n    <div id=\"sky\">\n    </div>\n    \n    <div id=\"sea\">\n    </div>\n    ```\n\n+ 太陽的圖片已包含在你的專案中。 \n\n    向你的太陽 `div` 內部新增該圖片，幷包含一個 id，這樣你便可以設定其樣式：\n\n    [[☃ image 2]]\n\n+ 哇哦，圖片太大了。轉向 `style.css` 並新增 CSS 來設定圖片高度：\n\n    [[☃ image 3]]\n\n    請注意，寬度會自動更新來使比例保持一致。 \n\n+ 最後，讓我們新增一些程式碼來對太陽進行定位：\n\n    [[☃ image 4]]\n\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-sun-position.png",
+                                            "width": 886,
+                                            "height": 287
+                                        },
+                                        "box": [886,
+                                            287],
+                                        "labels": [],
+                                        "maxImageSize": 886,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-sun-height.png",
+                                            "width": 888,
+                                            "height": 295
+                                        },
+                                        "box": [888,
+                                            295],
+                                        "labels": [],
+                                        "maxImageSize": 888,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-sun-image.png",
+                                            "width": 888,
+                                            "height": 307
+                                        },
+                                        "box": [888,
+                                            307],
+                                        "labels": [],
+                                        "maxImageSize": 888,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-starter.png",
+                                            "width": 773,
+                                            "height": 317
+                                        },
+                                        "box": [773,
+                                            317],
+                                        "labels": [],
+                                        "maxImageSize": 773,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **原料\n\n讓我們列出你的食譜所需的原料。\n\n\n\n+ 開啟此 trinket 模板：[jumpto.cc/html-template](http://jumpto.cc/html-template \"_blank\" \"title\").\n\n此專案應如下所示：\n\n[[☃ image 1]]\n\n+ 就您的原料列表而言，你將使用__無序列表__，其中要運用 `<ul>` 標記。轉向模板第 8 行並新增以下 HTML，用你自己食譜的名稱替代 `<h1>` 標題中的文字：\n\n```\n<h1>Banana Milkshake</h1>\n\n<h3>Ingredients:</h3>\n\n<ul>\n\n</ul>\n```\n\n+ 檢視你的網頁，你會看到兩個標題。\n\n[[☃ image 2]]\n\n但你現在還無法看到你的列表，因為你還未向其新增任何列表專案！\n\n+ 下一步是使用 `<li>` 標記向你的列表中新增列表專案。在你的 `<ul>` 標記內部新增以下程式碼：\n\n```\n<li>1 banana</li>\n```\n[[☃ image 3]]\n\n因為你的列表是無序的，因此列表專案旁邊並無編號，只有專案符號。\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-ul.png",
+                                            "width": 789,
+                                            "height": 348
+                                        },
+                                        "box": [789,
+                                            348],
+                                        "labels": [],
+                                        "maxImageSize": 789,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-headings.png",
+                                            "width": 298,
+                                            "height": 140
+                                        },
+                                        "box": [298,
+                                            140],
+                                        "labels": [],
+                                        "maxImageSize": 298,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-starter.png",
+                                            "width": 771,
+                                            "height": 189
+                                        },
+                                        "box": [771,
+                                            189],
+                                        "labels": [],
+                                        "maxImageSize": 771,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,391 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **漂浮的猴子**\n\n現在我們加隻在太空中迷路的猴子吧！\n\n[[☃ article-block 2]]\n\n在新的猴子角色上點一下然後切換到**造型**頁籤，我們來修改猴子的外觀。\n\n[[☃ article-block 3]]\n\n[[☃ article-block 4]]\n\n[[☃ article-block 5]]\n\n測試並儲存你的專案，記得要點擊紅色的**停止**圖示結束運作，不然你的猴子會轉個不停。\n\n[[☃ image 1]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {
+                        "image 1": {
+                            "graded": true,
+                            "id": "image 1",
+                            "options": {
+                                "aspectRatio": 0.3352941176470588,
+                                "backgroundImage": {
+                                    "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-spin-test.png",
+                                    "width": 212,
+                                    "height": 168
+                                },
+                                "box": [
+                                    212,
+                                    168
+                                ],
+                                "labels": [],
+                                "maxImageSize": 212,
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "useBoxSize": false
+                            },
+                            "type": "image",
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n從範例庫中添加一個名為 monkey 的角色。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {
+                                    "image 1": {
+                                        "graded": true,
+                                        "id": "image 1",
+                                        "options": {
+                                            "aspectRatio": 0.3352941176470588,
+                                            "backgroundImage": {
+                                                "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-monkey-sprite.png",
+                                                "width": 475,
+                                                "height": 358
+                                            },
+                                            "box": [
+                                                475,
+                                                358
+                                            ],
+                                            "labels": [],
+                                            "maxImageSize": 475,
+                                            "range": [
+                                                [
+                                                    0,
+                                                    10
+                                                ],
+                                                [
+                                                    0,
+                                                    10
+                                                ]
+                                            ],
+                                            "useBoxSize": false
+                                        },
+                                        "type": "image",
+                                        "version": {
+                                            "major": 0,
+                                            "minor": 0
+                                        }
+                                    }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n把顏色填滿設定為透明（紅線圖示） ，外框部分則是移動彩度滑桿到 `0`，讓它變成白色。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {
+                                    "image 1": {
+                                        "graded": true,
+                                        "id": "image 1",
+                                        "options": {
+                                            "aspectRatio": 0.3352941176470588,
+                                            "backgroundImage": {
+                                                "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/make-white.png",
+                                                "width": 258,
+                                                "height": 303
+                                            },
+                                            "box": [
+                                                258,
+                                                303
+                                            ],
+                                            "labels": [],
+                                            "maxImageSize": 258,
+                                            "range": [
+                                                [
+                                                    0,
+                                                    10
+                                                ],
+                                                [
+                                                    0,
+                                                    10
+                                                ]
+                                            ],
+                                            "useBoxSize": false
+                                        },
+                                        "type": "image",
+                                        "version": {
+                                            "major": 0,
+                                            "minor": 0
+                                        }
+                                    }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n點擊**圓形**工具，在猴子頭上畫出一個白色輪廓的太空頭盔。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {
+                                    "image 1": {
+                                        "graded": true,
+                                        "id": "image 1",
+                                        "options": {
+                                            "aspectRatio": 0.3352941176470588,
+                                            "backgroundImage": {
+                                                "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/space-monkey-edit.png",
+                                                "width": 614,
+                                                "height": 490
+                                            },
+                                            "box": [
+                                                614,
+                                                490
+                                            ],
+                                            "labels": [],
+                                            "maxImageSize": 614,
+                                            "range": [
+                                                [
+                                                    0,
+                                                    10
+                                                ],
+                                                [
+                                                    0,
+                                                    10
+                                                ]
+                                            ],
+                                            "useBoxSize": false
+                                        },
+                                        "type": "image",
+                                        "version": {
+                                            "major": 0,
+                                            "minor": 0
+                                        }
+                                    }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "article-block 5": {
+                            "id": "article-block 5",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n你能添加一些程式，讓猴子不停在空中打轉嗎？\n\n[[☃ article-block 1]]\n\n",
+                                "widgets": {
+                                    "article-block 1": {
+                                        "id": "article-block 1",
+                                        "type": "article-block",
+                                        "graded": false,
+                                        "options": {
+                                            "background": "#ffe7c9",
+                                            "blockTitle": "💡 我需要一點提示",
+                                            "articleBlock": "\n\n\n \n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]",
+                                            "widgets": {
+                                                "image 1": {
+                                                    "graded": true,
+                                                    "id": "image 1",
+                                                    "options": {
+                                                        "aspectRatio": 0.3352941176470588,
+                                                        "backgroundImage": {
+                                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-monkey.png",
+                                                            "width": 46,
+                                                            "height": 64
+                                                        },
+                                                        "box": [
+                                                            46,
+                                                            64
+                                                        ],
+                                                        "labels": [],
+                                                        "maxImageSize": 46,
+                                                        "range": [
+                                                            [
+                                                                0,
+                                                                10
+                                                            ],
+                                                            [
+                                                                0,
+                                                                10
+                                                            ]
+                                                        ],
+                                                        "useBoxSize": false
+                                                    },
+                                                    "type": "image",
+                                                    "version": {
+                                                        "major": 0,
+                                                        "minor": 0
+                                                    }
+                                                },
+                                                "article-block 1": {
+                                                    "type": "article-block",
+                                                    "id": "article-block 1",
+                                                    "graded": false,
+                                                    "options": {
+                                                        "background": "#fff",
+                                                        "blockTitle": "",
+                                                        "articleBlock": "當**綠旗被點擊**時，你的猴子角色應該**轉**個圈，然後**重複無限次**。\n\n \n\n這裡是你需要的程式積木：\n\n\n[[☃ scratch 1]]",
+                                                        "widgets": {
+                                                            "scratch 1": {
+                                                                "type": "scratch",
+                                                                "id": "scratch 1",
+                                                                "graded": true,
+                                                                "options": {
+                                                                    "scratchText": "重複無限次\nend\n\n右轉 @turnright (15) 度\n\n當 @greenflag 被點擊",
+                                                                    "scratchVersion": "scratch3"
+                                                                },
+                                                                "version": {
+                                                                    "major": 0,
+                                                                    "minor": 0
+                                                                }
+                                                            }
+                                                        },
+                                                        "expandable": false,
+                                                        "expanded": false
+                                                    },
+                                                    "version": {
+                                                        "major": 0,
+                                                        "minor": 0
+                                                    }
+                                                },
+                                                "article-block 2": {
+                                                    "type": "article-block",
+                                                    "id": "article-block 2",
+                                                    "graded": false,
+                                                    "options": {
+                                                        "background": "#fff",
+                                                        "blockTitle": "",
+                                                        "articleBlock": "\n\n這個是讓猴子打轉的程式：\n\n[[☃ image 1]]\n\n\n\n[[☃ scratch 1]]",
+                                                        "widgets": {
+                                                            "image 1": {
+                                                                "type": "image",
+                                                                "id": "image 1",
+                                                                "graded": true,
+                                                                "options": {
+                                                                    "range": [
+                                                                        [
+                                                                            0,
+                                                                            10
+                                                                        ],
+                                                                        [
+                                                                            0,
+                                                                            10
+                                                                        ]
+                                                                    ],
+                                                                    "box": [
+                                                                        46,
+                                                                        64
+                                                                    ],
+                                                                    "useBoxSize": false,
+                                                                    "backgroundImage": {
+                                                                        "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/lost-in-space/zh-TW/images/sprite-monkey.png",
+                                                                        "width": 46,
+                                                                        "height": 64
+                                                                    },
+                                                                    "labels": [],
+                                                                    "maxImageSize": 435,
+                                                                    "aspectRatio": 1.391304347826087
+                                                                },
+                                                                "version": {
+                                                                    "major": 0,
+                                                                    "minor": 0
+                                                                }
+                                                            },
+                                                            "scratch 1": {
+                                                                "type": "scratch",
+                                                                "id": "scratch 1",
+                                                                "graded": true,
+                                                                "options": {
+                                                                    "scratchText": "當 @greenflag 被點擊\n重複無限次\n    右轉 @turnright (1) 度\nend",
+                                                                    "scratchVersion": "scratch3"
+                                                                },
+                                                                "version": {
+                                                                    "major": 0,
+                                                                    "minor": 0
+                                                                }
+                                                            }
+                                                        },
+                                                        "expandable": false,
+                                                        "expanded": false
+                                                    },
+                                                    "version": {
+                                                        "major": 0,
+                                                        "minor": 0
+                                                    }
+                                                }
+                                            },
+                                            "expandable": true,
+                                            "expanded": false
+                                        },
+                                        "version": {
+                                            "major": 0,
+                                            "minor": 0
+                                        }
+                                    }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

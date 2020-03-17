@@ -1,0 +1,282 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Starting and stopping your timer\n\nLet's use button A to start your timer, and button B to stop it.\n\n\n\n+ Your timer should start when button A is pressed. Add a new `on button A pressed` block to your script:\n\n[[☃ image 1]]\n\n+ The timer should count up as long as button B __has not been pressed__. To do this, first drag a `while` block into your new `on button A pressed` event.\n\n[[☃ image 2]]\n\n+ Drag a `not` block, from 'Logic' to your `while` block:\n\n[[☃ image 3]]\n\n+ You can then drag a `button B pressed` block after the `not` block.\n\n[[☃ image 4]]\n\nAny code inside this `while` loop will be run repeatedly, __as long as button B has not been pressed__.\n\n+ Next, you want to add 1 to your `time` variable every second (1 second = 1000 ms). Add a `pause` block to make your timer wait for 1 second.\n\n[[☃ image 5]]\n\n+ To increase your `time` variable,\n\n[[☃ image 6]]\n\n+ Finally, you'll need to display the updated `time` variable. Here's how your code should look:\n\n[[☃ image 7]]\n\n+ Click 'run' to test your code.\n\n+ Press buttons A and B together to set your timer to 0\n+ Press button A to start your timer\n+ Press (and hold) button B to stop your timer\n\n[[☃ image 8]]\n\n## Challenge your friends!\nUse the timer to challenge your friends. For example, you could see how long it takes them to say the alphabet backwards, or name 10 capital cities.\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 8": {
+                                    "graded": true,
+                                    "id": "image 8",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-test.png",
+                                            "width": 368,
+                                            "height": 291
+                                        },
+                                        "box": [368,
+                                            291],
+                                        "labels": [],
+                                        "maxImageSize": 368,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-update.png",
+                                            "width": 363,
+                                            "height": 290
+                                        },
+                                        "box": [363,
+                                            290],
+                                        "labels": [],
+                                        "maxImageSize": 363,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-change-time.png",
+                                            "width": 376,
+                                            "height": 256
+                                        },
+                                        "box": [376,
+                                            256],
+                                        "labels": [],
+                                        "maxImageSize": 376,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-pause.png",
+                                            "width": 374,
+                                            "height": 210
+                                        },
+                                        "box": [374,
+                                            210],
+                                        "labels": [],
+                                        "maxImageSize": 374,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-b-pressed.png",
+                                            "width": 379,
+                                            "height": 195
+                                        },
+                                        "box": [379,
+                                            195],
+                                        "labels": [],
+                                        "maxImageSize": 379,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-not.png",
+                                            "width": 217,
+                                            "height": 182
+                                        },
+                                        "box": [217,
+                                            182],
+                                        "labels": [],
+                                        "maxImageSize": 217,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-while.png",
+                                            "width": 221,
+                                            "height": 181
+                                        },
+                                        "box": [221,
+                                            181],
+                                        "labels": [],
+                                        "maxImageSize": 221,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/against-the-clock/master/en/images/clock-a-pressed.png",
+                                            "width": 216,
+                                            "height": 111
+                                        },
+                                        "box": [216,
+                                            111],
+                                        "labels": [],
+                                        "maxImageSize": 216,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,158 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 設定圖片樣式\n\n讓我們來完善海報中的圖片樣式。\n\n\n\n+ 此時，你的 `<img>` 標記並無任何 CSS 屬性，那就讓我們來新增一些！\n\n首先，在 CSS 的下方向你的 div 新增以下程式碼：\n\n```\nimg {\n\n}\n```\n\n[[☃ image 1]]\n\n+ 我們現在可以在 `` 花括號之間新增圖片的 CSS 屬性。\n\n例如，在花括號之間新增以下程式碼來設定圖片寬度：\n\n```\nwidth: 100px;\n```\n\n你會看到圖片的尺寸改變，寬度變為 100 畫素。\n\n[[☃ image 2]]\n\n+ 你還可以用以下程式碼在圖片周圍新增邊框：\n\n```\nborder: 1px solid black;\n```\n\n+ 你是否注意到了圖片與邊框之間並無太多的間隙？\n\n[[☃ image 3]]\n\n你可以通過在圖片周圍新增一些內邊距來解決這個問題：\n\n```\npadding: 10px;\n```\n\n內邊距是內容（在這裡為一張圖片）與其邊框之間的空間。\n\n[[☃ image 4]]\n\n如果你將內邊距更改為 `50px`，你認為會發生什麼？\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/wanted/master/zh-CN/images/wanted-img-padding.png",
+                                            "width": 134,
+                                            "height": 130
+                                        },
+                                        "box": [134,
+                                            130],
+                                        "labels": [],
+                                        "maxImageSize": 134,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/wanted/master/zh-CN/images/wanted-img-border.png",
+                                            "width": 111,
+                                            "height": 107
+                                        },
+                                        "box": [111,
+                                            107],
+                                        "labels": [],
+                                        "maxImageSize": 111,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/wanted/master/zh-CN/images/wanted-img-width.png",
+                                            "width": 808,
+                                            "height": 212
+                                        },
+                                        "box": [808,
+                                            212],
+                                        "labels": [],
+                                        "maxImageSize": 808,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/wanted/master/zh-CN/images/wanted-img-css.png",
+                                            "width": 279,
+                                            "height": 209
+                                        },
+                                        "box": [279,
+                                            209],
+                                        "labels": [],
+                                        "maxImageSize": 279,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

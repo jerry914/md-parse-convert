@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " Step 6\n\nNext, let's have some barrels moving at random speeds. Make them start from the right side of the screen and fly towards the player sprite. Move an $\\require{enclose}\\enclose{box}[mathcolor=\"#8854d0\",mathbackground=\"#8854d0\"]{\\color{white}{on game update every}}\\\\$ onto the editor and set the interval time to 1500 milliseconds. Drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{projectile from side}}\\\\$ into it. Click the empty image box in the projectile block and change the dimensions to 8x8. Draw the barrel.\n\n![Draw a barrel in the image editor](/static/lessons/barrel-dodger/draw-barrel.gif)\n\nAfter that, drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{pick random}}\\\\$ block into where vx is and set the range from -100 to -80.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/barrel-dodger/5.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

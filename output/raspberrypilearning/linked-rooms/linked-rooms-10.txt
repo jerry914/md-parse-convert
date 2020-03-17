@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：化為已有！\n\n向你的專案新增更多房間。請記住，你可以使用_複製_和_貼上_來節省時間，然後只更改需要有所不同的內容。 \n\n就每個房間而言，你將需要：\n\n+ 建立一個 `.html` 檔案\n+ 新增與新“房間”互相連結的房門\n+ 建立一個載有新房間和房門樣式的 `.css` 檔案\n\n你可以更改每個房間的 `background-color:`（背景顏色）。點選圖片圖示以檢視你可選擇的背景圖片：\n\n[[☃ image 1]]\n\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-images.png",
+                                            "width": 539,
+                                            "height": 397
+                                        },
+                                        "box": [539,
+                                            397],
+                                        "labels": [],
+                                        "maxImageSize": 539,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

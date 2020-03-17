@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Six: Creating Block Collisions\n\n![Bouncing](/static/lessons/block-out/directional-bouncing.gif)\n\nIn our game, when the player collides with a block, the ball should bounce, the block should be destroyed, and the score should increment. \n\nFrom $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{on sprite of kind player overlaps}}\\\\$ and place it in the workspace. Change the first kind from player to projectile. Then for the second kind, change it from kind player to kind block. From $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{Info}}\\\\$ drag out a $\\require{enclose}\\enclose{box}[mathcolor=\"#cf6a87\",mathbackground=\"#cf6a87\"]{\\color{white}{change score by 1}}\\\\$ and place it in the new $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{overlap}}\\\\$ block. Then in $\\require{enclose}\\enclose{box}[mathcolor=\"#1446a0\",mathbackground=\"#1446a0\"]{\\color{white}{Functions}}\\\\$, grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#1446a0\",mathbackground=\"#1446a0\"]{\\color{white}{call getPos mySprite mySprite}}\\\\$ and place it after the score block. \n\nNow grab an $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if then else}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ and place it after the $\\require{enclose}\\enclose{box}[mathcolor=\"#1446a0\",mathbackground=\"#1446a0\"]{\\color{white}{call getPos}}\\\\$. From $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 = 0}}\\\\$ block and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement. Set the second **0** to **1**. From $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$ drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{direction}}\\\\$ and place it in the spot for the first **0**. \n\nIn the first part of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement, place a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite velocity to}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$. Drag a sprite from the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{overlaps}}\\\\$ block and place it over the mySprite. In the vx field, drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{Math}}\\\\$. In the first field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ block type in **-1** and in the second field, drag in a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite x}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$. Drag a sprite from the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{}}\\\\$ block and place it over the mySprite. Then select the drop down and change it to vx (velocity x). In the vy section, drag in a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 x 0}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{Math}}\\\\$ and set the first field to **-1**. Pull in a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite x}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$. Drag a sprite from the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{overlaps}}\\\\$ block and place it over the mySprite. Then select the drop down and change it to vy (velocity y).\n\nDuplicate the entire $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{set mySprite velocity to}}\\\\$ block and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{else}}\\\\$ statement. Drag out the vx and vy fields and switch them. In the first field that corresponds to vx, set the drop down to vx (velocity x). In the second field that corresponds to vy, and inside the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{-1x(sprite)vx velocity x}}\\\\$, change the drop down to vy (velocity y). \n\nLastly, outside of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement, drag a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{destroy mySprite}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$. Drag an otherSprite from the $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{overlaps}}\\\\$ block and place it over the mySprite.\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/7.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

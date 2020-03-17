@@ -1,0 +1,117 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Introduction\n\nYou are going to make a game in which players have to guide a wand along a course without making contact. Making contact will add one to the player's score - the player with the lowest score wins!\n\n__Instructions__: If you're reading this online, press __A__ on the micro:bit below to start the game, and then touch pin __0__ to make a connection.\n\n[[☃ iframe 1]]\n\n\nFor this project you'll need some additional items:\n\n+ Metal wire (approx. 50cm);\n+ Modelling clay (Plasticine or similar, needs to be non-conductive);\n+ Electrical tape (optional);\n+ Crocodile clip leads (optional).\n\n[[☃ image 1]]\n\n### Additional information for club leaders\n\nIf you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/frustration/print).\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://ys-fang.github.io/msmc/player.html?id=_FEDEdA3v6e64",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-items.png",
+                                            "width": 620,
+                                            "height": 395
+                                        },
+                                        "box": [620,
+                                            395],
+                                        "labels": [],
+                                        "maxImageSize": 620,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Club leader notes",
+                                "articleBlock": "---\n\n---\n\n\n## Introduction:\nIn this project, children will learn how to use variables in making a wire-following game. The aim of the game is to guide a wand along a course without making contact. Making contact will add one to the player's score - the player with the lowest score wins.\n\n## Resources\n\nTo complete this project, children will need:\n\n+ Metal wire (approx. 50cm);\n+ Putty;\n+ Electrical tape (optional);\n+ Crocodile leads (optional).\n\nSteps 1 and 2 of this project can be completed without this equipment.\n\nFor this project, the [MakeCode (PXT)](http://jumpto.cc/pxt-new) microbit editor should be used.\n\nYou can find a completed version of this project at [makecode.microbit.org/#pub:71088-38400-20107-39742](https://makecode.microbit.org/#pub:71088-38400-20107-39742), and the compiled .hex file can be downloaded by clicking the 'Download Project Materials' link for this project, which contains:\n\n+ Frustration.hex\n\n## Learning Objectives\n+ Variables;\n+ Input/output (I/O) pins.\n\nThis project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):\n\n+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)\n\n+ [Use basic digital, analogue, and electromechanical components.](https://www.raspberrypi.org/curriculum/physical-computing/creator)\n\n## Challenges\n+ \"Display an image\" - Display an image on the micro:bit before the number of `fails` is displayed.\n+ \"Cheat mode!\" - Subtract 1 from the `fails` variable when button B is pressed.\n+ \"Personalise your game\" - Make changes to the wand and course in order to make the game more difficult.\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 Project materials",
+                                "articleBlock": "---\n\n---\n\n\n## Club leader resources\n* [online completed project](https://makecode.microbit.org/#pub:71088-38400-20107-39742)\n* [.hex project file to transfer onto your micro:bit](resources/micro-bit-Frustration.hex)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

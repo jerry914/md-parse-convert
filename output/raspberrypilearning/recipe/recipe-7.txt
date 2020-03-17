@@ -1,0 +1,220 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **顏色！\n\n讓我們向你的食譜網頁新增一些顏色。\n\n\n\n+ 你已經學過如何向網頁新增彩色文字。向你的 `style.css` 檔案內部新增以下程式碼，使網站正文內的所有文字變為藍色：\n\n```\nbody {\n    color: blue;\n}\n```\n\n[[☃ image 1]]\n\n+ 你的瀏覽器知道 `blue`（藍色）、`yellow`（黃色）甚至 `lightgreen`（淺綠色）之類的顏色，但你是否知道你的瀏覽器其實知道 140 多種不同顏色的__名稱__？\n\n有一張所有顏色名稱的列表可供你使用：[jumpto.cc/colours](http://jumpto.cc/colours)，其中包括 `tomato`（番茄色）、​`firebrick`（磚紅色）和 `peachpuff`（桃紅色）等顏色名稱。\n\n將文字顏色從 `blue`（藍色）變為 `tomato`（番茄色）。\n\n[[☃ image 2]]\n\n+ 你的瀏覽器知道 140 種顏色的名稱，但實際上卻知道超過 1600 萬種顏色的__色值__！\n\n\n為告訴瀏覽器顯示哪種顏色，你只需要告知其使用的紅色、綠色和藍色色值。\n\n紅色、綠色和藍色的色值被定義為 `0` 到 `255` 之間的數值。\n\n[[☃ image 3]]\n\n向網頁正文的 CSS 新增以下程式碼來顯示一個淺黃色背景：\n\n```\nbackground: rgb(250,250,210);\n```\n\n[[☃ image 4]]\n\n+ 如果你喜歡，你可以使用__十六進位制程式碼__來告訴瀏覽器顯示哪種顏色。這與上文 `rgb()` 程式碼的工作方式類似，但十六進位制程式碼總是以 `#` 開頭，並使用 `00` 到 `ff` 之間的十六進位制“數字”來表示紅色、綠色和藍色色值。\n\n[[☃ image 5]]\n\n使用以下十六進位制程式碼替代 CSS 中的 `rgb()` 程式碼：\n\n```\nbackground: #fafad2;\n```\n\n[[☃ image 6]]\n\n你會看到與之前相同的淺黃色！\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-hex.png",
+                                            "width": 784,
+                                            "height": 177
+                                        },
+                                        "box": [784,
+                                            177],
+                                        "labels": [],
+                                        "maxImageSize": 784,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-hex-img.png",
+                                            "width": 336,
+                                            "height": 100
+                                        },
+                                        "box": [336,
+                                            100],
+                                        "labels": [],
+                                        "maxImageSize": 336,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-rgb.png",
+                                            "width": 788,
+                                            "height": 176
+                                        },
+                                        "box": [788,
+                                            176],
+                                        "labels": [],
+                                        "maxImageSize": 788,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-rgb-img.png",
+                                            "width": 431,
+                                            "height": 100
+                                        },
+                                        "box": [431,
+                                            100],
+                                        "labels": [],
+                                        "maxImageSize": 431,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-tomato.png",
+                                            "width": 783,
+                                            "height": 175
+                                        },
+                                        "box": [783,
+                                            175],
+                                        "labels": [],
+                                        "maxImageSize": 783,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/recipe/master/zh-CN/images/recipe-blue.png",
+                                            "width": 787,
+                                            "height": 174
+                                        },
+                                        "box": [787,
+                                            174],
+                                        "labels": [],
+                                        "maxImageSize": 787,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

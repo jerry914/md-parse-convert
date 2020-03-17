@@ -1,0 +1,86 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹\n\n你將在本專案中學習如何使用 CSS 來建立一個日出動畫。\n\n[[☃ iframe 1]]\n\n## **更多俱樂部領導參考資訊\n\n如果你需要列印本專案，請使用 [適合印表機的版本](https://projects.raspberrypi.org/en/projects/sunrise/print)。\n\n\n[[☃ article-block 1]]\n\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/html/abcc0284a3?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 俱樂部領導備註",
+                                "articleBlock": "---\n\n---\n\n\n# **介紹：\n孩子們將在本專案中學習如何使用 CSS 將一個簡單的場景製作成動畫。他們將使用 CSS @keyframes（關鍵幀）規則來對圖片和 div 的各項屬性進行動畫處理。\n\n# **線上資源\n\n我們推薦使用 [trinket](https://trinket.io/) 來線上編寫 HTML & CSS。本專案包含以下 trinket：\n\n+ [“日出”起點](https://trinket.io/html/web-sunrise)\n\n孩子們也可使用該空白 trinket [(jumpto.cc/html-blank)](http://jumpto.cc/html-blank) 來編寫自己的 HTML & CSS，或者他們可以使用該 trinket 模板 [(jumpto.cc/html-template)](http://jumpto.cc/html-template)。\n\n還有一個 trinket，其中包含相關挑戰的解決方案樣例：\n\n+ [“日出”已完成](https://trinket.io/html/abcc0284a3)\n\n# **離線資源\n如果願意的話，本專案可[離線完成](../offline.html)。你可以通過單擊此專案的“下載專案材料”連結來訪問專案資源。此連結包含一個“專案資源”資料夾，其中包括孩子們離線完成本專案時所需的資源。確保每個孩子都能訪問這些資源的副本。此資料夾包括以下檔案：\n\n+ template/index.html\n+ template/prefix.js\n+ template/style.css\n+ sunrise/index.html\n+ sunrise/style.css\n+ sunrise/prefixfree.js\n+ sunrise/boat.png\n+ sunrise/cloud.png\n+ sunrise/helicopter.png\n+ sunrise/rainbow.png\n+ sunrise/sun.png\n\n你還可以在“志願者資源”部分中找到本專案挑戰的完整版本，其中包含：\n\n+ sunrise-finished/index.html\n+ sunrise-finished/style.css\n+ sunrise-finished/prefixfree.js\n+ sunrise-finished/boat.png\n+ sunrise-finished/sun.png\n+ sunrise-finished/rainbow.png\n\n# **學習目標\n+ 運用 CSS 製作造型和動畫：\n+ 引入 `@keyframe`（關鍵幀）規則來定義動畫中的步驟。\n+ 加強屬性的使用來定義網頁上多個元素的尺寸、形狀、位置和顏色。\n\n本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：\n\n+ [設計基本的 2D 和 3D 資源](https://www.raspberrypi.org/curriculum/design/creator)。\n\n# **挑戰\n+ “斜向動畫”- 編輯動畫的 `@keyframe`（關鍵幀）屬性來使用 left:（左側）；\n+ “完善天空”- 新增更多關鍵幀並設定 background:（背景）；\n+ “更多動畫”- 使用多種 CSS 屬性對更多圖片或元素進行動畫處理。 \n\n# **常見問題\n\n+ 本專案使用了 javascript 的 `prefixfree.js` 庫，使動畫能相容多個瀏覽器。如果不使用這個庫，那麼使用舊版瀏覽器的孩子則需要針對瀏覽器宣告動畫，例如：\n\n```\nanimation: sky 10s infinite;   //適用於所有新版瀏覽器\n-webkit-animation: sky 10s infinite;  // 適用於 Webkit 瀏覽器 (Chrome, Safari...)\n-moz-animation: sky 10s infinite;     // 適用於 Mozilla 瀏覽器\n-o-animation: sky 10s infinite;       // 適用於 Opera 瀏覽器\n-ms-animation: sky 10s infinite;// 適用於微軟瀏覽器 \n```\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 專案材料",
+                                "articleBlock": "---\n\n---\n# **專案資源\n* [包含所有專案資源的 .zip 檔案](resources/sunrise-project-resources.zip)\n* [包含所有“日出”專案資源的線上 Trinket](http://jumpto.cc/web-sunrise)\n* [線上 Trinket 模板](http://jumpto.cc/trinket-template)\n* [線上空白 Trinket](http://jumpto.cc/trinket-blank)\n* [template/index.html](resources/template-index.html)\n* [template/style.css](resources/template-style.css)\n* [intro/index.html](resources/intro-index.html)\n* [intro/style.css](resources/intro-style.css)\n* [sunrise/index.html](resources/sunrise-index.html)\n* [sunrise/style.css](resources/sunrise-style.css)\n* [sunrise/prefixfree.js](resources/sunrise-prefixfree.js)\n* [sunrise/sun.png](resources/sunrise-sun.png)\n* [sunrise/rainbow.png](resources/sunrise-rainbow.png)\n* [sunrise/cloud.png](resources/sunrise-cloud.png)\n* [sunrise/boat.png](resources/sunrise-boat.png)\n* [sunrise/helicopter.png](resources/sunrise-helicopter.png)\n\n# **俱樂部領導資源\n* [包含所有已完成專案資源的 .zip 檔案](resources/sunrise-volunteer-resources.zip)\n* [線上完整 Trinket 專案](https://trinket.io/html/abcc0284a3)\n* [sunrise-finished/index.html](resources/sunrise-finished-index.html)\n* [sunrise-finished/style.css](resources/sunrise-finished-style.css)\n* [sunrise-finished/prefixfree.js](resources/sunrise-finished-prefixfree.js)\n* [sunrise-finished/sun.png](resources/sunrise-finished-sun.png)\n* [sunrise-finished/boat.png](resources/sunrise-finished-boat.png)\n* [sunrise-finished/rainbow.png](resources/sunrise-finished-rainbow.png)\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

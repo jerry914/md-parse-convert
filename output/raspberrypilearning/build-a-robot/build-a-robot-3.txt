@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **給你的機器人一張嘴巴\n\n讓我們來給你的機器人一張嘴巴！\n\n\n\n+ 新增下列 CSS 程式碼來設定你的 `mouth1` 圖片的樣式：\n\n```\n# **mouth1 {\n    width: 50px;\n    position: absolute;\n    top: 200px;\n    left: 200px;\n}\n```\n\n+ 你機器人的嘴巴看起來很小，且位置不對。\n\n[[☃ image 1]]\n\n你能通過更改你的 CSS 來解決這個問題嗎？\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/build-a-robot/master/zh-CN/images/robot-mouth.png",
+                                            "width": 250,
+                                            "height": 340
+                                        },
+                                        "box": [250,
+                                            340],
+                                        "labels": [],
+                                        "maxImageSize": 250,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

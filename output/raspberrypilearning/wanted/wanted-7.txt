@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n ** ** 挑戰：使你的海報引人注目！\n新增更多 CSS 程式碼來設定你的 `<h3>` 標題和段落樣式。 \n\n[[☃ image 1]]\n\n下面列舉了你可以使用的一些 CSS 屬性：\n\n```\ncolor: black;\nbackground: white;\nfont-family: Arial / Comic Sans MS / Courier / Impact / Tahoma;\nfont-size: 12pt;\nfont-weight: bold;\ntext-decoration: underline overline line-through;\nmargin: 10px;\npadding: 10px;\nwidth: 100px;\nheight: 100px;\n```\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/wanted/master/zh-CN/images/wanted-final.png",
+                                            "width": 322,
+                                            "height": 475
+                                        },
+                                        "box": [322,
+                                            475],
+                                        "labels": [],
+                                        "maxImageSize": 322,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

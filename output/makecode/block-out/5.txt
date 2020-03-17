@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# Five: Directional Bouncing\n\n![Directional Bouncing](/static/lessons/block-out/directional-bouncing.gif)\n\nWhen our ball collides with a block, we want to be able to detect which side the block bounced on. In our implementation, we are going to create a function for this event. To do this, go under Advanced to find the $\\require{enclose}\\enclose{box}[mathcolor=\"#1446a0\",mathbackground=\"#1446a0\"]{\\color{white}{Functions}}\\\\$ and click Make a Function.... The function editor then pops up. Type in **getPos** where it says **doSomething**. This will mean the position of the ball relative to the block. Click on Sprite in the upper bar. A new **parameter** is now added. Name it to **sprite**. Again, click on Sprite in the upper bar. Another parameter pops up, name it to **otherSprite**.\n\n![Creating Functions](/static/lessons/block-out/creating-functions.gif)\n\n### ~hint\n\n#### The Definition of Parameter\n\nA function can be called anywhere in the code. A function can have parameters of different types. This means that when the function is called, things such as variables can be passed into the function to be modified or edited. \n\n### ~\n\nFrom $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{ if then else}}\\\\$ block and place it in the function. Now from $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$, grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{_ or _}}\\\\$ block and place it in the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement. \n\nFrom $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{Logic}}\\\\$ grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 < 0}}\\\\$ block and place it in the first field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{_ or _}}\\\\$ block. Next, in the first field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 < 0}}\\\\$ block, place a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite x}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{Sprites}}\\\\$. Drag sprite from the function block and place it on the mySprite. In the second field, place a $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0 - 0}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{Math}}\\\\$. Set the second field to **8**. In the first part of the $\\require{enclose}\\enclose{box}[mathcolor=\"#a55eea\",mathbackground=\"#a55eea\"]{\\color{white}{0-0}}\\\\$ block, place a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b7bec\",mathbackground=\"#4b7bec\"]{\\color{white}{mySprite x}}\\\\$. Drag an otherSprite from the function and place it in the mySprite. \n\nDuplicate the entire block (the one that started as jsut the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{0 < 0}}\\\\$) and place it in the second field of the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{or}}\\\\$ conditional statement. Change the < sign to a > sign. Then, in the math block, change the - sign to a + sign. In the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{if}}\\\\$ statement then place a $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set var to}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$. Click the dropdown and select direction. Then type in **1**. In the $\\require{enclose}\\enclose{box}[mathcolor=\"#45aaf2\",mathbackground=\"#45aaf2\"]{\\color{white}{else}}\\\\$ statement place a  $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{set var to}}\\\\$ from $\\require{enclose}\\enclose{box}[mathcolor=\"#ec3b59\",mathbackground=\"#ec3b59\"]{\\color{white}{Variables}}\\\\$. Click the dropdown and select direction. Then type in **0**.\n\nCongrats, we have now made a function!\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/block-out/6.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# ** 挑戰：新增另一段落\n- 你能否在你網頁的兩個段落下方新增第三個文字段落？\n\n請記住，你的新段落應以 `<p>` 標記開始並以 `</p>` 標記結束。\n\n你的網頁可能如下所示：\n\n[[☃ image 1]]\n\n你能否向你的新段落新增**粗體**和<u>下劃線</u>文字？`<u>` 和 `</u>` 標記用於下劃線文字。\n\n--- /challenge ---\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-paragraph.png",
+                                            "width": 307,
+                                            "height": 101
+                                        },
+                                        "box": [307,
+                                            101],
+                                        "labels": [],
+                                        "maxImageSize": 307,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

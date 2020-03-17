@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **對日出進行動畫處理\n\n要對日出進行動畫處理，你需要定義太陽的移動方式以及需要多久才能升起。\n\n為此，你要定義一系列的關鍵幀。每個關鍵幀定義了一個元素在動畫中某個特定時間點的 CSS 屬性。 \n\n\n\n+ 首先，你需要使用 `@keyframes`（關鍵幀）來建立一個名為日出的新動畫。 \n\n    向 `style.css` 檔案的結尾處新增以下 CSS 程式碼：\n\n    ```\n    @keyframes sunrise {\n        0%\n        100%\n    }\n    ```\n\n    此程式碼告訴太陽在動畫開始 (`0%`) 和結尾 (`100%`) 處將自身定位在何處。\n\n    由於太陽處於天空 `div` 內部，因此你給出的 `top`（頂部）和 `left`（左側）位置為相對天空的內部位置，其中 `top: 100%` 指天空的底部，並非網頁的底部。\n\n\n+ 現在你已經建立了 `sunrise`（日出）動畫，你只需要告訴你的太陽來用它！ \n\n    向太陽的 CSS 新增以下高亮程式碼：\n\n    [[☃ image 1]]\n\n    這告訴太陽花費 10 秒鐘來呈現日出動畫。\n\n+ 要在 Trinket 中再次執行動畫，只需點選 **Autorun**（自動執行）。 \n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/sunrise/master/zh-CN/images/sunrise-sunrise.png",
+                                            "width": 886,
+                                            "height": 310
+                                        },
+                                        "box": [886,
+                                            310],
+                                        "labels": [],
+                                        "maxImageSize": 886,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

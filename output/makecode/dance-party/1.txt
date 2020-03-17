@@ -1,0 +1,52 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# One: Setting the Scene\n\nGo to the [MakeCode Arcade](@homeurl@) editor and select **New Project** to create a new game.\n\nOnce the editor loads, you will see a green $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{在啟動}}\\\\$ block already in the editor Workspace.\n\nTo create a world for the game to exist in, we will use a tilemap.\nTo do this, go into $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{現場}}\\\\$ and grab a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{集tilemap的到}}\\\\$ block and drag it into $\\require{enclose}\\enclose{box}[mathcolor=\"#20bf6b\",mathbackground=\"#20bf6b\"]{\\color{white}{在啟動}}\\\\$.\nOpen the tilemap editor by clicking on the gray box in that block.\n\nIn the tilemap editor, we can create a level for the game.\nFirst, set the size of the world to 10x8 in the bottom left corner; this will make the map approximately the same size as the screen.\nNext, draw a line across the bottom with a tile that will be the bottom wall.\nFill in the rest of the screen with a background of your choice.\nFinally, click on the Draw Walls button, and draw another line at the bottom of the screen;\nthis will give those tiles a red tint,\nindicating that they will be **walls** that block sprites from moving past them.\n\nTo make the background less plain you can add some scene effects.\nGet a $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{啟動畫面效果}}\\\\$ block from $\\require{enclose}\\enclose{box}[mathcolor=\"#4b6584\",mathbackground=\"#4b6584\"]{\\color{white}{現場}}\\\\$ to do this.\nGo to the drop down in the block and select star field to create an outer space theme.\n\n![Animation showing the completion of the tilemap from this set](/static/lessons/dance-party/drawing-tilemap.gif)\n\n[[☃ iframe 1]]\n\n[[☃ iframe 2]]\n\nCongratulations! You have now set the scene for your game.\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 2": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://jerry914.github.io/arcade-test/dance-party/1.html",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 320
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：建立電腦列印樣式\n\n建立一個老式的電腦列印樣式，並將其應用於某些單詞：\n\n[[☃ image 1]]\n\n你將需要：\n\n+ 來自 [jumpto.cc/web-fonts](\"http://jumpto.cc/web-fonts\",\" \" \"_blank\") 的 `VT323` 字型系列。如果你需要有關使用谷歌字型的提示，請回顧第 5 步。 \n\n+ `computer-printout-paper.png` 背景圖片。如果你需要有關使用背景圖片的提示，請回顧第 4 步。 \n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/mystery-letter/master/zh-CN/images/letter-fonts-printout.png",
+                                            "width": 115,
+                                            "height": 74
+                                        },
+                                        "box": [115,
+                                            74],
+                                        "labels": [],
+                                        "maxImageSize": 115,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

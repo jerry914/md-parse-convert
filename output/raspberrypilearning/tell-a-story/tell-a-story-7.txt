@@ -1,0 +1,96 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": " ** ** 尋找你自己的圖片\n\n讓我們從網上找一張圖片新增進你的故事。\n\n+ 前往[此頁面](http://jumpto.cc/html-images \"_blank\" \"title\")並尋找一張你想新增到故事中的圖片。\n\n+ 右鍵單擊該圖片，並點選 **Copy Image URL**（複製圖片 URL）（或 **Copy Image Address**（複製圖片地址），具體取決於你使用的電腦）。此 URL 就是圖片的地址。\n\n[[☃ image 1]]\n\n+ 返回你的 `index.html` 頁面。\n\n+ 將該 URL 貼上在 `<img>` 標記中的引號之間。你會看到你的圖片顯示出來！\n\n[[☃ image 2]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-image.png",
+                                            "width": 917,
+                                            "height": 289
+                                        },
+                                        "box": [917,
+                                            289],
+                                        "labels": [],
+                                        "maxImageSize": 917,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/tell-a-story/master/zh-CN/images/story-url.png",
+                                            "width": 431,
+                                            "height": 255
+                                        },
+                                        "box": [431,
+                                            255],
+                                        "labels": [],
+                                        "maxImageSize": 431,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

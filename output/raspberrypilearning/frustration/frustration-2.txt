@@ -1,0 +1,251 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Storing fails\n\nLet's start by creating a place to store the number of fails.\n\n\n\n+ Go to [rpf.io/microbit-new](\"https://rpf.io/microbit-new\",\" \" \"_blank\") to start a new project in the MakeCode (PXT) editor. Call your new project 'Frustration'.\n\n+ Delete the `forever` and `start` blocks by dragging them to the palette:\n\n[[☃ image 1]]\n\n+ A new game should start when the player presses button A. Click 'Input' and then `on button A pressed`.\n\n[[☃ image 2]]\n\n+ Now you need a variable to store the number of times you fail in the game by touching the wire with the wand. Click on 'Variables' and then 'Make a new Variable'. Name the variable `fails`.\n\n[[☃ image 3]]\n\n+ Drag a `set` block from 'Variables' and select `fails`:\n\n[[☃ image 4]]\n\nThis will set the number of fails to zero when you press the A button. \n\n+ Finally, you can display the number of `fails` on your micro:bit. To do this, first drag a `show number` block from 'Basic' to the end of your script.\n\n[[☃ image 5]]\n\n+ Then drag `fails` from 'Variables' into your `set block`.\n\n[[☃ image 6]]\n\n+ Click 'run' to test your script. Clicking button A should display the number of fails, which has been set to `0`.\n\n[[☃ image 7]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-fails-test.png",
+                                            "width": 367,
+                                            "height": 290
+                                        },
+                                        "box": [367,
+                                            290],
+                                        "labels": [],
+                                        "maxImageSize": 367,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-show-fails.png",
+                                            "width": 430,
+                                            "height": 197
+                                        },
+                                        "box": [430,
+                                            197],
+                                        "labels": [],
+                                        "maxImageSize": 430,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-show.png",
+                                            "width": 420,
+                                            "height": 196
+                                        },
+                                        "box": [420,
+                                            196],
+                                        "labels": [],
+                                        "maxImageSize": 420,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-fails.png",
+                                            "width": 223,
+                                            "height": 125
+                                        },
+                                        "box": [223,
+                                            125],
+                                        "labels": [],
+                                        "maxImageSize": 223,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-variable.png",
+                                            "width": 419,
+                                            "height": 309
+                                        },
+                                        "box": [419,
+                                            309],
+                                        "labels": [],
+                                        "maxImageSize": 419,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-onPressA.png",
+                                            "width": 413,
+                                            "height": 132
+                                        },
+                                        "box": [413,
+                                            132],
+                                        "labels": [],
+                                        "maxImageSize": 413,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/frustration/master/en/images/frustration-bin.png",
+                                            "width": 380,
+                                            "height": 217
+                                        },
+                                        "box": [380,
+                                            217],
+                                        "labels": [],
+                                        "maxImageSize": 380,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,34 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## BlockOut\n\nUse the arrow keys to bounce the projectile off of your paddle to destroy all the blocks on the screen!\n\n![Game view in simulator](/static/lessons/block-out/working-game.gif)\n\n## Learning Objectives\n\nLearn the basics to a basic bouncing projectile game!\n\n* The concept of sprite\n* How to spawn multiple sprites\n* Sprite projectile interactions\n* Setting and moving a \\"player\\" \n* Setting a score increment\n* Semi-random movement\n\n## Lesson Sections\n\n* [Part One: Creating the Sprites](#part-one-creating-the-sprites)\n* [Part Two: Creating the Blocks](#part-two-creating-the-blocks)\n* [Part Three: Finishing the Setup](#part-three-finishing-the-setup)\n* [Part Four: Ball and Paddle Interactions](#part-four-ball-and-paddle-interactions)\n* [Part Five: Directional Bouncing](#part-five-directional-bouncing)\n* [Part Six: Creating Block Collisions](#part-six-creating-block-collisions)\n* [Part Seven: Ending the Game](#part-seven-ending-the-game)\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

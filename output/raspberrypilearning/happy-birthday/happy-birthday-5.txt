@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# ** 什麼是 CSS？\n\nCSS 代表**級聯樣式表**，是一種用來設計網頁樣式以使其外觀優美的語言。\n\n+ 此程式碼將你的網頁連結至 CSS 檔案 — 看你能否在 HTML 檔案的 `<head>` 中找到它：\n\n[[☃ image 1]]\n\nCSS 列出了一個特定標記的全部**屬性**。\n\n+ 點選 `style.css` 選項卡來檢視你網頁的 CSS 程式碼。\n\n[[☃ image 2]]\n\n+ 找到這個程式碼：\n\n```html\np {\ncolor: black;\n}\n```\n\n這個 CSS 程式碼決定了段落 (`p`) 的屬性，它表明文字顏色應為黑色。注意這個美式拼寫：‘color’。\n\n+ 將 CSS 程式碼中的 'black' 單詞更改為 'blue'。你會看到所有段落的文字顏色均變為藍色。\n\n[[☃ image 3]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-edit-css.png",
+                                            "width": 756,
+                                            "height": 146
+                                        },
+                                        "box": [756,
+                                            146],
+                                        "labels": [],
+                                        "maxImageSize": 756,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-css-tab.png",
+                                            "width": 364,
+                                            "height": 188
+                                        },
+                                        "box": [364,
+                                            188],
+                                        "labels": [],
+                                        "maxImageSize": 364,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-css-link.png",
+                                            "width": 351,
+                                            "height": 86
+                                        },
+                                        "box": [351,
+                                            86],
+                                        "labels": [],
+                                        "maxImageSize": 351,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

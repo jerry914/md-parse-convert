@@ -1,0 +1,127 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "--- challenge ---\n# **挑戰：建立新的展示\n\nTrinket 並非你能在網頁中嵌入的唯一內容。你可以嵌入視訊、小元件（如天氣小元件）或 Scratch 專案。 \n\n開啟嵌入 Scratch 示例 ​trinket 並執行：[https://trinket.io/html/9f7212b8fe](\"https://trinket.io/html/9f7212b8fe\",\" \" \"_blank\")\n\n進入 Scratch 網站，找一個你喜歡的專案。可以是你自己的專案，也可以是你找到的專案。\n\n如果你登入，你可以點選專案下方的“Embed”（潛入）按鈕來獲取 HTML 嵌入程式碼。 \n\n[[☃ image 1]]\n\n如果你未登入，則請檢視網址中的 Scratch 專案編號。 \n\n[[☃ image 2]]\n\n複製 Scratch 嵌入示例中的 `<iframe>` 程式碼，並將專案編號更改為你想嵌入的專案編號：\n\n[[☃ image 3]]\n\n\n\n\n--- /challenge ---",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/scratch-iframe.png",
+                                            "width": 694,
+                                            "height": 51
+                                        },
+                                        "box": [694,
+                                            51],
+                                        "labels": [],
+                                        "maxImageSize": 694,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/scratch-project-number.png",
+                                            "width": 649,
+                                            "height": 143
+                                        },
+                                        "box": [649,
+                                            143],
+                                        "labels": [],
+                                        "maxImageSize": 649,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/project-showcase/master/zh-CN/images/scratch-embed.png",
+                                            "width": 561,
+                                            "height": 298
+                                        },
+                                        "box": [561,
+                                            298],
+                                        "labels": [],
+                                        "maxImageSize": 561,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

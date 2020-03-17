@@ -1,0 +1,220 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **新增另一個房間\n\n現在讓我們來新增另一個房間，一個遊戲房間。 \n\n+ 單擊新增頁面 __+__ 按鈕：\n\n[[☃ image 1]]\n\n輸入 `gamesroom.html` 作為頁面名稱：\n\n  [[☃ image 2]]\n\n+ 遊戲房間的 HTML 與 `tvroom.html` 十分相似，因此將其複製下來並貼上到 `gamesroom.html` 中。\n\n編輯高亮部分使其顯示為 Games 而非 TV：\n\n[[☃ image 3]]\n\n+ 你的 `gamesroom.html` 現在使用目前尚不存在的 `gamesroom.css`。 \n\n單擊新增頁面 __+__ 按鈕，建立 `gamesroom.css`。 \n\n\n+ 遊戲房間的 CSS 與 `tvroom.css` 十分相似，因此將其複製下來並貼上到 `gamesroom.css` 中。\n\n[[☃ image 4]]\n\n+ 新增一個從大廳到遊戲房間的連結：\n\n[[☃ image 5]]\n\n+ 單擊遊戲房間連結來測試你的專案\n\n​遊戲房間應如下所示：\n\n[[☃ image 6]]\n\n雖然不是很好玩，但你可以在下一項挑戰中對其進行完善。 \n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-games-before.png",
+                                            "width": 445,
+                                            "height": 282
+                                        },
+                                        "box": [445,
+                                            282],
+                                        "labels": [],
+                                        "maxImageSize": 445,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-hall-games.png",
+                                            "width": 1043,
+                                            "height": 312
+                                        },
+                                        "box": [1043,
+                                            312],
+                                        "labels": [],
+                                        "maxImageSize": 1043,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-add-games-css.png",
+                                            "width": 490,
+                                            "height": 276
+                                        },
+                                        "box": [490,
+                                            276],
+                                        "labels": [],
+                                        "maxImageSize": 490,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-games-html2.png",
+                                            "width": 554,
+                                            "height": 224
+                                        },
+                                        "box": [554,
+                                            224],
+                                        "labels": [],
+                                        "maxImageSize": 554,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-games-html.png",
+                                            "width": 710,
+                                            "height": 50
+                                        },
+                                        "box": [710,
+                                            50],
+                                        "labels": [],
+                                        "maxImageSize": 710,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/linked-rooms/master/zh-CN/images/rooms-add-page.png",
+                                            "width": 554,
+                                            "height": 85
+                                        },
+                                        "box": [554,
+                                            85],
+                                        "labels": [],
+                                        "maxImageSize": 554,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

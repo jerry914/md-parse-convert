@@ -1,0 +1,237 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# ** 什麼是 HTML？\n\nHTML 代表**超文字標記語言**，即用於製作網頁的語言。讓我們來看一個示例！\n\n你將使用一個名為 trinket.io 的網站來編寫 HTML 程式碼。\n\n+ 開啟[這個 trinket](http://jumpto.cc/web-intro \"_blank\" \"title\")。\n\n此專案應如下所示：\n\n[[☃ image 1]]\n\n你在左側看到的程式碼就是 HTML。在 trinket 的右側，你可以看到由 HTML 程式碼構建的網頁。\n\nHTML 使用**標記**來構建網頁。請看你程式碼第 8 行的這個 HTML 程式碼：\n\n```html\n<p>Hi.My name is Andy.</p>\n```\n\n`<p>` 就是其中一種標記，是**段落**的簡寫。你可以用 `<p>` 來開始段落，並用 `</p>` 來終止段落。\n\n+ 你能否發現任何其他標記？\n\n[[☃ article-block 1]]\n\n+ 對 HTML 檔案內文字的其中一段進行一項更改（左側）。點選 **Run**（執行），你會看到你的網頁有所變動（右側）！\n\n[[☃ image 3]]\n\n+ 如果你出了錯並希望撤銷所有的更改，你可以點選 **menu**（選單）按鈕，然後點選 **Reset**（重置）。\n\n[[☃ image 4]]\n\n要僅僅撤銷你進行的最後一項操作，你可以同時按 `Ctrl` 和 `z` 鍵。\n\n# ** ** 儲存專案時無需使用 Trinket 帳戶！\n\n如果你沒有 Trinket 帳戶，單擊**向下**箭頭，再單擊 **Link**（連結）。由此獲得一個連結，你可以進行儲存並稍後返回。每次更改時都需要重複以上步驟，因為連結會發生改變！\n\n[[☃ image 5]]\n\n如果你有 Trinket 帳戶，儲存網頁最便捷的方式就是點選 trinket 頂部的 **Remix**（混合）按鈕。這會在你的資料上儲存一份 trinket 的副本。\n\n[[☃ image 6]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-remix.png",
+                                            "width": 481,
+                                            "height": 136
+                                        },
+                                        "box": [481,
+                                            136],
+                                        "labels": [],
+                                        "maxImageSize": 481,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-link.png",
+                                            "width": 356,
+                                            "height": 241
+                                        },
+                                        "box": [356,
+                                            241],
+                                        "labels": [],
+                                        "maxImageSize": 356,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-reset.png",
+                                            "width": 430,
+                                            "height": 406
+                                        },
+                                        "box": [430,
+                                            406],
+                                        "labels": [],
+                                        "maxImageSize": 430,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-edit-html.png",
+                                            "width": 824,
+                                            "height": 396
+                                        },
+                                        "box": [824,
+                                            396],
+                                        "labels": [],
+                                        "maxImageSize": 824,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-head-body.png",
+                                            "width": 455,
+                                            "height": 179
+                                        },
+                                        "box": [455,
+                                            179],
+                                        "labels": [],
+                                        "maxImageSize": 455,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/happy-birthday/master/zh-CN/images/birthday-starter.png",
+                                            "width": 752,
+                                            "height": 196
+                                        },
+                                        "box": [752,
+                                            196],
+                                        "labels": [],
+                                        "maxImageSize": 752,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 答案",
+                                "articleBlock": "---\n\n---\n你可能發現的另一個標記是 `<b>`，它代表__粗體__：\n\n```html\n<b>running</b>\n```\n\n以下是更多標記：\n\n+ `<html>` 和 `</html>` 標誌著 HTML 檔案的起始和結尾\n+ `<head>` 和 `</head>` 是 CSS 等內容所在的地方（我們隨後將對此進行討論）\n+ `<body>` 和 `</body>` 是你的網站內容所在的地方\n\n[[☃ image 2]]\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

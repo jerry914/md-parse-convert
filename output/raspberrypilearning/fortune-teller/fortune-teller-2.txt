@@ -1,0 +1,65 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "## Scrolling text\n\nLet's start by scrolling some text instructions on your micro:bit.\n\n\n\n+ Go to [rpf.io/microbit-new](\"https://rpf.io/microbit-new\",\" \" \"_blank\") to start a new project in the MakeCode (PXT) editor. Call your new project 'Fortune Teller'.\n\nYou can delete the `forever` block by dragging it over the palette, you don't need it for this project.\n\n+ Drag a `show string` block inside your `start` block.\n\n[[☃ image 1]]\n\n+ Test out your code. You can test it out in the emulator or on the micro:bit itself.\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/raspberrypilearning/fortune-teller/master/en/images/fortune-press-a.png",
+                                            "width": 231,
+                                            "height": 127
+                                        },
+                                        "box": [231,
+                                            127],
+                                        "labels": [],
+                                        "maxImageSize": 231,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}
