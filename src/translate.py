@@ -33,4 +33,5 @@ for project in projectName:
             f.close()
         elif isdir(fullpath):
             print("目錄：", f)
+            
     os.rename(mypath,mypath.replace("zh-CN","zh-TW"))
