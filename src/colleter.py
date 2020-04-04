@@ -7,6 +7,7 @@ import os
 import yaml
 import junyiJSONgenerate
 import imgDownload
+import filetype
 
 
 
@@ -24,6 +25,23 @@ def checkLink(url):
     if resp.status_code == 200:
         return True
     return False
+
+# Download any kind of file from github folder
+def getFolder(url,folder):
+    resp = requests.get(url)
+    soup = BeautifulSoup(resp.text, 'html.parser')
+    pathData = soup.select('td.content a')
+    for path in pathData:
+        rawPath = "https://github.com"+path["href"]+"?raw=true"
+        r = requests.get(rawPath)
+        filePath = folder+path["title"]
+        with open(filePath, "wb") as code:
+            code.write(r.content)
+    # kind = filetype.guess(filePath)
+    # mypath = filePath
+    # if kind != None:
+    #     os.rename(mypath,mypath.replace(filePath,filePath+"."+kind.mime.split("/")[1]))
+    
 
 def collectMd(project,step,lang):
 
@@ -68,6 +86,12 @@ def estFolder(project,lang):
     if not os.path.isdir(rootPath+project+"/"+lang):
         os.mkdir(rootPath+project+"/"+lang)
         os.mkdir(rootPath+project+"/"+lang+"/images")
+        os.mkdir(rootPath+project+"/"+lang+"/resources")
+
+def getFile(url,filePath):
+    r = requests.get(url)
+    with open(filePath, "wb") as code:
+        code.write(r.content)
 
 global rootURL
 global rootPath
@@ -75,41 +99,50 @@ global rootPath
 projectName = listRepo()
 
 for project in projectName:
-    step = 1
     rootURL = 'https://raw.githubusercontent.com/raspberrypilearning/'
     rootPath = "D:/workspace/Junyi/Code Club-Learning Resources/"
+    try:
+        getFile(rootURL+project+'/master/en/images/banner.png',rootPath+project+'/banner.png')
+        print(project)
+    except Exception as e:
+        print(e)
+# for project in projectName:
+#     step = 1
+#     rootURL = 'https://raw.githubusercontent.com/raspberrypilearning/'
+#     rootPath = "D:/workspace/Junyi/Code Club-Learning Resources/"
+#     getFolder('https://github.com/raspberrypilearning/'+project+'/tree/master/en/resources','D:/workspace/Junyi/Code Club-Learning Resources/'+project+'/zh-TW/resources/')
+    
+    
+#     if checkLink(rootURL+project+'/master/zh-TW/step_'+str(step)+'.md'):
+#         estFolder(project,"zh-TW")
+#         while(checkLink(rootURL+project+'/master/en/step_'+str(step)+'.md')):
+#             collectMd(project,step,"zh-TW")
+#             collectImg(project,step,"zh-TW")
+#             step+=1
 
-    if checkLink(rootURL+project+'/master/zh-TW/step_'+str(step)+'.md'):
-        estFolder(project,"zh-TW")
-        while(checkLink(rootURL+project+'/master/en/step_'+str(step)+'.md')):
-            collectMd(project,step,"zh-TW")
-            collectImg(project,step,"zh-TW")
-            step+=1
+#         getYaml(project,"zh-TW")
+#         title = getProjectTitle(project,"zh-TW")
+#         print(title)
 
-        getYaml(project,"zh-TW")
-        title = getProjectTitle(project,"zh-TW")
-        print(title)
+#     elif checkLink(rootURL+project+'/master/zh-CN/step_'+str(step)+'.md'):
+#         estFolder(project,"zh-CN")
+#         while(checkLink(rootURL+project+'/master/en/step_'+str(step)+'.md')):
+#             collectMd(project,step,"zh-CN")
+#             collectImg(project,step,"zh-CN")
+#             step+=1
 
-    elif checkLink(rootURL+project+'/master/zh-CN/step_'+str(step)+'.md'):
-        estFolder(project,"zh-CN")
-        while(checkLink(rootURL+project+'/master/en/step_'+str(step)+'.md')):
-            collectMd(project,step,"zh-CN")
-            collectImg(project,step,"zh-CN")
-            step+=1
+#         getYaml(project,"zh-CN")
+#         title = getProjectTitle(project,"zh-CN")
+#         print(title)
 
-        getYaml(project,"zh-CN")
-        title = getProjectTitle(project,"zh-CN")
-        print(title)
+#     else:
+#         estFolder(project,"en")
+#         while(checkLink(rootURL+project+'/master/en/step_'+str(step)+'.md')):
+#             collectMd(project,step,"en")
+#             collectImg(project,step,"en")
+#             step+=1
 
-    else:
-        estFolder(project,"en")
-        while(checkLink(rootURL+project+'/master/en/step_'+str(step)+'.md')):
-            collectMd(project,step,"en")
-            collectImg(project,step,"en")
-            step+=1
-
-        getYaml(project,"en")
-        title = getProjectTitle(project,"en")
-        print(title)
-        
+#         getYaml(project,"en")
+#         title = getProjectTitle(project,"en")
+#         print(title)
         

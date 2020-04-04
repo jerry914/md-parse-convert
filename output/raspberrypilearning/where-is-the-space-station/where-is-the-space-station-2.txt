@@ -1,0 +1,299 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/where-is-the-space-station \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **誰在太空裡？**\n\n你將使用一項提供有關太空實時資訊的 web 服務。讓我們找出目前誰身處太空。 \n\n\n\n\n---\n$\\\\$\n\n+ ✅ web 服務就像網頁一樣，有一個地址 (url)。但它並不傳回網頁的 HTML，而是傳回資料。 \n\n    在網頁瀏覽器中開啟 [http://api.open-notify.org/astros.json](\"http://api.open-notify.org/astros.json\",\" \" \"_blank\")。 \n\n    你會看到類似於下文的內容：\n\n    ```\n    {\n      \"message\": \"success\", \n      \"number\": 3, \n      \"people\": [\n        {\n          \"craft\": \"ISS\", \n          \"name\": \"Yuri Malenchenko\"\n        }, \n        {\n          \"craft\": \"ISS\", \n          \"name\": \"Timothy Kopra\"\n        }, \n        {\n          \"craft\": \"ISS\", \n          \"name\": \"Timothy Peake\"\n        }\n      ]\n    }\n    ```\n\n    這些資料是實時的，因此你會看到不同的結果。這種格式被稱作 JSON（念 Jason）。 \n\n\n---\n$\\\\$\n\n+ ✅ 讓我們從 Python 呼叫該 web 服務，這樣我們便可以使用該結果。\n\n    開啟這個 trinket：[http://api.open-notify.org/astros.json](\"http://api.open-notify.org/astros.json\",\" \" \"_blank\")。 \n\n\n---\n$\\\\$\n\n+ ✅ 已經為你匯入了 `urllib.request` 和 `json` 模組。 \n\n    向 `main.py` 新增以下程式碼來將你剛剛使用的 web 地址放入一個變數中：\n\n    [[☃ image 1]]\n   \n\n---\n$\\\\$\n\n+ ✅ 現在讓我們來呼叫 web 服務：\n\n    [[☃ image 2]]\n\n\n\n---\n$\\\\$\n\n+ ✅ 接下來你需要將 JSON 響應結果載入到 Python 資料結構中：\n\n    [[☃ image 3]]\n\n\n    你會看到類似於下文的內容：\n\n    ```\n    {'message': 'success', 'number': 3, 'people': [{'craft': 'ISS', 'name': 'Yuri Malenchenko'}, {'craft': 'ISS', 'name': 'Timothy Kopra'}, {'craft': 'ISS', 'name': 'Timothy Peake'}]}\n    ```\n\n    這是一個有 3 個鍵的 Python 字典：message（資訊）、number（數量）和 people（人物）。 \n\n    資訊的“success”（成功）值告訴你請求成功。很好。 \n\n    請注意你會看到不同的結果，具體取決於目前誰在太空中！\n\n\n---\n$\\\\$\n\n+ ✅ 現在讓我們以更具可讀性的方式列印出該資訊。 \n\n    首先，讓我們找到太空中的人數並將其列印出來：\n  \n    [[☃ image 4]]\n\n    `result['number']` 將會列印與結果字典中的鍵“number”（數量）相關的值。示例中這個值為 `3`。 \n\n\n---\n$\\\\$\n\n+ ✅ 與“people”（人物）鍵相關的值是字典列表！讓我們把這個值放入變數中，以供你使用：\n\n    [[☃ image 5]]\n\n\n    你會看到類似於下文的內容： \n    \n    ```\n    [{'craft': 'ISS', 'name': 'Yuri Malenchenko'}, {'craft': 'ISS', 'name': 'Timothy Kopra'}, {'craft': 'ISS', 'name': 'Timothy Peake'}]\n    ```\n\n\n---\n$\\\\$\n\n+ ✅ 現在你需要針對每個宇航員列印出一行。\n\n    你可以在 Python 中使用一個 for 迴圈來進行操作。每執行一次迴圈，都將為一名不同的宇航員將 `p` 設定到一個字典。\n\n    [[☃ image 6]]\n\n\n---\n$\\\\$\n\n+ ✅ 隨後你可以查詢“name”（名稱）和“craft”（飛行器）的值\n\n    [[☃ image 7]]\n  \n    你會看到類似於下文的內容：\n\n    ```\n    People in Space:  3\n    Yuri Malenchenko\n    Timothy Kopra\n    Timothy Peake\n    ```\n\n    你正使用實時資料，因此你的結果將取決於目前在太空中的人數。 \n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/where-is-the-space-station/zh-TW/images/iss-people-2.png",
+                                            "width": 416,
+                                            "height": 132
+                                        },
+                                        "box": [416,
+                                            132],
+                                        "labels": [],
+                                        "maxImageSize": 416,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/where-is-the-space-station/zh-TW/images/iss-people-1a.png",
+                                            "width": 416,
+                                            "height": 132
+                                        },
+                                        "box": [416,
+                                            132],
+                                        "labels": [],
+                                        "maxImageSize": 416,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/where-is-the-space-station/zh-TW/images/iss-people.png",
+                                            "width": 425,
+                                            "height": 86
+                                        },
+                                        "box": [425,
+                                            86],
+                                        "labels": [],
+                                        "maxImageSize": 425,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/where-is-the-space-station/zh-TW/images/iss-number.png",
+                                            "width": 455,
+                                            "height": 108
+                                        },
+                                        "box": [455,
+                                            108],
+                                        "labels": [],
+                                        "maxImageSize": 455,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/where-is-the-space-station/zh-TW/images/iss-result.png",
+                                            "width": 432,
+                                            "height": 101
+                                        },
+                                        "box": [432,
+                                            101],
+                                        "labels": [],
+                                        "maxImageSize": 432,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/where-is-the-space-station/zh-TW/images/iss-request.png",
+                                            "width": 450,
+                                            "height": 52
+                                        },
+                                        "box": [450,
+                                            52],
+                                        "labels": [],
+                                        "maxImageSize": 450,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/where-is-the-space-station/zh-TW/images/iss-url.png",
+                                            "width": 430,
+                                            "height": 36
+                                        },
+                                        "box": [430,
+                                            36],
+                                        "labels": [],
+                                        "maxImageSize": 430,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

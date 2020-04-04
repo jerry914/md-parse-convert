@@ -5,7 +5,7 @@ class Generic:
         self.name = name
         self.fullName = fullName
 def getdata(gtype):
-    with open('./output/data.csv', newline='',encoding = 'utf8') as csvfile2:
+    with open('src/data/nameReflect.csv', newline='',encoding = 'utf8') as csvfile2:
         rows = csv.reader(csvfile2)
         for row in rows:
             if(row[0]==gtype):
@@ -14,16 +14,16 @@ def getdata(gtype):
 def add_csv(projectName,step):
     try:
         route = projectName+'/'+projectName+'-'+str(step)
-        filepath = "D:/workspace/HtmlParseBot/HtmlParse/output/raspberrypilearning/"+route
+        filepath = "output/raspberrypilearning/"+route
         f = open(filepath+".txt", "r",encoding = 'utf8')
         enCode=''
         for line in f.readlines():
             enCode+=line.replace('\n','')
             # print(enCode)
         
-        with open('D:/workspace/HtmlParseBot/HtmlParse/output/output.csv', 'a+', newline='',encoding = 'utf8') as csvfile:
+        with open('output/output.csv', 'a+', newline='',encoding = 'utf8') as csvfile:
             writer = csv.writer(csvfile)
-            writer.writerow(['0','False','電腦科學','Code Club - Raspberry Pi Foundation',projectName,'1',enCode,'',''])
+            writer.writerow(['0','False','電腦科學','Code Club - Raspberry Pi Foundation','py-'+projectName,'1',enCode,'',''])
         csvfile.close()
     except Exception as e:
         print(e)

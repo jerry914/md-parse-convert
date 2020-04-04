@@ -1,0 +1,237 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/codecraft \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **進行遊戲**\n\n\n\n\n---\n$\\\\$\n\n+ ✅ 開啟這個 trinket：[jumpto.cc/codecraft-go](\"http://jumpto.cc/codecraft-go\",\" \" \"_blank\")。 \n\n\n---\n$\\\\$\n\n+ ✅ 使用 WASD 鍵讓你的玩家在世界中四處移動，世界充滿了不同的資源（泥土、草和水）。\n\n    [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 你可以按下空格鍵來收集資源。拾取一些各個型別的資源，你會看到它們被新增到你的庫存。\n\n    [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ 按數字鍵（1 到 3）來將資源放在地圖上。例如，按 3 在地圖上放一些水。只有當你的庫存中有水時才能這麼做。\n\n    [[☃ image 3]]\n\n\n---\n$\\\\$\n\n+ ✅ 你可以按下選單中顯示的按鍵來製作一個物品。製作指將你在庫存中已擁有的多個物品相結合來生成新的物品。嘗試按下“r”鍵來製作一個新的磚塊（只要你的庫存中擁有 2 份泥土和 1 份水就可以）。\n\n    [[☃ image 4]]\n\n\n---\n$\\\\$\n\n+ ✅ 然後你可以按下“4”鍵來放置製成的磚塊。\n\n    [[☃ image 5]]\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-place-brick.png",
+                                            "width": 237,
+                                            "height": 375
+                                        },
+                                        "box": [237,
+                                            375],
+                                        "labels": [],
+                                        "maxImageSize": 237,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-craft-brick.png",
+                                            "width": 239,
+                                            "height": 369
+                                        },
+                                        "box": [239,
+                                            369],
+                                        "labels": [],
+                                        "maxImageSize": 239,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-place-water.png",
+                                            "width": 238,
+                                            "height": 365
+                                        },
+                                        "box": [238,
+                                            365],
+                                        "labels": [],
+                                        "maxImageSize": 238,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-pickup.png",
+                                            "width": 241,
+                                            "height": 366
+                                        },
+                                        "box": [241,
+                                            366],
+                                        "labels": [],
+                                        "maxImageSize": 241,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-move.png",
+                                            "width": 236,
+                                            "height": 364
+                                        },
+                                        "box": [236,
+                                            364],
+                                        "labels": [],
+                                        "maxImageSize": 236,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

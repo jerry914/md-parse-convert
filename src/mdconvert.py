@@ -70,7 +70,7 @@ def imgAdd(projectName,content):
         tempBlock += string
     return tempBlock,content
 
-def scratchAdd(wigTemp,artTemp):
+def scratchAdd(wigTemp,artTemp,projectName):
     articleBlockIdx = 1
     while(artTemp.find("--- hints ---",0)>0):
         pre = artTemp.find("--- hints ---")
@@ -80,7 +80,7 @@ def scratchAdd(wigTemp,artTemp):
         artContent = artTemp[pre:bac]
         artTemp = artTemp[:pre]+"[[☃ article-block "+str(articleBlockIdx)+"]]"+artTemp[bac:]
         wid,artTemp = imgAdd(projectName,artTemp)
-        wid,artContent = scratchAdd(wid,artContent)
+        wid,artContent = scratchAdd(wid,artContent,projectName)
         artTemplete = junyiJSONgenerate.JSON_open(r'src/Templete/JSONartblo')
         articleBlock = artTemplete.replace("CONTENT",artContent)
         articleBlock = articleBlock.replace("TITLE",r"💡 我需要一點提示")
@@ -98,7 +98,7 @@ def scratchAdd(wigTemp,artTemp):
         artContent = artTemp[pre:bac]
         artTemp = artTemp[:pre]+"[[☃ article-block "+str(hintArtIdx)+"]]"+artTemp[bac:]
         wid,artTemp = imgAdd(projectName,artTemp)
-        wid,artContent = scratchAdd(wid,artContent)
+        wid,artContent = scratchAdd(wid,artContent,projectName)
         artTemplete = junyiJSONgenerate.JSON_open(r'src\Templete\JSONartblo')
         articleBlock = artTemplete.replace("CONTENT",artContent)
         numList = ["一","二","三","四","五"]
@@ -180,24 +180,20 @@ def scratchAdd(wigTemp,artTemp):
     return wigTemp[:-1],artTemp
 
 def keyDelet(content):
-    keyList = [r"--- no-print ---",r"--- /no-print ---",r"\--- no-print \---",r"\--- /no-print \---",r"\\"]
+    keyList = [r"--- no-print ---",r"--- /no-print ---",r"\--- no-print \---",r"\--- /no-print \---",r"--- challenge ---",r"--- /challenge ---",r"\\"]
     for key in keyList:
         content = content.replace(key,"")
     return content
 
 
 
-def md_convert(projectName,step):
-
+def md_convert(projectName,stepIdx):
+    step = str(stepIdx)
     url = 'https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/'+projectName+'/zh-TW/step_'+step+'.md'
     resp = requests.get(url)
-    # mark = marko.convert(resp.text)
-    # mark = resp.text
-    # soup = BeautifulSoup(mark, 'html.parser')
 
     conText = resp.text
-    # conText = cc.convert(conText)
-    # conText = translator.translate(conText, src='en',dest='zh-tw').text
+
     iframeBlock = ""
     try:
         content = conText[:conText.index('<div')]+conText[conText.index('</div'):]
@@ -206,6 +202,7 @@ def md_convert(projectName,step):
         iframeUrl = get_tag(url,'iframe')['src']
         if(iframeUrl.find("https")==-1):
             iframeUrl = "https:"+iframeUrl 
+        
         # micro bit spacail 
         # iframeID = get_tag(url,'iframe')['src'].split("id=")[1]
         # iframeUrl = "https://ys-fang.github.io/msmc/player.html?id="+iframeID
@@ -218,6 +215,7 @@ def md_convert(projectName,step):
         content = conText
         print(e)
 
+    
     while 1:
         if(content.find('<a')>=0):
             try:
@@ -232,6 +230,17 @@ def md_convert(projectName,step):
     content = content.replace("){:target=\"_blank\"}"," \"_blank\" \"title\")")
     content = content.replace(r"## \--- collapse \---","--- collapse ---")
     content = content.replace(r"\--- /collapse \---","--- /collapse ---")
+
+    content = content.replace("<kbd>","`")
+    content = content.replace("</kbd>","`")
+    content = content.replace("(resources","(https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/"+projectName+"/zh-TW/resources/")
+    if(step=='1'):
+        content = content.replace(" \"_blank\" \"title\"","")
+        content = content.replace(")"," \"_blank\" \"title\")")
+    
+    content = content.replace("	+","tab&mark")
+    content = content.replace("+ ","\\n---\\n$\\\\\\\$\\n\\n+ ✅ ")
+    content = content.replace("tab&mark","	+")
 
     # title modify
     collTitle = []
@@ -255,8 +264,8 @@ def md_convert(projectName,step):
             content = content.replace("### "+h3.text,"### **"+h3.text+"**")
     except Exception as e:
         print(e)
-    # content = translator.translate(content, src='en',dest='zh-tw').text
-    # content = content.replace("# "," **")
+
+
     articleBlockIdx = 1
     articleBlockContent = ""
     
@@ -291,7 +300,7 @@ def md_convert(projectName,step):
             artTemp = artTemp.replace("--- task ---","")
             artTemp = artTemp.replace("--- /task ---","")
             wigTemp,artTemp = imgAdd(projectName,artTemp)
-            wigTemp,artTemp = scratchAdd(wigTemp,artTemp)
+            wigTemp,artTemp = scratchAdd(wigTemp,artTemp,projectName)
             articleBlock = articleBlock.replace("CONTENT",artTemp)
             articleBlock = articleBlock.replace("widgets\": {","widgets\": {"+wigTemp)
             articleBlock = articleBlock.replace("TITLE","")
@@ -322,30 +331,32 @@ def md_convert(projectName,step):
             break
     
     tempBlock,content = imgAdd(projectName,content)
-    tempBlock,content = scratchAdd(tempBlock,content)
+    tempBlock,content = scratchAdd(tempBlock,content,projectName)
     iframeBlock += tempBlock
-
+    
     templete = junyiJSONgenerate.JSON_open(r'src\Templete\JSONempty')
     content = content.replace("\n","\\n")
     content = content.replace('"','\\"')
     content = content.replace("\\)",")")
-    content = content.replace("<kbd>","`")
-    content = content.replace("</kbd>","`")
+    
     output = templete.replace("CONTENT",content)
     output = output.replace("WIDGETS",iframeBlock+articleBlockContent[:-1])
-    print(projectName+str(stepIdx)+"finish!"+stepIdx*"🧨🧨")
+    print(projectName+step+"finish! step- "+step)
     output = output.replace("}\"article-block","},\"article-block")
     output = output.replace("	","")
     output = output.replace("},}","}}")
     if not os.path.isdir("output/raspberrypilearning/"+projectName):
         os.mkdir("output/raspberrypilearning/"+projectName)
+    
     junyiJSONgenerate.JSON_write(output,"output/raspberrypilearning/"+projectName+"/"+projectName+"-"+step)
     output = addAuth(projectName,step)
+    output = addBanner(output)
+    junyiJSONgenerate.JSON_write(output,"output/raspberrypilearning/"+projectName+"/"+projectName+"-"+step)
 
 def addAuth(projectName,step):
     content = junyiJSONgenerate.JSON_open("output/raspberrypilearning/"+projectName+"/"+projectName+"-"+step)
     if(step == str(1)):
-        content = content.replace("[[☃ article-block 1]]","[[☃ article-block 1]]\\n---\\n#### **#致謝與授權**\\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 授權條款釋出。內容源自CC授權課程：["+exportCSV.getdata(projectName).name+" (CodeClub)](https://projects.raspberrypi.org/en/projects/"+projectName+" \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 。\\n\\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\\n[[☃ image 1]]",1)
+        content = content.replace("[[☃ article-block 1]]","[[☃ article-block 1]]\\n---\\n#### **#致謝與授權**\\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 授權條款釋出。內容源自CC授權課程：["+exportCSV.getdata(projectName).name+" (CodeClub)](https://projects.raspberrypi.org/en/projects/"+projectName+" \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 。\\n\\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\\n[[☃ image 1]]",1)
         content = content.replace('"widgets": {','''"widgets": {"image 1": {
                 "type": "image",
                 "graded": true,
@@ -387,7 +398,7 @@ def addAuth(projectName,step):
                 "options": {
                     "showPrompt": "關於課程",
                     "hidePrompt": "隱藏說明",
-                    "explanation": "---\\n#### **#致謝與授權**\\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 授權條款釋出。內容源自CC授權課程：[%s (CodeClub)](https://projects.raspberrypi.org/en/projects/%s \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 。\\n\\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\\n[[☃ image 1]]",
+                    "explanation": "---\\n#### **#致謝與授權**\\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 授權條款釋出。內容源自CC授權課程：[%s (CodeClub)](https://projects.raspberrypi.org/en/projects/%s \\\"\\\"\\\"\\\" \\\"\\\"_blank\\\"\\\") 。\\n\\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\\n[[☃ image 1]]",
                     "widgets": {
                         "image 1": {
                             "id": "image 1",
@@ -433,25 +444,15 @@ def addAuth(projectName,step):
     junyiJSONgenerate.JSON_write(content,"output/raspberrypilearning/"+projectName+"/"+projectName+"-"+step)
     return content
 
-f = open("D:/workspace/HtmlParseBot/HtmlParse/output/raspberrypilearning/pathList.txt", "r",encoding = 'utf8')
-for x in f:
-    print(x)
-    projectName = x.replace("\n",'')
-    # os.mkdir(projectName)
-    stepIdx = 1
-    while 1:
-        # projectName = 'happy-birthday'
-        step = stepIdx
-        url = 'https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/'+projectName+'/zh-TW/step_'+str(step)+'.md'
-        resp = requests.get(url)
-        # print(resp.text)
-        if resp.status_code == 200:
-            try:
-                # md_convert(projectName,str(stepIdx))
-                exportCSV.add_csv(projectName,step)
-            except Exception as e:
-                print(e)
-            stepIdx+=1
-        else:
-            break
-        
+def addBanner(content):
+    try:
+        if(content.find("✅")>=0):
+            content = content.replace("[[☃ article-block 1]]","[[☃ iframe 1]]\\n[[☃ article-block 1]]\\n[[☃ iframe 2]]",1)
+            content = content.replace('"widgets": {',r'''"widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},''',1)
+        elif(content.find("挑戰")>=0):
+            content = content.replace("[[☃ article-block 1]]","[[☃ iframe 1]]\\n[[☃ article-block 1]]\\n[[☃ iframe 2]]",1)
+            content = content.replace('"widgets": {',r'''"widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeBot.html","width": 560},"version": {"major": 0,"minor": 0}},''',1)
+    except Exception as e:
+        print(e)
+    return content
+    

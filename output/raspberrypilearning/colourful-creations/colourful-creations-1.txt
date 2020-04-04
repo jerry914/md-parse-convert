@@ -1,0 +1,118 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[色彩繽紛的作品 (CodeClub)](https://projects.raspberrypi.org/en/projects/colourful-creations \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeBot.html","width": 560},"version": {"major": 0,"minor": 0}},"image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "useBoxSize": true,
+                    "backgroundImage": {
+                        "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                        "width": 75,
+                        "height": 26
+                    },
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "aspectRatio": 0.34987593052109184
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹**\n\n在這個專案中，你會創建一個顏色字典，給難以記住的顏色代碼一個好記的名稱。\n\n[[☃ iframe 1]]\n\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/python/97822f48b7?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 480
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 給教師的其它資訊",
+                                "articleBlock": " ****\n\n# **介紹**：\n\n這個專案透過創建一個能將顏色名稱對應到十六進制顏色代碼的字典來介紹 dictionary 的概念。 然後利用字典找到顏色代碼以創造一張色彩斑斕的海報。\n\n# **線上資源**\n\n**這個專案使用 Python 3。**我們建議利用 [trinket](https://trinket.io/ \"_blank\" \"title\") 在線上撰寫 Python 程式。 這項專案包括以下 Trinkets：\n\n* [「色彩繽紛的作品」的起點 -- jumpto.cc/python-new](http://jumpto.cc/python-new \"_blank\" \"title\")\n\n還有一個內含挑戰解法的 trinket：\n\n* [「色彩繽紛的作品」完成檔案 -- trinket.io/python/41a99e668b](https://trinket.io/python/97822f48b7 \"_blank\" \"title\")\n\n# **離線資源**\n\n這個專案也可以[離線完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/ \"_blank\" \"title\")。 你可以從「專案材料」連結取得專案相關資源。 連結中在專案資源的段落內容中說明了學生離線完成專案所需要的資源。 務必檢查每個學生都有辦法拿到這些資源。 本節包括以下文件：\n\n* colourful-creations/colourful-creations.py\n\n你還可以在「志工相關資源」部分中找到內含挑戰的專案完整版，包括以下文件：\n\n* colourful-creations-finished/colourful-creations.py\n\n（以上所有資源也可以作為專案和志願者` .zip下載`文件）。\n\n# **學習目標**\n\n* Dictionaries - creating and looking up values;\n* Turtle 圖像 - 文字，字體和顏色;\n\n本專案涵蓋 [樹莓派數位化課程](http://rpf.io/curriculum \"_blank\" \"title\")以下內容：\n\n* [使用基本的編程結構來創造簡單的程式。](https://www.raspberrypi.org/curriculum/programming/creator \"_blank\" \"title\")\n\n* [設計基本的2D和3D元件。](https://www.raspberrypi.org/curriculum/design/creator \"_blank\" \"title\")\n\n# **挑戰**\n\n* 更多顏色！ - 使用顏色選擇網站尋找更多顏色的十六進制代碼，並將其添加到字典中。 \n* 創造海報 - 創建自定義顏色字典並使用它來創建使用Turtle圖形的海報。 \n\n# **常見問題**\n\n* 可能需要提醒兒童，每個詞典條目末尾要加上逗號'，'。 \n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "介紹：",
+                                "articleBlock": " **標題：專案材料**\n\n# **專案資源**\n\n* [包含所有專案資源的.zip文件](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/colourful-creations/zh-TW/resources//colourful-creations-project-resources.zip \"_blank\" \"title\")\n* [線上空白的Python Trinket](http://jumpto.cc/python-new \"_blank\" \"title\")\n* [線上空白的Python 檔案](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/colourful-creations/zh-TW/resources//new-new.py \"_blank\" \"title\")\n\n# **教師資源**\n\n* [包含所有專案資源的.zip文件](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/colourful-creations/zh-TW/resources//colourful-creations-volunteer-resources.zip \"_blank\" \"title\")\n* [線上完成的Trinket專案](https://trinket.io/python/a32c765322 \"_blank\" \"title\")\n* [colourful-creations-finished/colourful-creations.py](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/colourful-creations/zh-TW/resources//colourful-creations-finished-colourful-creations.py \"_blank\" \"title\")\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

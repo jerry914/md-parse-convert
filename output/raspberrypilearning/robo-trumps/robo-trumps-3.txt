@@ -1,0 +1,454 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/robo-trumps \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **顯示資料**\n\n現在你可以用更有趣的方式來顯示機器人資料。 \n\n讓我們顯示一張帶有圖片及機器人智慧和實用性資料的機器人王牌卡。 \n\n你完成此步驟以後，你將能夠如下所示來顯示機器人：\n\n[[☃ image 1]]\n\n\n\n\n\n---\n$\\\\$\n\n+ ✅ 詢問使用者他們想看到哪個機器人：\n\n  [[☃ image 2]]\n  \n\n---\n$\\\\$\n\n+ ✅ 如果機器人存在於字典中，則查詢其資料：\n\n  [[☃ image 3]]\n  \n  輸入一個機器人的名稱來測試你的程式碼。\n\n  \n\n---\n$\\\\$\n\n+ ✅ 如果機器人不存在，會出現一個錯誤：\n\n  [[☃ image 4]]\n  \n 輸入字典中不存在的機器人名稱來測試你的程式碼。\n\n\n---\n$\\\\$\n\n+ ✅ 現在你要使用 Python 海龜來顯示機器人資料。 \n\n  在你的指令碼頂部匯入海龜庫，並設定畫面和海龜：\n\n  [[☃ image 5]]\n\n\n---\n$\\\\$\n\n+ ✅ 現在新增程式碼來使海龜列印出機器人的名稱：\n\n  [[☃ image 6]]\n  \n\n---\n$\\\\$\n\n+ ✅ 嘗試更改 `style` 變數直至你對文字滿意。 \n  \n  除了 `Arial`，你還可以嘗試：`Courier`、`Times` 或 `Verdana`。 \n  \n  將 `14` 更改為不同的數字來更改字型大小。 \n  \n  你可以將 `bold`（粗體）更改為 `normal`（正常）或 `italic`（斜體）。 \n  \n\n---\n$\\\\$\n\n+ ✅ 將機器人的統計資料列表儲存在變數中，而不是將其列印輸出：\n\n  [[☃ image 7]]\n  \n\n---\n$\\\\$\n\n+ ✅ 你現在可以將機器人的統計資料作為列表中的專案進行訪問：\n\n  \n---\n$\\\\$\n\n+ ✅ `stats[0]` 指智慧\n  \n---\n$\\\\$\n\n+ ✅ `stats[1]` 指電池\n  \n---\n$\\\\$\n\n+ ✅ `stats[2]` 指圖片名稱\n  \n  新增程式碼來顯示智慧和電池統計資料：\n  \n  [[☃ image 8]]\n   \n  \n\n---\n$\\\\$\n\n+ ✅ 噢天哪！統計資料全都堆在了一起。你將需要新增程式碼來移動海龜：\n\n   [[☃ image 9]]\n\n\n---\n$\\\\$\n\n+ ✅ 最後，讓我們新增機器人圖片來完成顯示。 \n\n  從 `cards.txt` 讀取資料時，你將需要新增一行來註冊圖片：\n  \n  [[☃ image 10]]\n     \n\n---\n$\\\\$\n\n+ ✅ 然後新增程式碼來定位和標記圖片：\n\n  [[☃ image 11]]\n  \n\n---\n$\\\\$\n\n+ ✅ 輸入一個機器人然後再輸入另一個來測試你的程式碼，你會看到他們相互疊加在一起！\n\n  你需要在顯示一個機器人之前清空螢幕： \n\n  [[☃ image 12]]\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 12": {
+                                    "graded": true,
+                                    "id": "image 12",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-clear.png",
+                                            "width": 700,
+                                            "height": 154
+                                        },
+                                        "box": [700,
+                                            154],
+                                        "labels": [],
+                                        "maxImageSize": 700,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 11": {
+                                    "graded": true,
+                                    "id": "image 11",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-image.png",
+                                            "width": 699,
+                                            "height": 180
+                                        },
+                                        "box": [699,
+                                            180],
+                                        "labels": [],
+                                        "maxImageSize": 699,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 10": {
+                                    "graded": true,
+                                    "id": "image 10",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-register.png",
+                                            "width": 516,
+                                            "height": 121
+                                        },
+                                        "box": [516,
+                                            121],
+                                        "labels": [],
+                                        "maxImageSize": 516,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 9": {
+                                    "graded": true,
+                                    "id": "image 9",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-stats-3.png",
+                                            "width": 720,
+                                            "height": 145.16801853997683
+                                        },
+                                        "box": [720,
+                                            145.16801853997683],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 8": {
+                                    "graded": true,
+                                    "id": "image 8",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-stats-2.png",
+                                            "width": 720,
+                                            "height": 113.19148936170212
+                                        },
+                                        "box": [720,
+                                            113.19148936170212],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-stats.png",
+                                            "width": 528,
+                                            "height": 102
+                                        },
+                                        "box": [528,
+                                            102],
+                                        "labels": [],
+                                        "maxImageSize": 528,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-name.png",
+                                            "width": 720,
+                                            "height": 76.74251497005989
+                                        },
+                                        "box": [720,
+                                            76.74251497005989],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-turtle.png",
+                                            "width": 357,
+                                            "height": 173
+                                        },
+                                        "box": [357,
+                                            173],
+                                        "labels": [],
+                                        "maxImageSize": 357,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-else.png",
+                                            "width": 720,
+                                            "height": 95.04672897196261
+                                        },
+                                        "box": [720,
+                                            95.04672897196261],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-if.png",
+                                            "width": 720,
+                                            "height": 76.63157894736841
+                                        },
+                                        "box": [720,
+                                            76.63157894736841],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-choose.png",
+                                            "width": 720,
+                                            "height": 97.98298906439855
+                                        },
+                                        "box": [720,
+                                            97.98298906439855],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/robo-trumps/zh-TW/images/robotrumps-example.png",
+                                            "width": 160,
+                                            "height": 189
+                                        },
+                                        "box": [160,
+                                            189],
+                                        "labels": [],
+                                        "maxImageSize": 160,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

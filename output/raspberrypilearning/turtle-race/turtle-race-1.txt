@@ -1,0 +1,84 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[烏龜賽跑! (CodeClub)](https://projects.raspberrypi.org/en/projects/turtle-race \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "useBoxSize": true,
+                    "backgroundImage": {
+                        "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                        "width": 75,
+                        "height": 26
+                    },
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "aspectRatio": 0.34987593052109184
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹**\n\n使用迴圈繪製賽道, 並建立一個烏龜賽跑遊戲。\n\n## **你將做出什麼**\n\n這個專案通過有趣的烏龜賽跑遊戲介紹了迴圈。 迴圈被用於繪製賽道並使烏龜每回合移動一個隨機步數。 如果你有一組人玩這個遊戲，每個人選擇一隻烏龜，那個跑得最遠的烏龜將獲得勝利。\n\n[[☃ iframe 1]]\n\n## **你將學到什麼**\n\n通過製作烏龜賽跑遊戲，你將學習如何：\n\n\n---\n$\\\\$\n\n+ ✅ 在 Python 中編寫 `for` 迴圈\n\n---\n$\\\\$\n\n+ ✅ 在Python中使用隨機數字\n\n---\n$\\\\$\n\n+ ✅ 使用Python Turtle繪製不同顏色的線條\n\n此專案涵蓋了[樹莓派 Raspberry Pi 數位製造課程](http://rpf.io/curriculum \"_blank\" \"title\")的以下幾方面內容:\n\n\n---\n$\\\\$\n\n+ ✅ [使用基本的程式設計結構來創造簡單的程式](https://www.raspberrypi.org/curriculum/programming/creator/ \"_blank\" \"title\")\n\n## **教師參考資訊**\n\n訪問此專案的GitHub資源庫，在[zh-TW/resources](/resources \"_blank\" \"title\")資料夾中包含了所有資源（包括一個已完成的專案示例）。\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/python/9339862606?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 480
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

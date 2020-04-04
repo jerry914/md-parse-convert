@@ -1,0 +1,118 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[剪刀，石頭，布 (CodeClub)](https://projects.raspberrypi.org/en/projects/rock-paper-scissors \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeBot.html","width": 560},"version": {"major": 0,"minor": 0}},"image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "useBoxSize": true,
+                    "backgroundImage": {
+                        "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                        "width": 75,
+                        "height": 26
+                    },
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "aspectRatio": 0.34987593052109184
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹**\n\n在這個專案中，你將建立一個剪刀、石頭、布的遊戲，並和電腦對戰。\n\n規則: 你和電腦同時選擇剪刀、石頭或布。 由以下規則決定獲勝者：\n\n* 石頭砸壞剪刀\n* 布包裹住石頭\n* 剪刀剪壞布\n\n[[☃ iframe 1]]\n\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/python/3231ae8396?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 480
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 給老師的話",
+                                "articleBlock": "-\n\n---\n\n# **介紹**:\n\n在這個專案中, 孩子們將學習如何使用變數和條件語句來製作剪刀、石頭、布的遊戲程式。\n\n# **線上資源**\n\n**本專案使用Python 3。**我們建議使用[ trinket](https://trinket.io/ \"_blank\" \"title\")線上編寫Python程式碼。 本專案可在如下Trinket平臺中執行：\n\n* [“剪刀、石頭、布”資源 -- jumpto.cc/rps-go](http://jumpto.cc/rps-go \"_blank\" \"title\")\n\n如下Trinket平臺展示了一個完整的專案：\n\n* [已完成的'剪刀、石頭、布' - trinket.io/python/3231ae8396](https://trinket.io/python/3231ae8396 \"_blank\" \"title\")\n\n# **離線資源**\n\n您也可以[離線完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/ \"_blank\" \"title\")本專案。 您可以通過點選“專案資料”連結，訪問本專案的資源。 此連結中的“專案資源” 部分，包含孩子們完成該專案所需的離線資源。 請確保每個孩子都可以訪問這些資源。 這部分包含如下檔案：\n\n* rock-paper-scissors/rock-paper-scissors.py\n\n您也可以在 “志願者資源'”部分找到該專案的已完成版本，其中包含：\n\n* rock-paper-scissors-finished/rock-paper-scissors.py\n\n(上述所有資源均可下載為專案和志願者`.zip`檔案。 \"_blank\" \"title\")\n\n# **學習目標**\n\n* 變數；\n* 選擇語句（`if` ，` elif ` ，`else`）; \n* 布林邏輯 `==`和`and` 。\n\n該專案涵蓋了[Raspberry Pi數位製造課程](http://rpf.io/curriculum \"_blank\" \"title\")中的以下內容 ：\n\n* [利用基本程式設計框架建立簡單程式。](https://www.raspberrypi.org/curriculum/programming/creator \"_blank\" \"title\")\n\n# **挑戰**\n\n* “ASCII藝術” - 通過條件邏輯顯示剪刀、石頭、布的ASCII藝術圖形。 \n* \"建立一個新遊戲\" - 複製剪刀、石頭、布遊戲程式碼，在此基礎上建立一個新的遊戲。 \n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "介紹:",
+                                "articleBlock": "-\ntitle: 專案材料\n---\n\n# **專案資源**\n\n* [所有專案資源的.zip檔案](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/rock-paper-scissors/zh-TW/resources//rock-paper-scissors-project-resources.zip \"_blank\" \"title\")\n* [包含所有 ' 剪刀、石頭、布 ' 專案資源的線上Trinket平臺](http://jumpto.cc/rps-go \"_blank\" \"title\")\n* [rock-paper-scissors/rock-paper-scissors.py](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/rock-paper-scissors/zh-TW/resources//rock-paper-scissors-rock-paper-scissors.py \"_blank\" \"title\")\n\n# **俱樂部負責人資源**\n\n* [所有已完成專案資源的.zip檔案](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/rock-paper-scissors/zh-TW/resources//rock-paper-scissors-volunteer-resources.zip \"_blank\" \"title\")\n* [已完成的線上Trinket專案](https://trinket.io/python/3231ae8396 \"_blank\" \"title\")\n* [rock-paper-scissors-finished/rock-paper-scissors.py](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/rock-paper-scissors/zh-TW/resources//rock-paper-scissors-finished-rock-paper-scissors.py \"_blank\" \"title\")\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,118 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/modern-art \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeBot.html","width": 560},"version": {"major": 0,"minor": 0}},"image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "useBoxSize": true,
+                    "backgroundImage": {
+                        "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                        "width": 75,
+                        "height": 26
+                    },
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "aspectRatio": 0.34987593052109184
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹**\n\n在這個專案中，你將建立電腦合成的現代藝術。 你將使用函式來編寫可重複多次使用的程式碼。\n\n[[☃ iframe 1]]\n\n## **俱樂部導師的附加資訊**\n\n如果你需要列印本專案檔案，請使用[適合列印的版本](https://projects.raspberrypi.org/zh-CN/projects/modern-art/print \"_blank\" \"title\")\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/python/47bbc2fc2b?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 480
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 俱樂部導師說明",
+                                "articleBlock": "-\n\n---\n\n# **介紹**：\n\n本專案通過一個彩色現代藝術生成器來介紹函式。 我們使用函式來打包有用的海龜圖形程式碼，隨後可輕鬆使用它建立時髦的藝術。\n\n# **線上資源**\n\n**本專案使用Python 3。**我們建議使用[trinket](https://trinket.io/ \"_blank\" \"title\")線上編寫Python程式碼。 這個專案包含如下Trinket程式碼:\n\n* [“現代藝術”的起點 -- trinket.io/python/5c2f5a25cf](https://trinket.io/python/5c2f5a25cf \"_blank\" \"title\")\n\n以下的trinket程式碼包含挑戰的示範解決方案：\n\n* [“現代藝術”已完成 -- trinket.io/python/be2cf35262](https://trinket.io/python/be2cf35262 \"_blank\" \"title\")\n\n# **離線資源**\n\n如果你願意，本專案可以[離線完成](https://www.codeclubprojects.org/en-GB/resources/python-working-offline/ \"_blank\" \"title\")。 你可以點選本專案的“專案資料”連結訪問專案資源。 連結裡包含了 “專案資源” 部分，裡面有孩子們完成該專案所需的離線資源。 請確保每個孩子都可以訪問這些資源。 這部分包含如下檔案：\n\n* modern-art/modern-art.py\n* modern-art/snippets.py\n\n你也可以在 “志願者資源'”部分找到該專案挑戰的完整版本，裡面包含：\n\n* modern-art-finished/modern-art.py\n\n(上述所有資源也可以以`.zip`壓縮包的形式下載。 \"_blank\" \"title\")\n\n# **學習目標**\n\n* 函式\n\n本專案涵蓋[樹莓派數字製作課程](http://rpf.io/curriculum \"_blank\" \"title\")如下幾方面內容：\n\n* [結合程式設計結構解決問題。](https://www.raspberrypi.org/curriculum/programming/builder \"_blank\" \"title\")\n\n# **挑戰**\n\n* 海龜藝術 - 定義一個新函式來完成海龜藝術生成器。\n* 更多現代藝術 - 建立一個能呼叫其它函式的新函式來生成現代藝術。\n\n# **常見問題**\n\n* 為避免在新增到專案時，必須等待先前的程式碼執行，孩子們可以在一行開頭使用“#”註釋掉程式碼。\n* 如果他們希望執行他們所有的程式碼，可使用 `clear( \"_blank\" \"title\")`（清除）來清空螢幕。 \n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "介紹：",
+                                "articleBlock": "-\ntitle: 專案材料\n---\n\n# **專案資源**\n\n* [.zip檔案，其中包含所有專案資源](http://rpf.io/p/zh-CN/modern-art-go \"_blank\" \"title\")\n* [包含“現代藝術”資源的線上Trinket](https://trinket.io/python/5c2f5a25cf \"_blank\" \"title\")\n\n# **俱樂部導師資源**\n\n* [.zip檔案，其中包含所有專案資源](http://rpf.io/p/zh-CN/modern-art-get \"_blank\" \"title\")\n* [線上完整版Trinket專案](https://trinket.io/python/be2cf35262 \"_blank\" \"title\")\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

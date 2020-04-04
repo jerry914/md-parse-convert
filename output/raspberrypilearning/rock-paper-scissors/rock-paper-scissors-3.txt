@@ -1,0 +1,299 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[剪刀，石頭，布 (CodeClub)](https://projects.raspberrypi.org/en/projects/rock-paper-scissors \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **電腦回合**\n\n現在輪到電腦回合。 您可以使用`randint`函式來生成隨機數字，並用以選擇剪刀、石頭或布。\n\n\n---\n$\\\\$\n\n+ ✅ 使用`randint`生成一個隨機數字，用來決定電腦在剪刀、石頭或布中作出選擇。\n    \n    [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 多次執行你的程式（在每次的執行中，您都需要輸入's'，'r'或'p'。）\n    \n    'chosen'應當是被隨機設定為1,2或3。\n\n\n---\n$\\\\$\n\n+ ✅ 讓我們設定：\n    \n    \n---\n$\\\\$\n\n+ ✅ 1 = 石頭（r）\n    \n---\n$\\\\$\n\n+ ✅ 2 = 布（p）\n    \n---\n$\\\\$\n\n+ ✅ 3 = 剪刀（s）\n    \n    使用`if`來判斷隨機生成的數字是否等於`1`（使用`==`來判斷兩個事物是否相同）。\n    \n    [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ Python使用**縮排**（將程式碼向右移動）來顯示哪些程式碼是在`if`語句之內的。 你可以用兩個空格符號（按空格鍵兩次）或按**tab鍵**（通常在大寫鎖定鍵的上方）來輸入縮排。\n    \n    在`if`語句內，將`computer`變數的值設為'r'。\n    \n    [[☃ image 3]]\n\n\n---\n$\\\\$\n\n+ ✅ 您還可以新增一個`elif`語句（*else if*的縮寫）來做進一步的判斷。\n    \n    [[☃ image 4]]\n    \n    只有當第一個條件語句判斷未通過的情況下（即當電腦沒有選擇`1`），這個條件語句才會被檢測。\n\n\n---\n$\\\\$\n\n+ ✅ 最後，如果電腦沒有選擇`1`或`2`，那麼它一定選擇了`3`。\n    \n    這裡我們可以用`else`來表示最後一個可能性。\n    \n    [[☃ image 5]]\n\n\n---\n$\\\\$\n\n+ ✅ 接下來，您可以輸入字母，而非電腦所選的隨機數字。\n    \n    [[☃ image 6]]\n    \n    你可以刪除`print(chosen)`這一行，或者在這一行開頭插入`#`來指示電腦忽略這一行。\n\n\n---\n$\\\\$\n\n+ ✅ 點選“Run”按鈕並輸入您的選項來測試程式碼。\n\n\n---\n$\\\\$\n\n+ ✅ 啊喔，電腦的選擇被顯示在新的一行上了。 為了解決這一問題，您可以在`vs`之後新增`end =''`，示意Python以空格結束，而不是另起一行。\n    \n    [[☃ image 7]]\n\n\n---\n$\\\\$\n\n+ ✅ 通過點選\"Run\"並做出選擇，多次進行此遊戲。\n    \n    現在你得靠自己去解決誰贏了的問題。 按下來您將新增Python程式碼來解決這個問題。",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-paper-scissors/zh-TW/images/rps-same-line.png",
+                                            "width": 720,
+                                            "height": 80.87475149105369
+                                        },
+                                        "box": [720,
+                                            80.87475149105369],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-paper-scissors/zh-TW/images/rps-print-computer.png",
+                                            "width": 720,
+                                            "height": 220.02280501710376
+                                        },
+                                        "box": [720,
+                                            220.02280501710376],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-paper-scissors/zh-TW/images/rps-else-3.png",
+                                            "width": 267,
+                                            "height": 173
+                                        },
+                                        "box": [267,
+                                            173],
+                                        "labels": [],
+                                        "maxImageSize": 267,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-paper-scissors/zh-TW/images/rps-elif-2.png",
+                                            "width": 342,
+                                            "height": 151
+                                        },
+                                        "box": [342,
+                                            151],
+                                        "labels": [],
+                                        "maxImageSize": 342,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-paper-scissors/zh-TW/images/rps-indent.png",
+                                            "width": 367,
+                                            "height": 96
+                                        },
+                                        "box": [367,
+                                            96],
+                                        "labels": [],
+                                        "maxImageSize": 367,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-paper-scissors/zh-TW/images/rps-if-1.png",
+                                            "width": 437,
+                                            "height": 129
+                                        },
+                                        "box": [437,
+                                            129],
+                                        "labels": [],
+                                        "maxImageSize": 437,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rock-paper-scissors/zh-TW/images/rps-randint.png",
+                                            "width": 720,
+                                            "height": 113.72161895360315
+                                        },
+                                        "box": [720,
+                                            113.72161895360315],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

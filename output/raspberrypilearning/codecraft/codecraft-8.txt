@@ -1,0 +1,361 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/codecraft \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **利用木材製作木板**\n\n讓我們建立一個可以使用木材製作的新木板資源。\n\n\n---\n$\\\\$\n\n+ ✅ 首先，向你的遊戲新增一個新的 `PLANK`（木板）變數。\n\n    [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 向你的遊戲新增一個新的 `PLANK`（木板）變數。\n\n    [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ 將該資源命名為 `'plank'`（木板）。\n\n    [[☃ image 3]]\n\n\n---\n$\\\\$\n\n+ ✅ 為你的 `PLANK`（木板）資源提供一張圖片。專案中已包含一張 `plank.png` 圖片，但如果你願意的話，你可以建立你自己的圖片。\n\n    [[☃ image 4]]\n\n\n---\n$\\\\$\n\n+ ✅ 向你的庫存新增木板。\n\n    [[☃ image 5]]\n\n\n---\n$\\\\$\n\n+ ✅ 設定一個放置木板的按鍵。\n\n    [[☃ image 6]]\n\n\n---\n$\\\\$\n\n+ ✅ 由於該資源可被製作出來，你需要建立一個製作規則，即 1 塊木板可由 3 個木材塊製成。向 `crafting`（製作）字典新增此程式碼。 \n\n    [[☃ image 7]]\n\n\n---\n$\\\\$\n\n+ ✅ 最後，你需要設定製作新木板的按鍵。\n\n    [[☃ image 8]]\n\n\n---\n$\\\\$\n\n+ ✅ 要測試你的新木板資源，將一些木材塊聚集起來，然後利用這些木材塊製作一些木板。你隨後可以在你的世界中放置新木板。\n\n    [[☃ image 9]]\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 9": {
+                                    "graded": true,
+                                    "id": "image 9",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-test.png",
+                                            "width": 259,
+                                            "height": 182
+                                        },
+                                        "box": [259,
+                                            182],
+                                        "labels": [],
+                                        "maxImageSize": 259,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 8": {
+                                    "graded": true,
+                                    "id": "image 8",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-craftkeys.png",
+                                            "width": 199,
+                                            "height": 87
+                                        },
+                                        "box": [199,
+                                            87],
+                                        "labels": [],
+                                        "maxImageSize": 199,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-crafting.png",
+                                            "width": 282,
+                                            "height": 96
+                                        },
+                                        "box": [282,
+                                            96],
+                                        "labels": [],
+                                        "maxImageSize": 282,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-placekeys.png",
+                                            "width": 223,
+                                            "height": 171
+                                        },
+                                        "box": [223,
+                                            171],
+                                        "labels": [],
+                                        "maxImageSize": 223,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-inventory.png",
+                                            "width": 325,
+                                            "height": 169
+                                        },
+                                        "box": [325,
+                                            169],
+                                        "labels": [],
+                                        "maxImageSize": 325,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-textures.png",
+                                            "width": 317,
+                                            "height": 170
+                                        },
+                                        "box": [317,
+                                            170],
+                                        "labels": [],
+                                        "maxImageSize": 317,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-names.png",
+                                            "width": 240,
+                                            "height": 169
+                                        },
+                                        "box": [240,
+                                            169],
+                                        "labels": [],
+                                        "maxImageSize": 240,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-resources.png",
+                                            "width": 387,
+                                            "height": 43
+                                        },
+                                        "box": [387,
+                                            43],
+                                        "labels": [],
+                                        "maxImageSize": 387,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/codecraft/zh-TW/images/craft-plank-const.png",
+                                            "width": 369,
+                                            "height": 140
+                                        },
+                                        "box": [369,
+                                            140],
+                                        "labels": [],
+                                        "maxImageSize": 369,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

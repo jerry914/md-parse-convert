@@ -1,0 +1,175 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[色彩繽紛的作品 (CodeClub)](https://projects.raspberrypi.org/en/projects/colourful-creations \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **使用十六進位顏色編碼**\n\nPython turtle 有預設的顏色，如“red”和“white”，但您也可以使用十六進制顏色編碼（您可能已經在HTML & CSS課程中看到過這些編碼。）\n\n\n---\n$\\\\$\n\n+ ✅ 打開空白的 Python 模板： [jumpto.cc/python-new](\"http://jumpto.cc/python-new\",\" \" \"_blank\")。\n\n\n---\n$\\\\$\n\n+ ✅ 添加以下程式碼以使用turtle：\n    \n    [[☃ image 1]]\n    \n    請注意，您使用了一種預設顏色：'white'。\n\n\n---\n$\\\\$\n\n+ ✅ Turtle有一個可以使用的顏色名稱列表，但有時你想自己選擇顏色。 Turtle還允許您使用十六進制顏色編碼。\n    \n    打開[jumpto.cc/python-new](\"http://jumpto.cc/python-new\",\" \" \"_blank\")並選擇你喜歡的顏色。 找到以“＃”開頭的十六進制代碼，例如“＃A7E30E”。\n\n\n---\n$\\\\$\n\n+ ✅ 複製十六進制代碼（包括#），你可以使用滑鼠左鍵，拖曳滑鼠選取文字後，然後右鍵單擊並選擇 “複製”或使用Ctrl+C。\n\n\n---\n$\\\\$\n\n+ ✅ 現在更改設定螢幕顏色的程式碼為您的顏色。 例如：\n    \n    [[☃ image 2]]\n    \n    您可以使用右鍵單擊並使用貼上或Ctrl+V將十六進制編碼貼上到 trinket 中。\n\n\n---\n$\\\\$\n\n+ ✅ 選擇另一個十六進制顏色編碼並用它來創建顏色名稱：\n    \n    [[☃ image 3]]\n    \n    您不必使用'Arial'字體，您可以嘗試'Verdana'，'Times'或'Courier'。\n    \n    '40'是字體大小，您也可以嘗試更改它。\n\n\n---\n$\\\\$\n\n+ ✅ 嘗試不同的顏色，直到你找到兩個搭配起來是你真正喜歡的顏色。",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/colourful-creations/zh-TW/images/colourful-write.png",
+                                            "width": 720,
+                                            "height": 128.0
+                                        },
+                                        "box": [720,
+                                            128.0],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/colourful-creations/zh-TW/images/colourful-background.png",
+                                            "width": 562,
+                                            "height": 119
+                                        },
+                                        "box": [562,
+                                            119],
+                                        "labels": [],
+                                        "maxImageSize": 562,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/colourful-creations/zh-TW/images/colourful-setup.png",
+                                            "width": 268,
+                                            "height": 110
+                                        },
+                                        "box": [268,
+                                            110],
+                                        "labels": [],
+                                        "maxImageSize": 268,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

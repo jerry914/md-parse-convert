@@ -1,0 +1,299 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/modern-art \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **建立矩形現代藝術**\n\n現在讓我們通過繪製大量不同大小和顏色的矩形來建立一些現代藝術。\n\n\n---\n$\\\\$\n\n+ ✅ 首先，在你的挑戰程式碼後面，將以下程式碼新增到指令碼底部，以清除繪製海龜藝術後的螢幕，並將烏龜指向其通常的方向：\n    \n    [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 你可以在每一行開頭用`#`註釋海龜藝術的程式碼，這樣在創作矩形藝術的時候它就不會執行了。 (之後可以取消註釋來展示您所有的作品。)\n    \n    [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ 現在，讓我們新增一個函式，以便在隨機的位置繪製一個大小隨機，顏色隨機的矩形！\n    \n    在其他函式後新增一個 `drawrectangle()` 函式：\n    \n    [[☃ image 3]]\n    \n    如果你想節省一些輸入時間，可以在`snippets.py`中尋找一些幫助程式碼。\n\n\n---\n$\\\\$\n\n+ ✅ 在`main.py`的底部新增以下程式碼來呼叫你的新函式：\n    \n    [[☃ image 4]]\n    \n    多次執行你的指令碼，看看高度和寬度的變化。\n\n\n---\n$\\\\$\n\n+ ✅ 矩形總是以同一種顏色，並從同一個位置開始。\n    \n    現在你需要為海龜隨機設定一個顏色，然後移動到隨機位置。 嘿，你不是已經建立了函式來做這些嗎？ 太棒了。 你只需要從drawrectangle函式開始處呼叫它們：\n    \n    [[☃ image 5]]\n    \n    哇，工作量少了很多，而且閱讀起來也容易得多。\n\n\n---\n$\\\\$\n\n+ ✅ 現在讓我們在一個迴圈中呼叫 `drawrectangle()` 來建立一些很酷的現代藝術：\n    \n    [[☃ image 6]]\n\n\n---\n$\\\\$\n\n+ ✅ 天哪，那不是有點慢嗎！ 幸運的是，你可以加快海龜的速度。\n    \n    找到將形狀設定為“turtle”的程式碼行，並新增高亮的程式碼：\n    \n    [[☃ image 7]]\n    \n    `speed(0)`是最快的，或者您可以使用1（慢）到10（快速）之間的數字進行實驗，直到找到所需的速度為止。",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/modern-art/zh-TW/images/modern-speed.png",
+                                            "width": 355,
+                                            "height": 58
+                                        },
+                                        "box": [355,
+                                            58],
+                                        "labels": [],
+                                        "maxImageSize": 355,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/modern-art/zh-TW/images/modern-rect-art.png",
+                                            "width": 696,
+                                            "height": 267
+                                        },
+                                        "box": [696,
+                                            267],
+                                        "labels": [],
+                                        "maxImageSize": 696,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/modern-art/zh-TW/images/modern-random-rect.png",
+                                            "width": 707,
+                                            "height": 175
+                                        },
+                                        "box": [707,
+                                            175],
+                                        "labels": [],
+                                        "maxImageSize": 707,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/modern-art/zh-TW/images/modern-call-rect.png",
+                                            "width": 720,
+                                            "height": 150.0
+                                        },
+                                        "box": [720,
+                                            150.0],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/modern-art/zh-TW/images/modern-rect-function.png",
+                                            "width": 295,
+                                            "height": 268
+                                        },
+                                        "box": [295,
+                                            268],
+                                        "labels": [],
+                                        "maxImageSize": 295,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/modern-art/zh-TW/images/modern-comment.png",
+                                            "width": 720,
+                                            "height": 137.6
+                                        },
+                                        "box": [720,
+                                            137.6],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/modern-art/zh-TW/images/modern-reset.png",
+                                            "width": 720,
+                                            "height": 201.48541114058355
+                                        },
+                                        "box": [720,
+                                            201.48541114058355],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

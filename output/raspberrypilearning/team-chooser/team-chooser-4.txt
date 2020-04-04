@@ -1,0 +1,299 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[隊友選擇器! (CodeClub)](https://projects.raspberrypi.org/en/projects/team-chooser \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **隨機隊員**\n\n讓我們隨機選擇一些隊員！\n\n\n---\n$\\\\$\n\n+ ✅ 為了能夠從你的 `隊員` 列表中獲得一個隨機隊員，首先你需要匯入`random`模組中的`choice` 函式。\n    \n    [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 要獲得一個隨機的隊員, 你可以使用 `choice`。 （您也可以刪除程式碼以顯示單個隊員。）\n    \n    [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ 測試幾次你的 `choice` 程式碼, 你應該看到每次都會有一個不同的隊員被選中。\n\n\n---\n$\\\\$\n\n+ ✅ 您還可以建立一個名為 `playerA` 的新變數, 並使用它來儲存隨機選擇的隊員。\n    \n    [[☃ image 3]]\n\n\n---\n$\\\\$\n\n+ ✅ 你還需要一個新的列表來儲存Ａ隊中的所有隊員。在一開始，這個列表應該是空的。\n    \n    [[☃ image 4]]\n\n\n---\n$\\\\$\n\n+ ✅ 現在你可以將隨機選擇的隊員新增到`teamA`。 為此，你可以使用 `teamA.append` 方法（**append** 表示新增到末尾）。\n    \n    [[☃ image 5]]\n\n\n---\n$\\\\$\n\n+ ✅ 現在, 你的隊員已被選中，你可以將他們移出 `players` 列表。\n    \n    [[☃ image 6]]\n\n\n---\n$\\\\$\n\n+ ✅ 通過新增 `print` 指令來測試此程式碼, 以顯示 `players`列表中餘下的可供選擇的隊員。\n    \n    [[☃ image 7]]\n    \n    在上面的例子中，妙麗被選入 `teamA`，因此她被移出 `players` 列表。",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 7": {
+                                    "graded": true,
+                                    "id": "image 7",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/team-chooser/zh-TW/images/team-players-remove-test.png",
+                                            "width": 366,
+                                            "height": 230
+                                        },
+                                        "box": [366,
+                                            230],
+                                        "labels": [],
+                                        "maxImageSize": 366,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/team-chooser/zh-TW/images/team-players-remove.png",
+                                            "width": 376,
+                                            "height": 206
+                                        },
+                                        "box": [376,
+                                            206],
+                                        "labels": [],
+                                        "maxImageSize": 376,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/team-chooser/zh-TW/images/team-teamA-add.png",
+                                            "width": 360,
+                                            "height": 176
+                                        },
+                                        "box": [360,
+                                            176],
+                                        "labels": [],
+                                        "maxImageSize": 360,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/team-chooser/zh-TW/images/team-teamA.png",
+                                            "width": 361,
+                                            "height": 178
+                                        },
+                                        "box": [361,
+                                            178],
+                                        "labels": [],
+                                        "maxImageSize": 361,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/team-chooser/zh-TW/images/team-random-playerA.png",
+                                            "width": 720,
+                                            "height": 97.7601585728444
+                                        },
+                                        "box": [720,
+                                            97.7601585728444],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/team-chooser/zh-TW/images/team-random-player.png",
+                                            "width": 720,
+                                            "height": 81.45733461169702
+                                        },
+                                        "box": [720,
+                                            81.45733461169702],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/team-chooser/zh-TW/images/team-import-random.png",
+                                            "width": 381,
+                                            "height": 145
+                                        },
+                                        "box": [381,
+                                            145],
+                                        "labels": [],
+                                        "maxImageSize": 381,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}
