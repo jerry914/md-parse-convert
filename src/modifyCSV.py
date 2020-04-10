@@ -3,12 +3,12 @@ import re
 import exportCSV
 import os
 
-with open('src/data/junyi_question0 (1).csv', newline='',encoding = 'utf8') as csvfile2:
+with open('src/data/junyi_question0.csv', newline='',encoding = 'utf8') as csvfile2:
     rows = csv.reader(csvfile2)
     os.remove('./output/output.csv')
     for row in rows:
         RC = row[6]
-        RC = RC.replace("Dnowba、","")
+        RC = RC.replace("?src=../","?src=..//")
         
         with open('./output/output.csv','a', newline='',encoding = 'utf8') as csvfile:
             writer = csv.writer(csvfile)

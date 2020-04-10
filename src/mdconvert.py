@@ -189,7 +189,7 @@ def keyDelet(content):
 
 def md_convert(projectName,stepIdx):
     step = str(stepIdx)
-    url = 'https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/'+projectName+'/zh-TW/step_'+step+'.md'
+    url = 'https://raw.githubusercontent.com/jerry914/Code-Club-Learning-Resources/master/'+projectName+'/zh-TW/step_'+step+'.md'
     resp = requests.get(url)
 
     conText = resp.text
@@ -276,7 +276,7 @@ def md_convert(projectName,stepIdx):
         if(tempCont.find('--- collapse ---')>0): 
             content = tempCont[:tempCont.index('--- collapse ---')]+"[[☃ article-block "+str(articleBlockIdx)+"]]"+tempCont[tempCont.index('--- /collapse ---')+17:]
             arTemplete = junyiJSONgenerate.JSON_open(r'src\Templete\JSONartblo')
-            artTemp = (tempCont[tempCont.index('--- collapse ---')+19:tempCont.index('--- /collapse ---')]).replace('"','\\"')
+            artTemp = (tempCont[tempCont.index('--- collapse ---')+17:tempCont.index('--- /collapse ---')]).replace('"','\\"')
             # title = artTemp[artTemp.find("---")+3:artTemp.find("---",1)]
             title = collTitle[titleIdx]
             titleIdx = titleIdx+1
