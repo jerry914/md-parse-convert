@@ -8,7 +8,7 @@
                 "options": {
                     "showPrompt": "關於課程",
                     "hidePrompt": "隱藏說明",
-                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/where-is-the-space-station \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/where-is-the-space-station \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
                     "widgets": {
                         "image 1": {
                             "id": "image 1",
@@ -55,12 +55,29 @@
                 "type": "article-block",
                 "graded": false,
                 "options": {
-                    "articleBlock": "\n# **挑戰：顯示飛行器**\n\n除了宇航員的名字，該 web 服務還提供他們所在的飛行器（如 ISS。）\n\n你能否新增到你的指令碼，使其還能列印出宇航員所在的飛行器。 \n\n示例：\n\n```\nPeople in Space:  3\nYuri Malenchenko in ISS\nTimothy Kopra in ISS\nTimothy Peake in ISS\n```\n\n\n\n\n",
+                    "articleBlock": "\n# **挑戰：顯示太空站**\n\n除了太空人的名字，該 web 服務還提供他們所在的太空站（如 ISS。）\n\n你能否新增到你的指令碼，使其還能列印出太空人所在的太空站。 \n\n範例：\n\n```\nPeople in Space:  3\nYuri Malenchenko in ISS\nTimothy Kopra in ISS\nTimothy Peake in ISS\n```\n[[☃ article-block 1]]\n\n\n",
                     "background": "#fff",
                     "blockTitle": "",
                     "expandable": false,
                     "expanded": false,
-                    "widgets": {}
+                    "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#ffe7c9",
+                                "blockTitle": "💡 我需要一點提示",
+                                "articleBlock": "\n你需要在迴圈 `for p in people:` 中新增程式碼來印出狀態。你可以藉由用逗號分隔來印出多個項目。\n\n\n你使用`p[name]`來取得`name`的值 - 那你要如何取得`craft`的值？\n\n\n更改你的迴圈，讓它看起來像這樣：\n---\nfor p in people:\n  print(p['name'], ' in ', p['craft'])\n---\n\n\n\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
                 },
                 "version": {
                     "major": 0,

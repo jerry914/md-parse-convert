@@ -1,0 +1,113 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/moonhack-python \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **匯入專案模板**\n\n讓我們來看看有哪些事情模板已經幫我們做好了。\n\n\n\n\n---\n$\\\\$\n\n+ ✅ 打開登陸月球 Python 線上版專案： [bit.ly/mh-python](\"https://trinket.io/python/6661dfb295\",\" \" \"_blank\").\n\n\n---\n$\\\\$\n\n+ ✅ 讓我們來看看這支程式可以做什麼。點擊 “Play” 按鈕來看螢幕顯示什麼。\n\n  [[☃ image 1]]\n\n  你會看到程式顯示來自 ` 15 到 23　行` 的程式碼，但沒有顯示其他行的內容。你覺得為什麼程式會顯示那幾行的內容而不是第` 3-13　行`？\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/moonhack-python/zh-TW/images/step1_1.png",
+                                            "width": 169,
+                                            "height": 70
+                                        },
+                                        "box": [169,
+                                            70],
+                                        "labels": [],
+                                        "maxImageSize": 169,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

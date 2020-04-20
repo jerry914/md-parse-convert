@@ -1,0 +1,139 @@
+{
+    "question": {
+        "content": "\n[[☃ article-block 1]]\n\n---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[rpg (CodeClub)](https://projects.raspberrypi.org/en/projects/rpg \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹：**\n\n在這個專案中，你要設計出一個迷宮角色扮演遊戲。遊戲的主要目標是收集物資和逃出一間房子，遊戲中還要小心躲開怪物的追捕！\n\n[[☃ iframe 1]]\n\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {
+                        "article-block 1": {
+                            "graded": false,
+                            "id": "article-block 1",
+                            "options": {
+                                "articleBlock": "### 硬體\n\n + 一台可以上網或運行Python(離線使用)的電腦。 \n\n### Software\n\n + Python 3 ( [線上](https://trinket.io/){:target=\"_blank\"} 或是 [離線](https://www.python.org/downloads/){:target=\"_blank\"})",
+                                "background": "#fee",
+                                "blockTitle": "📍 你會需要什麼",
+                                "expandable": true,
+                                "expanded": false,
+                                "widgets": {}
+                            },
+                            "type": "article-block",
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "article-block 2": {
+                            "graded": false,
+                            "id": "article-block 2",
+                            "options": {
+                                "articleBlock": " + 遊戲設計\n + 編輯:\n\t + 列表\n\t + 字典\n + 布林邏輯表達式\n\n此專案涵蓋了[樹莓派 Raspberry Pi 數位製造課程](http://rpf.io/curriculum){:target=\"_blank\"}的以下幾方面內容:\n\n + [結合程式結構來解決問題](https://www.raspberrypi.org/curriculum/programming/builder)",
+                                "background": "#fee",
+                                "blockTitle": "📍 你會學到什麼",
+                                "expandable": true,
+                                "expanded": false,
+                                "widgets": {}
+                            },
+                            "type": "article-block",
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "iframe 1": {
+                            "graded": true,
+                            "options": {
+                                "height": 480,
+                                "settings": [
+                                    {
+                                        "name": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "url": "https://trinket.io/embed/python/9d81fcd0e2?outputOnly=true&start=result",
+                                "width": 560
+                            },
+                            "type": "iframe",
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            },
+                            "id": "iframe 1"
+                        },
+                        "article-block 3": {
+                            "type": "article-block",
+                            "id": "article-block 3",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 給老師的更多資訊",
+                                "articleBlock": "\n\n你可以在這裡找到 [完成的專案](https://trinket.io/python/9d81fcd0e2){:target=\"_blank\"}。",
+                                "widgets": {},
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "aspectRatio": 0.34987593052109184,
+                    "backgroundImage": {
+                        "height": 26,
+                        "url": "https://junyiexerciseimg.s3.amazonaws.com/py-secret-messages/70260/2",
+                        "width": 75
+                    },
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "useBoxSize": true
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

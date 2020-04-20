@@ -1,0 +1,122 @@
+{
+    "question": {
+        "content": "\n[[☃ article-block 1]]\n\n---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[codecraft (CodeClub)](https://projects.raspberrypi.org/en/projects/codecraft \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹：**\n\n你將在本專案中設計當個創世神 2D 版本進行和改進程式碼。\n\n[[☃ iframe 1]]\n\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {
+                        "article-block 1": {
+                            "graded": false,
+                            "id": "article-block 1",
+                            "options": {
+                                "articleBlock": "\n\n# **介紹：**\n孩子們將在本專案中通過對當個創世神的基本 2D 版本進行改進來學習圖形和遊戲設計方面的內容。孩子們將建立新的資源，以及結合多種資源來製作新資源的規則。這將通過理解和操作變數、列表和字典來實現。\n\n## 線上資源\n\n__本專案使用 Python 3。__我們推薦使用 [trinket]（https://trinket.io/）線上編寫 Python。本專案包含以下 Trinket：\n\n+ [“當個創世神”起點 -- jumpto.cc/codecraft-go](http://jumpto.cc/codecraft-go)\n\n還有一個 trinket 包含完整專案：\n\n+ [“當個創世神”已完成 -- trinket.io/python/9ac3995d69](https://trinket.io/python/9ac3995d69)\n\n## 離線資源\n如果希望的話，本專案可[離線完成]。你可以通過單擊此專案的“專案材料”連結來訪問專案資源。此連結包含一個“專案資源”部分，其中包括孩子們離線完成本專案時所需的資源。確保每個孩子都能訪問這些資源的副本。本節包括以下檔案：\n\n+ codecraft/codecraft.py\n+ codecraft/variables.py\n+ codecraft/player.gif\n+ codecraft/dirt.gif\n+ codecraft/grass.gif\n+ codecraft/water.gif\n+ codecraft/brick.gif\n\n你還可以在“志願者資源”部分中找到本專案的完整版本，其中包含：\n\n+ codecraft-finished/codecraft.py\n+ codecraft-finished/variables.py\n+ codecraft-finished/player.gif\n+ codecraft-finished/dirt.gif\n+ codecraft-finished/grass.gif\n+ codecraft-finished/water.gif\n+ codecraft-finished/brick.gif\n+ codecraft-finished/wood.gif\n+ codecraft-finished/plank.gif\n\n（以上所有的資源也可以作為專案和志願者 `.zip` 檔案下載。）\n\n## 學習目標\n+ 建立和編輯圖形；\n+ 遊戲設計；\n+ 編輯：\n\t+ 變數；\n\t+ 列表；\n\t+ 字典。\n\n本專案包括 [Raspberry Pi 數字製作課程](http://rpf.io/curriculum) 以下幾個部分的元素：\n\n+ [設計基本的 2D 和 3D 資源。](https://www.raspberrypi.org/curriculum/design/creator)\n\n+ [結合程式設計結構解決問題。](https://www.raspberrypi.org/curriculum/programming/builder)\n\n## 挑戰\n+ “建造你的世界”- 進行遊戲，放置和製作現有的方塊；\n+ “更改你的世界規模”- 編輯 `MAPWIDTH`（地圖寬度）和 `MAPHEIGHT`（地圖高度）變數來更改世界規模；\n+ “建立沙子”- 建立新的沙子資源以及相關的遊戲資料。\n+ “利用沙子製作玻璃”- 建立新的可製作的玻璃資源。\n+ “建立更多資源”- 使用所學內容建立更多方塊和製作規則。\n\n## 常見問題\n+ __離線 Python 無法處理 .png 圖片。已提供 .gif 圖片供離線使用。__\n+ 可能需要提醒孩子們字典／列表中的元素以逗號隔開。例如，向遊戲新增庫存專案、圖形和製作規則時。",
+                                "background": "#fee",
+                                "blockTitle": "📍 給老師的話",
+                                "expandable": true,
+                                "expanded": false,
+                                "widgets": {}
+                            },
+                            "type": "article-block",
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "article-block 2": {
+                            "graded": false,
+                            "id": "article-block 2",
+                            "options": {
+                                "articleBlock": "* [包含所有“程式碼世界”專案資源的線上 Trinket](http://jumpto.cc/codecraft-go)\n* [codecraft/codecraft.py](resources/codecraft-codecraft.py)\n* [codecraft/variables.py](resources/codecraft-variables.py)\n* [codecraft/brick.gif](resources/codecraft-brick.gif)\n* [codecraft/dirt.gif](resources/codecraft-dirt.gif)\n* [codecraft/glass.gif](resources/codecraft-glass.gif)\n* [codecraft/grass.gif](resources/codecraft-grass.gif)\n* [codecraft/plank.gif](resources/codecraft-plank.gif)\n* [codecraft/player.gif](resources/codecraft-player.gif)\n* [codecraft/sand.gif](resources/codecraft-sand.gif)\n* [codecraft/water.gif](resources/codecraft-water.gif)\n* [codecraft/wood.gif](resources/codecraft-wood.gif)\n\n## 教師資源\n* [線上已完成 Trinket 專案](https://trinket.io/python/9ac3995d69)",
+                                "background": "#fee",
+                                "blockTitle": "📍 專案材料",
+                                "expandable": true,
+                                "expanded": false,
+                                "widgets": {}
+                            },
+                            "type": "article-block",
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },
+                        "iframe 1": {
+                            "graded": true,
+                            "options": {
+                                "height": 480,
+                                "settings": [
+                                    {
+                                        "name": "",
+                                        "value": ""
+                                    }
+                                ],
+                                "url": "https://trinket.io/embed/python/9ac3995d69?outputOnly=true&start=result",
+                                "width": 560
+                            },
+                            "type": "iframe",
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            },
+                            "id": "iframe 1"
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "aspectRatio": 0.34987593052109184,
+                    "backgroundImage": {
+                        "height": 26,
+                        "url": "https://junyiexerciseimg.s3.amazonaws.com/py-secret-messages/70260/2",
+                        "width": 75
+                    },
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "useBoxSize": true
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

@@ -1,0 +1,101 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/moonhack-python \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+        "images": {},
+        "widgets": {"image 1": {
+                "type": "image",
+                "graded": true,
+                "options": {
+                    "range": [
+                        [
+                            0,
+                            10
+                        ],
+                        [
+                            0,
+                            10
+                        ]
+                    ],
+                    "box": [
+                        75,
+                        26
+                    ],
+                    "useBoxSize": true,
+                    "backgroundImage": {
+                        "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                        "width": 75,
+                        "height": 26
+                    },
+                    "labels": [],
+                    "maxImageSize": 435,
+                    "aspectRatio": 0.34987593052109184
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **介紹**\n\n想像在未來的世界裡到月球就跟搭乘飛機一樣常見。一些科學家相信再過不久這個願望就能實現。有哪些潛在的風險呢？對某些人來說，獨自一人前往月球是安全的嗎？\n\n在這個專案中，我們要模擬踏上月球的危險環境。\n\n[[☃ iframe 1]]\n\n\n\n[[☃ article-block 1]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"iframe 1": {
+                                    "type": "iframe",
+                                    "graded": true,
+                                    "options": {
+                                        "url": "https://trinket.io/embed/python/60dcacef4e?outputOnly=true&start=result",
+                                        "settings": [
+                                            {
+                                                "name": "",
+                                                "value": ""
+                                            }
+                                        ],
+                                        "width": 560,
+                                        "height": 480
+                                    },
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#fee",
+                                "blockTitle": "📍 專案資源",
+                                "articleBlock": "---\n\n---\n# **Project resources**\n* [Offline project resources](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/moonhack-python/zh-TW/resources//moonhack-python-17.py \"_blank\" \"title\")\n\n# **Club leader resources**\n* [Offline completed project](https://github.com/ys-fang/Code-Club-Learning-Resources/tree/master/moonhack-python/zh-TW/resources//moonhack-python-17-finished.py \"_blank\" \"title\")\n\n",
+                                "widgets": {
+                                },
+                                "expandable": true,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

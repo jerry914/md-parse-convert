@@ -8,7 +8,7 @@
                 "options": {
                     "showPrompt": "關於課程",
                     "hidePrompt": "隱藏說明",
-                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/popular-pets \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/popular-pets \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
                     "widgets": {
                         "image 1": {
                             "id": "image 1",
@@ -55,25 +55,180 @@
                 "type": "article-block",
                 "graded": false,
                 "options": {
-                    "articleBlock": "\n# **挑戰：建立你自己的條形圖**\n\n你可以按類似方式建立條形圖。只需使用 `barchart = pygal.Bar()` 來建立一個新的條形圖，然後新增資料並按與餅圖同樣的方式呈現出來。\n\n向你的 Code Club 成員收集資料來建立你自己的條形圖。\n\n請務必選擇一個大家都瞭解的話題！\n\n以下是一些想法：\n\n\n---\n$\\\\$\n\n+ ✅ 你最愛的運動是什麼？\n\n---\n$\\\\$\n\n+ ✅ 你最愛的冰淇淋口味是什麼？\n\n---\n$\\\\$\n\n+ ✅ 你怎麼去學校？\n\n---\n$\\\\$\n\n+ ✅ 你的生日在哪個月份？\n\n---\n$\\\\$\n\n+ ✅ 你玩我的世界嗎？（是／否）\n\n請不要問一些需提供個人資料的問題，如大家住在哪裡。如果你不確定，請詢問你的俱樂部領導。\n\n示例：\n\n[[☃ image 1]]\n\n\n",
+                    "articleBlock": "# **建立一個圓餅圖**\n\n圓餅圖是顯示資料的一種有效方式。讓我們在你的 Code Club 中進行一項最喜愛動物的調查，然後將相關資料以圓餅圖顯示出來。\n\n\n\n\n---\n$\\\\$\n\n+ ✅ 請你的老師幫忙組織一場調查。你可以將調查結果記錄在連線投影儀的電腦上或大家都可以看到的白板上。\n\n  列出一份寵物清單，裡面要包含每個人最喜愛的寵物。\n\n  然後請每個人在念到自己最愛的寵物時舉手，以此來進行投票。每個人只能投一票！\n\n  例如：\n\n  [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 開啟空白 Python 模版 Trinket：[jumpto.cc/python-new](http://jumpto.cc/python-new \"_blank\" \"title\")。\n\n\n---\n$\\\\$\n\n+ ✅ 讓我們建立一個圓餅圖來顯示你的調查結果。你將使用 PyGal 庫來進行一些困難的工作。\n\n  首先匯入 Pygal 庫：\n\n  [[☃ image 2]]\n\n\n\n---\n$\\\\$\n\n+ ✅ 現在讓我們建立一張圓餅圖並將其呈現（顯示）出來：\n\n  [[☃ image 3]]\n\n  不要擔心，你新增資料之後會變得更加有趣！\n\n\n\n---\n$\\\\$\n\n+ ✅ 讓我們來新增其中一種寵物的資料。運用你所收集的資料。\n\n  [[☃ image 4]]\n\n  因為只有一條資料，所以它佔據了整張圓餅圖。\n\n\n---\n$\\\\$\n\n+ ✅ 現在以同樣的方式新增其他資料。\n\n  例如：\n\n  [[☃ image 5]]\n\n\n---\n$\\\\$\n\n+ ✅ 為完成你的圖表，請新增一個標題：\n\n  [[☃ image 6]]\n\n\n\n\n",
                     "background": "#fff",
                     "blockTitle": "",
                     "expandable": false,
                     "expanded": false,
-                    "widgets": {"image 1": {
+                    "widgets": {"image 6": {
+                                    "graded": true,
+                                    "id": "image 6",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/popular-pets/zh-TW/images/pets-title.png",
+                                            "width": 720,
+                                            "height": 290.35102040816327
+                                        },
+                                        "box": [720,
+                                            290.35102040816327],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 5": {
+                                    "graded": true,
+                                    "id": "image 5",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/popular-pets/zh-TW/images/pets-add-all.png",
+                                            "width": 720,
+                                            "height": 318.8571428571429
+                                        },
+                                        "box": [720,
+                                            318.8571428571429],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 4": {
+                                    "graded": true,
+                                    "id": "image 4",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/popular-pets/zh-TW/images/pets-add.png",
+                                            "width": 720,
+                                            "height": 317.91044776119406
+                                        },
+                                        "box": [720,
+                                            317.91044776119406],
+                                        "labels": [],
+                                        "maxImageSize": 720,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 3": {
+                                    "graded": true,
+                                    "id": "image 3",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/popular-pets/zh-TW/images/pets-pie.png",
+                                            "width": 578,
+                                            "height": 136
+                                        },
+                                        "box": [578,
+                                            136],
+                                        "labels": [],
+                                        "maxImageSize": 578,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 2": {
+                                    "graded": true,
+                                    "id": "image 2",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/popular-pets/zh-TW/images/pets-pygal.png",
+                                            "width": 277,
+                                            "height": 40
+                                        },
+                                        "box": [277,
+                                            40],
+                                        "labels": [],
+                                        "maxImageSize": 277,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                },"image 1": {
                                     "graded": true,
                                     "id": "image 1",
                                     "options": {
                                         "aspectRatio": 0.3352941176470588,
                                         "backgroundImage": {
-                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/popular-pets/zh-TW/images/pets-bar-examples.png",
-                                            "width": 656,
-                                            "height": 328
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/popular-pets/zh-TW/images/pets-favourite.png",
+                                            "width": 157,
+                                            "height": 198
                                         },
-                                        "box": [656,
-                                            328],
+                                        "box": [157,
+                                            198],
                                         "labels": [],
-                                        "maxImageSize": 656,
+                                        "maxImageSize": 157,
                                         "range": [
                                             [
                                                 0,

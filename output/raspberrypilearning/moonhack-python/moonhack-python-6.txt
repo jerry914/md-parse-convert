@@ -1,0 +1,82 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/moonhack-python \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **組織使用者的輸入** \n\n在這個步驟中，我們要組織使用者的輸入到列表中，以便稍後能進行評估。\n\n\n\n\n---\n$\\\\$\n\n+ ✅ 為了整理用戶輸入的內容，我們將這個列表儲存到名為 `user_list`　的變數中.\n\n [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 看看我們剛剛寫的那行程式碼發生了什麼事。它要求程式建立物品的 “清單”。然後它讓 “清單” 對每一個逗號進行分割。你現在是不是能明白為什麼要使用者在每個字母后面輸入逗號那麼重要重要？\n\n\n---\n$\\\\$\n\n+ ✅ 接下來，我們要確保我們的程式碼能夠正常工作。我們要讓程式印出使用者輸入的內容。輸入以下代碼：\n\n [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ 運行程式碼。輸入你的選擇，然後按下Enter。你是否看到用逗號輸入的內容的“列表”？如果沒有，請在繼續操作之前檢查程式碼是否有錯誤。\n\n\n---\n$\\\\$\n\n+ ✅ 接下來，我們將像在步驟3中所做的一樣隱藏剛剛輸入的代碼。要在您的程式中隱藏該段程式碼，我們將在其前面放置一個井號（#），將其變成“註解”。\n\n [[☃ image 3]]\n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

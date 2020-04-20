@@ -446,12 +446,12 @@ def addAuth(projectName,step):
 
 def addBanner(content):
     try:
-        if(content.find("✅")>=0):
-            content = content.replace("[[☃ article-block 1]]","[[☃ iframe 1]]\\n[[☃ article-block 1]]\\n[[☃ iframe 2]]",1)
-            content = content.replace('"widgets": {',r'''"widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},''',1)
-        elif(content.find("挑戰")>=0):
+        if(content.find("挑戰")>=0):
             content = content.replace("[[☃ article-block 1]]","[[☃ iframe 1]]\\n[[☃ article-block 1]]\\n[[☃ iframe 2]]",1)
             content = content.replace('"widgets": {',r'''"widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/challangeBot.html","width": 560},"version": {"major": 0,"minor": 0}},''',1)
+        elif(content.find("✅")>=0):
+            content = content.replace("[[☃ article-block 1]]","[[☃ iframe 1]]\\n[[☃ article-block 1]]\\n[[☃ iframe 2]]",1)
+            content = content.replace('"widgets": {',r'''"widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},''',1)
     except Exception as e:
         print(e)
     return content

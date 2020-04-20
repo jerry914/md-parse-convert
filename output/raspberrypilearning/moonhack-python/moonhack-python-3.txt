@@ -1,0 +1,113 @@
+{
+    "question": {
+        "content": "\n\n[[☃ iframe 1]]\n[[☃ article-block 1]]\n[[☃ iframe 2]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"iframe 1": {"type": "iframe","graded": true,"options": {"height": 80,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnTop.html","width": 560},"version": {"major": 0,"minor": 0}},"iframe 2": {"type": "iframe","graded": true,"options": {"height": 50,"settings": [{"name": "","value": ""}],"url": "https://ys-fang.github.io/Code-Club-Learning-Resources/banFrame/learnBot.html","width": 560},"version": {"major": 0,"minor": 0}},"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/moonhack-python \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **顯示清單**\n\n在這個步驟中，我們要顯示所有使用者在任務中擁有的物品清單。\n\n  \n為了顯示第3-13行上的列表中的項目，我們將建立一個 `for-loop`.\n\n\n---\n$\\\\$\n\n+ ✅ 在程式的第21行 （在最後一行之前） 輸入下列迴圈：\n\n  [[☃ image 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 執行你的程式。你應該可以看到列表中的所有項目都顯示在螢幕上。如果你沒有看到，檢查你的程式碼有沒有任何錯誤。請注意Python非常的精確，所有符號和空白需要和你在上方看到的一模一樣。\n\n\n\n---\n$\\\\$\n\n+ ✅ Python 使用 __縮排__  （向右移動整行程式碼）來顯示那些程式是在 `迴圈`　中。 你可以使用兩個空白 （鍵入空白鍵兩次） 或按下 __tab 鍵__ 一次（通常在大寫鎖定鍵上方）。   \n\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/moonhack-python/zh-TW/images/step2_1.png",
+                                            "width": 178,
+                                            "height": 46
+                                        },
+                                        "box": [178,
+                                            46],
+                                        "labels": [],
+                                        "maxImageSize": 178,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

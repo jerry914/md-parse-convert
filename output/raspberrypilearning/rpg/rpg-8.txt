@@ -1,0 +1,294 @@
+{
+    "question": {
+        "content": "\n\n[[☃ article-block 1]]\n\n[[☃ explanation 1]]",
+        "images": {},
+        "widgets": {"explanation 1": {
+                "type": "explanation",
+                "graded": false,
+                "options": {
+                    "showPrompt": "關於課程",
+                    "hidePrompt": "隱藏說明",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/rpg \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "widgets": {
+                        "image 1": {
+                            "id": "image 1",
+                            "type": "image",
+                            "graded": true,
+                            "options": {
+                                "range": [
+                                    [
+                                        0,
+                                        10
+                                    ],
+                                    [
+                                        0,
+                                        10
+                                    ]
+                                ],
+                                "box": [
+                                    75,
+                                    26
+                                ],
+                                "useBoxSize": true,
+                                "backgroundImage": {
+                                    "url": "https://ys-fang.github.io/cc_logos/by-sa.png",
+                                    "width": 75,
+                                    "height": 26
+                                },
+                                "labels": [],
+                                "maxImageSize": 435,
+                                "aspectRatio": 0.34987593052109184
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }
+                    }
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            },
+            "article-block 1": {
+                "type": "article-block",
+                "graded": false,
+                "options": {
+                    "articleBlock": "# **過關成功！**\n\n讓我們指派一個任務給玩家，完成這個任務就可以過關！\n\n[[☃ article-block 1]]\n\n[[☃ article-block 2]]\n\n[[☃ article-block 3]]\n\n[[☃ article-block 4]]\n\n[[☃ article-block 5]]\n\n[[☃ article-block 6]]\n\n[[☃ article-block 7]]\n",
+                    "background": "#fff",
+                    "blockTitle": "",
+                    "expandable": false,
+                    "expanded": false,
+                    "widgets": {"article-block 1": {
+                            "id": "article-block 1",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n在這個遊戲中，玩家就由逃到花園中來取得勝利，同時他們背包中應該要有鑰匙和魔藥。這是一張遊戲的地圖：\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rpg/zh-TW/images/rpg-final-map.png",
+                                            "width": 468,
+                                            "height": 365
+                                        },
+                                        "box": [468,
+                                            365],
+                                        "labels": [],
+                                        "maxImageSize": 468,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 2": {
+                            "id": "article-block 2",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n首先，你需要在寢室的南邊加上花園。記得新增連接到其他房間的房門。\n\n---\n#一個表示房間連接關係的字典\nrooms = {\n\n            '大廳' : { \n                  '南' : '廚房',\n                  '東' : '餐廳',\n                  '物品' : '鑰匙'\n                },\n\n            '廚房' : {\n                  '北' : '大廳',\n                  '物品' : '怪物'\n                },\n            '餐廳' : {\n                  '西' : '大廳',\n                  '南' : '花園'\n            },\n            '花園' : {\n                  '北' : '餐廳',\n            }\n        }\n        \n---\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 3": {
+                            "id": "article-block 3",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n在餐廳中新增魔藥（或其他房間）。\n\n\n---\n            '餐廳' : {\n                  '西' : '大廳',\n                  '南' : '花園',\n                  '物品' : '魔藥'\n            },\n---\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 4": {
+                            "id": "article-block 4",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n加入下方程式碼，讓玩家在進入花園且擁有鑰匙和魔藥時過關。\n\n\n---\n  #如果玩家進入有怪物的房間就輸了\n  if '物品' in rooms[currentRoom] and '怪物' in rooms[currentRoom]['物品']:\n    print('你被怪物抓住了... GAME OVER!')\n    break\n  #玩家在進入花園且擁有鑰匙和魔藥時過關\n  if currentRoom == '花園' and '鑰匙' in inventory and '魔藥' in inventory:\n    print('你逃出了這棟房子！... 你贏了！')\n    break\n\n---\n\n確認這段程式碼和上一段一樣，往前縮排一格。這段程式碼代表 `你逃出了這棟房子！... 你贏了！` 會顯示出來如果玩家是在第四個房間 （花園）且背包中有鑰匙和魔藥。\n\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 5": {
+                            "id": "article-block 5",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n測試你的程式碼，確認玩家可以過關。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rpg/zh-TW/images/rpg-win-test.png",
+                                            "width": 360,
+                                            "height": 637
+                                        },
+                                        "box": [360,
+                                            637],
+                                        "labels": [],
+                                        "maxImageSize": 360,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 6": {
+                            "id": "article-block 6",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n最後，讓我們在遊戲中加入一些指示，讓玩家知道他們該做什麼。編輯 `showInstructions()` 還是來包含更多指示。\n---\ndef showInstructions():\n  #印出主選單和指令\n  print('''\n角色扮演遊戲\n========\n\n帶著鑰匙和魔藥抵達花園\n躲開怪物!\n\n指令:\n  前進 [方向]\n  拾取 [物品]\n''')\n\n---\n\n你會需要加入指示，讓玩家知道他們應該收集什麼，和躲開什麼。\n\n",
+                                "widgets": {
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        },"article-block 7": {
+                            "id": "article-block 7",
+                            "type": "article-block",
+                            "graded": false,
+                            "options": {
+                                "background": "#eafaec",
+                                "blockTitle": "",
+                                "articleBlock": "\n測試你的遊戲，你應該看到新的指示。\n\n[[☃ image 1]]\n\n",
+                                "widgets": {"image 1": {
+                                    "graded": true,
+                                    "id": "image 1",
+                                    "options": {
+                                        "aspectRatio": 0.3352941176470588,
+                                        "backgroundImage": {
+                                            "url": "https://raw.githubusercontent.com/ys-fang/Code-Club-Learning-Resources/master/rpg/zh-TW/images/rpg-instructions-test.png",
+                                            "width": 322,
+                                            "height": 260
+                                        },
+                                        "box": [322,
+                                            260],
+                                        "labels": [],
+                                        "maxImageSize": 322,
+                                        "range": [
+                                            [
+                                                0,
+                                                10
+                                            ],
+                                            [
+                                                0,
+                                                10
+                                            ]
+                                        ],
+                                        "useBoxSize": false
+                                    },
+                                    "type": "image",
+                                    "version": {
+                                        "major": 0,
+                                        "minor": 0
+                                    }
+                                }
+                                },
+                                "expandable": false,
+                                "expanded": false
+                            },
+                            "version": {
+                                "major": 0,
+                                "minor": 0
+                            }
+                        }}
+                },
+                "version": {
+                    "major": 0,
+                    "minor": 0
+                }
+            }
+        }
+    },
+    "answerArea": {
+        "type": "multiple",
+        "options": {},
+        "calculator": false
+    },
+    "itemDataVersion": {
+        "major": 0,
+        "minor": 1
+    },
+    "hints": []
+}

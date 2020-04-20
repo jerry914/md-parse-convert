@@ -8,7 +8,7 @@
                 "options": {
                     "showPrompt": "關於課程",
                     "hidePrompt": "隱藏說明",
-                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由Dnowba、均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[ (CodeClub)](https://projects.raspberrypi.org/en/projects/modern-art \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
+                    "explanation": "---\n#### **#致謝與授權**\n####本課程係由均一教育平台(Junyi Academy)進行中文化翻譯與衍生創作，採用[創用 CC 姓名標示 4.0 國際](https://creativecommons.org/licenses/by/4.0/deed.zh_TW \"\"\"\" \"\"_blank\"\") 授權條款釋出。內容源自CC授權課程：[modern-art (CodeClub)](https://projects.raspberrypi.org/en/projects/modern-art \"\"\"\" \"\"_blank\"\") 。\n\n####CodeClub 是由 Raspberry Pi Foundation 主持的一個計畫，也是一個位於英國的非營利組織。CodeClub是正在成長的全球性運動的一部分，目標是將運算思維與數位創作能力帶到世界上每一個人的手中。\n[[☃ image 1]]",
                     "widgets": {
                         "image 1": {
                             "id": "image 1",
@@ -55,7 +55,7 @@
                 "type": "article-block",
                 "graded": false,
                 "options": {
-                    "articleBlock": "# **隨機顏色**\n\n\n---\n$\\\\$\n\n+ ✅ 開啟此Trinket: [trinket.io/python/5c2f5a25cf](\"https://trinket.io/python/5c2f5a25cf\",\" \" \"_blank\")。\n\n\n---\n$\\\\$\n\n+ ✅ 你可以通過表明你想要的紅色、綠色和藍色色值（在 0 到 255 之間選擇）來設定海龜的顏色。\n    \n    新增以下程式碼來獲得一隻紫色海龜：\n    \n    [[☃ image 1]]\n    \n    紫色是通過混合紅色和藍色而得到的。\n\n[[☃ article-block 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 嘗試一些不同的數字以獲得不同的顏色。\n    \n    請記住，每個數字只能在0到255之間。\n\n\n---\n$\\\\$\n\n+ ✅ 如何選擇隨機顏色？\n    \n    修改你的程式碼，為紅色，綠色和藍色值選擇一個介於0到255之間的隨機數：\n    \n    [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ 重複點選“Run”可以獲得不同顏色的烏龜。\n\n\n---\n$\\\\$\n\n+ ✅ 這很有趣，但你每次想要為一隻海龜設定隨機顏色時，都要記住這段程式碼並重新輸入，而且這樣不便於閱讀。\n    \n    在 Python 中，可以用 `def`來定義一個隨機設定海龜顏色的函式，以便我們隨時呼叫。\n    \n    你已經呼叫過函式，`color()`和`randint()`就是已為你定義好功能的函式。\n    \n    讓我們把隨機顏色的程式碼放入 def 定義的函式中：\n    \n    [[☃ image 3]]\n    \n    請確保你在函式內縮排程式碼。 函式通常放在指令碼的頂部，跟在imports後面。\n\n\n---\n$\\\\$\n\n+ ✅ 如果你現在點選“Run”執行你的程式碼卻沒有得到一個隨機顏色的海龜。 那是因為你定義了函式，但尚未呼叫它。\n\n\n---\n$\\\\$\n\n+ ✅ 新增一行程式碼以呼叫新函式：\n    \n    [[☃ image 4]]\n    \n    注意，新程式碼更容易理解，因為複雜的部分都在函式內。 現在就很容易理解`randomcolour()`做了什麼。",
+                    "articleBlock": "# **隨機顏色**\n\n\n---\n$\\\\$\n\n+ ✅ 開啟此Trinket: [trinket.io/python/5c2f5a25cf](https://trinket.io/python/08aff680d1 \"_blank\" \"title\")。\n\n\n---\n$\\\\$\n\n+ ✅ 你可以通過表明你想要的紅色、綠色和藍色色值（在 0 到 255 之間選擇）來設定海龜的顏色。\n    \n    新增以下程式碼來獲得一隻紫色海龜：\n    \n    [[☃ image 1]]\n    \n    紫色是通過混合紅色和藍色而得到的。\n\n[[☃ article-block 1]]\n\n\n---\n$\\\\$\n\n+ ✅ 嘗試一些不同的數字以獲得不同的顏色。\n    \n    請記住，每個數字只能在0到255之間。\n\n\n---\n$\\\\$\n\n+ ✅ 如何選擇隨機顏色？\n    \n    修改你的程式碼，為紅色，綠色和藍色值選擇一個介於0到255之間的隨機數：\n    \n    [[☃ image 2]]\n\n\n---\n$\\\\$\n\n+ ✅ 重複點選“Run”可以獲得不同顏色的烏龜。\n\n\n---\n$\\\\$\n\n+ ✅ 這很有趣，但你每次想要為一隻海龜設定隨機顏色時，都要記住這段程式碼並重新輸入，而且這樣不便於閱讀。\n    \n    在 Python 中，可以用 `def`來定義一個隨機設定海龜顏色的函式，以便我們隨時呼叫。\n    \n    你已經呼叫過函式，`color()`和`randint()`就是已為你定義好功能的函式。\n    \n    讓我們把隨機顏色的程式碼放入 def 定義的函式中：\n    \n    [[☃ image 3]]\n    \n    請確保你在函式內縮排程式碼。 函式通常放在指令碼的頂部，跟在imports後面。\n\n\n---\n$\\\\$\n\n+ ✅ 如果你現在點選“Run”執行你的程式碼卻沒有得到一個隨機顏色的海龜。 那是因為你定義了函式，但尚未呼叫它。\n\n\n---\n$\\\\$\n\n+ ✅ 新增一行程式碼以呼叫新函式：\n    \n    [[☃ image 4]]\n    \n    注意，新程式碼更容易理解，因為複雜的部分都在函式內。 現在就很容易理解`randomcolour()`做了什麼。",
                     "background": "#fff",
                     "blockTitle": "",
                     "expandable": false,
@@ -190,8 +190,8 @@
                             "graded": false,
                             "options": {
                                 "background": "#fee",
-                                "blockTitle": "📍 "Error - bad color sequence: (150, 0, 150)"",
-                                "articleBlock": "-\ntitle: \"Error - bad color sequence: (150, 0, 150)\"\n---\n\n當你執行程式碼時是否遇到`bad color sequence: (150, 0, 150)`這個錯誤。\n\n這是因為Trinket使用了與其他Python編輯器不同的顏色模式。 可以通過更改`colormode`（顏色模式）至`255`解決這個問題 。\n\n```python\nfrom turtle import *\n\ncolormode(255)\n\nshape(\"turtle\")\ncolor(150,0,150)\n```\n\n",
+                                "blockTitle": "📍 Error - bad color sequence: (150, 0, 150)",
+                                "articleBlock": "\n# **title: \"Error - bad color sequence: (150, 0, 150)\"**\n\n\n當你執行程式碼時是否遇到`bad color sequence: (150, 0, 150)`這個錯誤。\n\n這是因為Trinket使用了與其他Python編輯器不同的顏色模式。 可以通過更改`colormode`（顏色模式）至`255`解決這個問題 。\n\n```python\nfrom turtle import *\n\ncolormode(255)\n\nshape(\"turtle\")\ncolor(150,0,150)\n```\n\n",
                                 "widgets": {
                                 },
                                 "expandable": true,
